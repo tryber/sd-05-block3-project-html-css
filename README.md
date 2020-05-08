@@ -47,7 +47,7 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-block3-project-html-css.git`.
+  * `git clone https://github.com/tryber/sd-05-block3-project-html-css.git`.
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -74,13 +74,13 @@ Lembre-se de verificar sua página no [achecker](https://achecker.ca/checker/ind
   * Usando o exemplo anterior: `git push -u origin exemplo-html-css-project`
 
 5. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-block3-project-html-css/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-05-block3-project-html-css/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-block3-project-html-css/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-05-block3-project-html-css/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -108,7 +108,7 @@ Para **"entregar"** seu projeto, siga os passos a seguir:
 * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
   * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-0x`
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-05`
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
