@@ -10,10 +10,15 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    color: yellow;
-    background-color: blue;
+    color: black;
+    background-color: white;
 }
 
 #rodape {
-
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: black;
+    background-color: white;
 }
