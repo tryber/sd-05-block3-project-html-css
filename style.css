@@ -1,14 +1,28 @@
 body {
-    background-color: #ffd670;
+    background-color: #ff9770;
     margin:0;
     padding: 0;
 }
 
+h1 {
+     color: #e9ff70;  
+}
+#cabecalho  {
+    background-color: #70d6ff;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+#artigo {
+    background-color: #70d6ff;
+    padding: 10px;
+    margin: 10px;
+}
 
 
 nav ul {
     list-style-type: none;
-
     padding: 0;
 
 }
@@ -21,7 +35,8 @@ nav ul li {
 a {
     color: #70d6ff;
     font-weight: bold;
-}
+
+    }
 
 
 
@@ -31,7 +46,8 @@ a {
 #rodape {
     position: fixed;
     bottom: 0;
-    width: 100%;  
+    width: 100%;
     text-align: center;
-    background-color: #ff9770;
+    background-color: #ffd670;
+    padding: 5px;
 }
