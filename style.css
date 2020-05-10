@@ -18,10 +18,20 @@ nav ul li {
     padding: 5px;
 }
 
+a {
+    color: #70d6ff;
+    font-weight: bold;
+}
 
 
-/* nav li a {
-    display: block;
-    padding: 8px;
 
-} */
+
+
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+    text-align: center;
+    background-color: #ff9770;
+}
