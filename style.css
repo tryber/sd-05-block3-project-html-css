@@ -47,12 +47,12 @@ a {
   justify-content: space-evenly;
 }
 
-.div-left {
+.lado-esquerdo{
   background-color: #ff70a6;
   width: 45%;
   margin: 5px;
 }
-.div-right {
+.lado-direito {
   background-color: #ff70a6;
   width: 45%;
   margin: 5px;
@@ -103,6 +103,13 @@ ol li {
   padding: 5px;
 }
 
+#links ul {
+    background-color:#ff70a6 ;"
+    
+}
+#links ul li{
+    padding: 5px;
+}
 /*  */
 
 #rodape {
