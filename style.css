@@ -21,6 +21,7 @@ h1 {
 }
 
 
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -37,6 +38,23 @@ a {
     font-weight: bold;
 
     }
+
+    .div-box {
+        display: flex;
+        justify-content: space-evenly;}
+
+        
+
+.div-left {
+   background-color: #ff70a6;
+   width: 45%;
+   margin: 5px;
+}
+.div-right {
+    background-color: #ff70a6;
+    width: 45%;
+    margin: 5px;
+}
 
 
 
