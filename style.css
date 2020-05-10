@@ -4,8 +4,10 @@ body {
     padding: 0;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
      color: #e9ff70;  
+     text-align: center;
+     margin: 15px;
 }
 #cabecalho  {
     background-color: #70d6ff;
@@ -56,7 +58,13 @@ a {
     margin: 5px;
 }
 
-
+img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+}
 
 
 
