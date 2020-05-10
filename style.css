@@ -1,0 +1,27 @@
+body {
+    background-color: #ffd670;
+    margin:0;
+    padding: 0;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+
+    padding: 0;
+
+}
+nav ul li {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+/* nav li a {
+    display: block;
+    padding: 8px;
+
+} */
