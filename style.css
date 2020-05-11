@@ -1,32 +1,29 @@
-body{
-    background-color: #FFFFF0;
+body {
+    background-color: #fffff0;
     margin: 0%;
 }
 
-.corpo-da-pagina{
-    background-color: #CDCDC1;
+.corpo-da-pagina {
+    background-color: #cdcdc1;
+    margin: 7% 15%;
 }
 
-#cabecalho{
+#cabecalho {
     position: fixed;
     background-color: blue;
     top: 0%;
     left: 0%;
     right: 0%;
 }
-.corpo-da-pagina{
-    margin: 7% 15%;
-    
-}
 
-#rodape{
+#rodape {
     position: relative;
 }
 
-.lado-esquerdo{
-
+.lado-esquerdo {
+    float: left;
 }
 
-.lado-direito{
-
+.lado-direito {
+    float: right;
 }
