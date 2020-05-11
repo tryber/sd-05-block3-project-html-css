@@ -1,4 +1,4 @@
-body{background-color: rgb(10, 3, 20); font-family:sans-serif;
+body{background-color: rgb(10, 3, 20); font-family:"Roboto",sans-serif;
     align-content: center; 
     text-align: center;
     color:white;
@@ -6,7 +6,9 @@ body{background-color: rgb(10, 3, 20); font-family:sans-serif;
 }
 
 
-h1{color:rgb(247, 237, 121)}
+h1{color:rgb(247, 237, 121);
+    font-family: "Biryani", sans-serif;
+}
 
 li{text-align: center; align-content: center;line-height: 1.5em;}
 
@@ -24,6 +26,7 @@ footer{
     background-color: rgb(247, 237, 121);
     color:rgb(10, 3, 20);
     clear: both;
+    border-style: dashed;
 }
 #requisitos{
     color:white;
