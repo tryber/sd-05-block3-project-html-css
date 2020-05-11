@@ -92,6 +92,7 @@ nav a:active {
     display: block;
     margin: auto;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 article p {
@@ -119,5 +120,20 @@ article h2 {
 }
 
 .botao {
-    
+    margin: auto;
+    background-color: gray;
+    font-weight: 600;
+    color: black;
+    margin: 0% 15% 2% 15%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.botao a {
+    text-decoration: none;
+}
+
+.botao a:hover {
+    color: turquoise;
 }
