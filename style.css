@@ -2,7 +2,7 @@ body {
     background-color: darkgrey;
 }
 
-.position {
+header {
     position: fixed;
     top: 0;
     width: 100%;
