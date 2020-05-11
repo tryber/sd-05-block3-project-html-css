@@ -5,7 +5,6 @@ body{
 }
 
 #cabecalho{
-    width: 850px;
     position: fixed;
 }
 
@@ -15,8 +14,9 @@ body{
 
 .conteudo{
 background: #ffffff;
-padding: 20px;
+padding: 80px;
 margin: auto;
+
 }
 
 .menu {
@@ -35,7 +35,16 @@ a{
  border: rgb(41, 41, 41) 2px solid;
  width: 700px;
  height: 465px;
- margin: auto;
+ margin: 20px;
+ float:left
+}
+
+.img-2{
+    float: right;
+    border: rgb(41, 41, 41) 2px solid;
+    width: 700px;
+    height: 465px;
+    margin: 20px;
 }
 
 #rodape{
