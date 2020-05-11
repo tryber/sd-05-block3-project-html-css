@@ -5,18 +5,27 @@ body {
     font-family: sans-serif;
 }
 #cabecalho {
-    background-color: rgb(245, 32, 32);
+    background-image: url(https://cdn.karaokenet.com.br/wp-content/uploads/2019/06/sh_sonhar-com-fogo_738210166.jpg);
+    background-position: 50% 50%;
     top:0px;
-    padding: 1% 35%;  
-    font-size: 4em;   
+    padding: 1% 30%;  
+    font-size: 5em;   
     text-align: center;
     color: rgb(255, 255, 255);
     position: fixed;
 }
-section {
-    margin-top: 150px;
+article {
+    margin-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
+}
+#paragrafo1{
+    padding-top: 150px;
+}
+img{
+    
+    margin-left: 5%;
+    width: 300px;
 }
 #rodape {
     background-color: rgb(245, 32, 32);
