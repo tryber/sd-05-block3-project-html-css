@@ -1,6 +1,7 @@
 body {
   background-color: beige;
 }
+
 .cabecalho {
   position: fixed;
   top: 0;
@@ -8,6 +9,7 @@ body {
   height: 30px;
   width: 100%;
 }
+
 .rodape {
   position: fixed;
   width: 100%;
