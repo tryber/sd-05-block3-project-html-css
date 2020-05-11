@@ -1,3 +1,16 @@
 body {
-    background-color:blue;
+    background-color:gray;
+    
+}
+#cabecalho {
+    position: fixed;
+    top: 10px;
+    left: 10x;
+
+}
+#corpo {
+
+}
+#rodape {
+
 }
