@@ -18,6 +18,7 @@ body{
 padding: 80px;
 margin: auto;
 background:white;
+text-align: center;
 }
 
 .menu {
@@ -50,7 +51,9 @@ a{
     margin: 7px;
     
 }
-
+.border{
+    border: 2px solid black;
+}
 #rodape{
     width: 900px;
     height: 73px;
