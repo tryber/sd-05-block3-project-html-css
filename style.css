@@ -2,3 +2,6 @@ body {
     background-color: darkgrey;
 }
 
+.header {
+    position: fixed;
+}
