@@ -67,7 +67,7 @@ h3{
     height: 400px;
 }
 
-.imagem{
+.lado-direito{
     width: 50%;
     float: right;
     justify-content: space-around;
@@ -75,7 +75,7 @@ h3{
     flex-direction: column;
 }
 
-.lista{
+.lado-esquerdo{
     width: 50%;
     float: left;
     justify-content: space-around;
