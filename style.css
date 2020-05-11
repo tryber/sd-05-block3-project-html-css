@@ -5,8 +5,7 @@ body{
 }
 
 #cabecalho{
-    width: 850px;
-
+    width: 850px;;
 }
 
 .name{
@@ -21,6 +20,7 @@ margin: auto;
 
 .menu {
     color: rgb(41, 41, 41);
+    padding: 5px;
 }
 
 a{
@@ -35,4 +35,14 @@ a{
  width: 700px;
  height: 465px;
  margin: auto;
+}
+
+#rodape{
+    width: 900px;
+    height: 73px;
+    text-align: center;
+}
+
+.roda{
+    text-align: center;
 }
