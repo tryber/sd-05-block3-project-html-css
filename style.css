@@ -2,7 +2,7 @@ body {
     background-color: aliceblue;
     font: normal;
     font-style: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
     font-weight: 100;
     line-height: 2em;
 }
@@ -25,7 +25,6 @@ body {
     padding: 1px;
     border: solid;
     border-color: black;
-    border: width 1px;
 }
 
 .marginHeader {
@@ -44,10 +43,13 @@ body {
 
 .lado-esquerdo {
     float: left;
-    height: auto;
+    width: 10px;
+    height: 100%;
+    border: red;
+    border-style:solid ;
 }
 
 .lado-direito {
-    height: auto;
+    height: 100%;
     float: right;
 }
