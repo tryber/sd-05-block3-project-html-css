@@ -1,16 +1,13 @@
 body{
-    
     background-color: #FFFFF0;
     margin: 0%;
 }
 
 .corpo-da-pagina{
-
     background-color: #CDCDC1;
 }
 
 #cabecalho{
-
     position: fixed;
     background-color: blue;
     top: 0%;
@@ -18,12 +15,18 @@ body{
     right: 0%;
 }
 .corpo-da-pagina{
-
     margin: 7% 15%;
     
 }
 
 #rodape{
-
     position: relative;
+}
+
+.lado-esquerdo{
+
+}
+
+.lado-direito{
+
 }
