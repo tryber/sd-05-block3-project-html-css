@@ -18,3 +18,21 @@ background: #ffffff;
 padding: 20px;
 margin: auto;
 }
+
+.menu {
+    color: rgb(41, 41, 41);
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.img-sobre{
+ border: rgb(41, 41, 41) 2px solid;
+ width: 700px;
+ height: 465px;
+ margin: auto;
+}
