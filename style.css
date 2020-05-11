@@ -1,55 +1,55 @@
 body {
-    background-color: aliceblue;
-    font: 100;
-    font-style: normal;
-    font-family: sans-serif, Lucida Sans;
-    font-weight: 100;
-    line-height: 2em;
+  background-color: aliceblue;
+  font: 100;
+  font-style: normal;
+  font-family: sans-serif, Lucida Sans;
+  font-weight: 100;
+  line-height: 2em;
 }
 
 #cabecalho {
-    position: fixed;
-    background-color: whitesmoke;
-    width: 95%;
+  position: fixed;
+  background-color: whitesmoke;
+  width: 95%;
 }
 
 .sideBySide {
-    display: inline-block;
+  display: inline-block;
 }
 
 .sizePictures {
-    width: auto;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1px;
-    border: solid;
-    border-color: black;
+  width: auto;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  border: solid;
+  border-color: black;
 }
 
 .marginHeader {
-    border: red;
-    border-style: solid;
+  border: red;
+  border-style: solid;
 }
 
 .marginTitle1 {
-    text-align: center;
-    border-top: 12em;
+  text-align: center;
+  border-top: 12em;
 }
 
 .centralizarFigura {
-    text-align: center;
+  text-align: center;
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 10px;
-    height: 100%;
-    border: red;
-    border-style: solid;
+  float: left;
+  width: 10px;
+  height: 100%;
+  border: red;
+  border-style: solid;
 }
 
 .lado-direito {
-    height: 100%;
-    float: right;
+  height: 100%;
+  float: right;
 }
