@@ -14,13 +14,10 @@ body {
 p {
     text-align: justify;
     text-indent: 20px;
+    padding: 20px;
 }
 
 /* Main content formatting*/
-
-div#interface {
-    width: 100%;
-}
 
     header#cabecalho {
         position: fixed;
@@ -28,15 +25,6 @@ div#interface {
         border-bottom: 2px solid white;
     }
 
-/* Menu formatting*/ 
-
-nav#menu {
-    display: block;
-}
-
-footer#rodape {
-    text-align: center;
-}
 
 
 

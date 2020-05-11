@@ -2,46 +2,66 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
 	<title>Jogo Sapiens - Educação Digital</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div id="interface">
 		<header id="cabecalho">
-			<nav id="menu">
-					<h1>JOGO SAPIENS</h1>
-					<h2>Educação Digital</h2>
-						<ul>
-							<li><a href="cabecalho">Home</a></li>
-							<li><a href="sobre">Sobre</a></li>
-							<li><a href="instrucoes">Instruções</a></li>
-							<li><a href="contato">Contato</a></li>
-						</ul>
-				</nav>
+			<hgroup>
+				<h1>JOGO SAPIENS</h1>
+				<h2>Educação Digital</h2>			
+			</hgroup>
 		</header>
 
-		<section id="main-content">
-			<a href="https://play.google.com/store/apps/details?id=com.jogoSapiens.QuebraQuadrado" target="_blank"><img id="compre-aqui" src="botao_qq_play.png" alt="Button for purchasing content at the Play Store!"></a>
-				<article id="sobre">
-					<h1>Nossa Missão</h1>
-						<p>O estúdio <em>Jogo Sapiens®</em> visa transformar o smartphone, antes uma distração indesejada, em um aliado ao professor em sala de aula ou aos pais em casa. Com jogos eletrônicos que seguem o currículo do BNCC, nós oferecemos ao professor uma poderosa ferramenta cujo propósito é melhorar o engajamento, retenção de conteúdo e diversão dos alunos. Já que proibição dos smartphones em sala de aula não funcionou, que ocupemos suas telas com algo útil!</p>
-				</article>
+		<nav id="menu">
+			<ul>
+				<li><a href="#cabecalho">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#instrucoes">Instruções</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
 
-				<article id="game-content">
-					<h1>Quebra-Quadrado</h1>
-					<h2>Aprenda matemática jogando video game!</h2>
+		<section id="main-content">
+			<article id="sobre">
+				<header>
+					<h1>Nossa Missão</h1>
+				</header>
+					<section>
+						<p>O estúdio <em>Jogo Sapiens®</em> visa transformar o smartphone, antes uma distração indesejada, em um aliado ao professor em sala de aula ou aos pais em casa. Com jogos eletrônicos que seguem o currículo do BNCC, nós oferecemos ao professor uma poderosa ferramenta cujo propósito é melhorar o engajamento, retenção de conteúdo e diversão dos alunos. Já que proibição dos smartphones em sala de aula não funcionou, que ocupemos suas telas com algo útil!</p>
+					</section>
+			</article>
+
+			<article id="game-content">
+				<header>
+					<hgroup>
+						<h1>Quebra-Quadrado</h1>
+						<h2>Aprenda matemática jogando video game!</h2>
+					</hgroup>
+				</header>
+					<section>		
 						<ol>
 							<li>Números & Quantidades</li>
 							<li>Conceitos de Álgebra</li>
 							<li>Aritmética</li>
 							<li>Raciocínio Lógico</li>
 						</ol>
-					</article>
+					</section>
+			</article>
+			<aside>
+				<section>
+					<h1>Compre Aqui</h1>
+					<a href="https://play.google.com/store/apps/details?id=com.jogoSapiens.QuebraQuadrado" target="_blank"></a>
+				</section>
+				<figure>
+					<img id="compre-aqui" width="150" height="150" src="botao_qq_play.png" alt="Button for purchasing content at the Play Store!">
+					<figcaption>Android</figcaption>
+				</figure>
+			</aside>
+					
+			<footer id="rodape">Primeiro projeto de HTML/CSS para Trybe - a escola do futuro!</footer>
 		</section>
-
-		<footer id="rodape">
-			<p>Primeiro projeto de HTML/CSS para Trybe - a escola do futuro!</p>
-		</footer>
 	</div>
 </body>
 </html>
