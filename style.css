@@ -4,3 +4,6 @@ body {
 #cabecalho {
     Position: Fixed;
 }
+#rodape {
+    background-color: white;
+}
