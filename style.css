@@ -2,6 +2,11 @@ body {
     background-color: rgb(224, 203, 174);
 }
 
+.image {
+    width: 300px;
+}
+
+
 #cabecalho {
     position: top fixed;
 }
