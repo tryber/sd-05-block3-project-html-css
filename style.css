@@ -21,21 +21,19 @@ body {
     top: 100%;
     border: 1px solid red;
 }
-#ulist {
+#lado-direito {
     background-color: whitesmoke;
     width: 25%;
     position: relative;
-    left: 67%;
     padding: 30px;
     bottom: 180px;
 }
-#olist {
+#lado-esquerdo {
     background-color: whitesmoke;
     width: 25%;
     position: relative;
-    left: 5%;
+    left: 70%;
     padding: 30px;
-    bottom: 380px;
 }
 #nav {
     background-color: whitesmoke;
