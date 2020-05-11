@@ -19,3 +19,16 @@
     background-color: #39C694;
     font-size: 15px;
 }
+
+#rodape {
+    background-color: #39C694;
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+}
