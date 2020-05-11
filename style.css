@@ -4,4 +4,5 @@ body{
 .teste{
     margin-left: 40px;
     padding-top: 20px;
+    border: 1px solid coral;
 }
