@@ -1,11 +1,13 @@
-body { 
+body {
   background-color: rgb(212 , 221 , 237);
 }
+
 #cabecalho {
   background-color: rgb(252 , 253 , 222);
   border: 5px 5px;
   border-color: white;
 }
+
 #rodape {
   background-color: rgb(188 , 205 , 234);
 }
