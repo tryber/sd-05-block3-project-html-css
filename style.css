@@ -1,14 +1,14 @@
 body {
-    background-color: lightslategrey;
+    background-color:lightslategrey;
 }
 
-#cabecalho li{
-    position: fixed;
-    display: inline;
+#cabecalho li {
+    position:fixed;
+    display:inline;
 }
 
-#rodape li{
-    bottom: 0em;
-    position: absolute;
-    display: inline
+#rodape li {
+    bottom:0px;
+    position:absolute;
+    display:inline;
 }
