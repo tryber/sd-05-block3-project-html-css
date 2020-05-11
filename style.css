@@ -12,7 +12,9 @@ body {
     }
 
 header#cabecalho {
-    display: inline;
+    position: fixed;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
     border-bottom: 2px solid white;
 }
 
