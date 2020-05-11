@@ -4,6 +4,7 @@ body {
 
 #cabecalho {
     position:fixed;
+    font-family: monospace;
 }
 
 .navegador li{
