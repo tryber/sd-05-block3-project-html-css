@@ -2,7 +2,7 @@ body {
   background-color: beige;
 }
 
-.cabecalho {
+#cabecalho {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,7 +10,7 @@ body {
   width: 100%;
 }
 
-.rodape {
+#rodape {
   position: fixed;
   width: 100%;
 }
