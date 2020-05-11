@@ -1,11 +1,46 @@
 body {
   background-color: rgb(234 , 234 , 234);
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin: 0;
   font-family: Helvetica , sans-serif;
 }
 
+.background {
+  background-size: cover;
+  width: 100%;
+  filter: brightness(50%);
+  margin: 0% 0% 2% 0%;
+  padding: 0;
+}
+
+.main{
+  background-image: url(Images/Autismo_main.jpg);
+  height: 400px;
+}
+
+.caracteristicas {
+  background-image: url(Images/Autismo_entenda.jpg);
+  height: 300px;
+}
+
+.diagnostico {
+  background-image: url(Images/Autismo_diag.jpg);
+  height: 300px;
+}
+
+.tratamento {
+  background-image: url(Images/Autismo_father.jpg);
+  height: 300px;
+}
+
+.leis {
+  background-image: url(Images/Autismo_2hand.jpg);
+  height: 300px;
+}
+
+.frequentes {
+  background-image: url(Images/Autismo_boy.jpg);
+  height: 300px;
+}
 p , ul , ol {
   line-height: 1em;
   margin-left: 10%;
@@ -56,6 +91,7 @@ header {
   width: 96%;
   height: 3%;
   padding: 2%;
+  z-index: 2;
 }
 
 .header__image {
@@ -95,11 +131,18 @@ header {
 .title {
   text-align: center;
   padding-top: 4%;
+  color: white;
+  position: relative;
+  bottom: 230px;
+  font-size: 3em;
 }
 
 .title__main {
   margin-top: 0;
   padding-top: 10%;
+  position: relative;
+  bottom: 330px;
+  font-size: 3em;
 }
 
 .question__box {
@@ -151,4 +194,16 @@ header {
 
 .text__small {
   font-size: 0.7em;
+}
+
+.text__afterbackground {
+  margin-top: -100px;
+}
+
+.text__beforebackground {
+    margin-bottom: 70px;
+}
+
+.text__afterbackground--main {
+  margin-top: -120px;
 }
