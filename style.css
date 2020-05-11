@@ -8,3 +8,23 @@ body
     background-color: whitesmoke;
     width: 95%;
 }
+.sideBySide
+{
+    display: inline-block;
+}
+.sizePictures
+{
+    width: auto;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginHeader
+{
+    border: red;
+    border-style:solid ;
+}
+.marginTitle1
+{
+    text-align: center;
+}
