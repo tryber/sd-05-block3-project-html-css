@@ -5,9 +5,42 @@ body{
 #cabecalho{
     background-attachment: fixed;
     background-color: royalblue;
-    height: 200px;
+    height: 100px;
+}
+
+.cabecalho-titulo{
+    text-align: center;
+    background-color: mintcream;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.table{
+    background-color: black;
+    color: white;
 }
 
 #rodape{
     height: 100px;
+}
+
+.imagem{
+    float: right;
+}
+
+.lista{
+    float: left;
 }
