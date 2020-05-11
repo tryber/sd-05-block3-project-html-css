@@ -4,16 +4,21 @@ body{background-color: rgb(10, 3, 20); font-family:sans-serif;
     color:white;
     
 }
-#cabecalho{
-    width: 40%;
-    align-content: center;
-    margin-left: 30%;
-}
 
 
 h1{color:rgb(247, 237, 121)}
 
 li{text-align: center; align-content: center;line-height: 1.5em;}
+
+#cabecalho{
+    width: 40%;
+    align-content: center;
+    margin-left: 30%;
+    margin-top:0px;
+    position: fixed;
+    background-color:rgb(10, 3, 20);
+    padding:10px;
+}
 
 footer{
     background-color: rgb(247, 237, 121);
@@ -24,6 +29,12 @@ footer{
     width: 40%;
     align-content: center;
     margin-left: 30%;
+    margin-top: 10px;
+    clear: both;
+    padding:10px;
+    line-height: 1.2em;
+    position: relative;
+    
 }
 
 
