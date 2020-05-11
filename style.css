@@ -53,4 +53,11 @@ h1{
     color: red;
     text-shadow: 2px 2px white;
 }
+a:link{color: white;
+
+}
+a:visited{
+	color: turquoise;
+
+}
 
