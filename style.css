@@ -10,7 +10,7 @@ body{
     right: 0;
     height: 135px;
     color:black;
-    margin-bottom: 100px;
+    margin:auto;
 }
 #capadodisco{
     float:right;
@@ -19,4 +19,7 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+#sidebar{
+    float:right;
 }
