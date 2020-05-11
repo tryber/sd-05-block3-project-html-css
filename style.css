@@ -7,13 +7,15 @@ body {
     font-family: 'Titilium-Web', sans-serif;
 }
 
+    body h1 {
+        font-family: 'Amaranth', sans-serif;
+    }
+
 header#cabecalho {
-    position: relative;
-    font-family: 'Amaranth', sans-serif;
-    display: block;
-    margin-right: auto;
+    display: inline;
     border-bottom: 2px solid white;
 }
+
 
 
 
