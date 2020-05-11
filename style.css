@@ -73,7 +73,7 @@ p , ul , ol {
 .table__car {
   background-color:lightgray;
   padding: 2%;
-  padding-right: 2%;
+  padding-right: 4%;
   border: rgb(162 , 169 , 177) solid 1px;
 
 }
