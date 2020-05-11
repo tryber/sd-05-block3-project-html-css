@@ -30,10 +30,12 @@
             border:thick; 
             border-style:ridge;
         }
-        p {
+        #video p{
+            position: absolute;
             font-style:italic; 
-            font-size:50px;
+            font-size:20px;
             color:#0000FF;
+            position: 
         }
         #titulo{
             padding-top: 80px;
