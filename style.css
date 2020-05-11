@@ -1,6 +1,6 @@
-*{
-    margin:5px;
-    padding:5px;
+* {
+    margin: 5px;
+    padding: 5px;
     font-size: 15px;
     color: rebeccapurple;
     text-align: center;
@@ -13,9 +13,9 @@ body {
 background-color: coral;
 }
 
-.lado-esquerdo{
-    float:left;
+.lado-esquerdo {
+    float: left;
 }
-.lado-direito{
-    float:right;
+.lado-direito {
+    float: right;
 }
