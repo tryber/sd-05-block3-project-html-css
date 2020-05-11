@@ -1,20 +1,25 @@
 body {
-        background-color: gray;
+  background-color: gray;
 }
 #cabecalho {
-        position: fixed;
-        top: 10px;
-        left: 10px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
 #corpo {
-        margin: 50px 10px;
+  margin: 50px 10px;
 }
 #rodape {
-        text-align: center;
+  text-align: center;
 }
 td {
-    margin: auto;
-    border: 3px dashed red;
-    padding: 3px 3px 3px 3px;
-    
+  margin: auto;
+  border: 3px dashed red;
+  padding: 3px 3px 3px 3px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  text-decoration: blink;
+  line-height: 3;
+  font-weight: bold;
 }
