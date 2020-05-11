@@ -19,7 +19,7 @@ body{
 section{
     display: inline-block;
 }
-header#cabecalho {
+#cabecalho {
     position: fixed;
     background-color: rgba(60 , 47 , 47 , .35);
     width: 100%;
