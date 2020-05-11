@@ -3,26 +3,31 @@ body {
     margin: auto;
     font-family: 'Times New Roman', 'Arial';
 }
-header {
+#cabecalho {
     margin-left: 30px;
-}
-nav{
     margin: 30px;
     font-size: 1.3em;    
 }
-section {
+nav {
+    display: inline-block;
+}
+#Perfil {
+    display: inline-block;
     margin: 30px;
     line-height: normal;
 }
-article {
+#Projeto {
     color:black;
     font-family: 'Times New Roman';
     font-style: normal;
     line-height: 30px;
 }
-footer {
+#cabecalho {
     color: black;
     margin: 30px;
+}
+#rodape {
+    
 }
 h1 {
     color:black;
