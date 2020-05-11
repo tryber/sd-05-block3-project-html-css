@@ -7,16 +7,17 @@ body {
 
 .corpo-da-pagina {
     background-color: #CDCDC1;
-    margin: 5% 15%;
+    margin: 5% 15% 2% 15%;
     padding: 20px 15px 15px 15px;
 }
 
 #cabecalho {
     position: fixed;
-    background-color: blue;
+    background-color: rgb(70, 110, 184);
     top: 0%;
     left: 0%;
     right: 0%;
+    padding-left: 20px;
 }
 
 nav a:link {
@@ -60,7 +61,11 @@ nav a:active {
 }
 
 #rodape {
-    position: relative;
+   text-align: center;
+   background-color: black;
+   color: white;
+   margin-bottom: 0%;
+   padding: 1px;
 }
 
 .lado-esquerdo {
@@ -98,11 +103,17 @@ nav {
     font-size: 1.5em;
 }
 article {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 article h2 {
     text-align: center;
     background-color: white;
     padding: 15px
+}
+
+.caixa-informacoes {
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: white;
 }
