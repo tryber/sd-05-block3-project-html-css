@@ -5,4 +5,6 @@ body
 .headerFixa
 {
     position: fixed;
+    background-color: whitesmoke;
+    width: 95%;
 }
