@@ -6,3 +6,6 @@ h1 {
     color: rgba(235, 146, 14, 0.938);
     font-size: 45px;
 }
+header#cabecalho {
+    position: fixed;
+}
