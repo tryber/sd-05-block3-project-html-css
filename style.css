@@ -2,18 +2,21 @@ body {
     background-color: aliceblue;
     font: 100;
     font-style: normal;
-    font-family:  sans-serif,'Lucida Sans';
+    font-family: sans-serif, 'Lucida Sans';
     font-weight: 100;
     line-height: 2em;
 }
+
 #cabecalho {
     position: fixed;
     background-color: whitesmoke;
     width: 95%;
 }
+
 .sideBySide {
     display: inline-block;
 }
+
 .sizePictures {
     width: auto;
     height: 100px;
@@ -23,24 +26,29 @@ body {
     border: solid;
     border-color: black;
 }
+
 .marginHeader {
     border: red;
     border-style: solid;
 }
+
 .marginTitle1 {
     text-align: center;
     border-top: 12em;
 }
+
 .centralizarFigura {
     text-align: center;
 }
+
 .lado-esquerdo {
     float: left;
     width: 10px;
     height: 100%;
     border: red;
-    border-style:solid;
+    border-style: solid;
 }
+
 .lado-direito {
     height: 100%;
     float: right;
