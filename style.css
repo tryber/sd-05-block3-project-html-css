@@ -1,5 +1,5 @@
 body { 
-  background-color: #d4dded;
+  background-color: rgb(212 , 221 , 237);
 }
 #cabecalho {
   background-color: rgb(252 , 253 , 222);
@@ -9,5 +9,4 @@ body {
 #rodape {
   background-color: rgb(188 , 205 , 234);
 }
-
 
