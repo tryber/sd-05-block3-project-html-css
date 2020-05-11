@@ -55,7 +55,7 @@ a{
     border: 2px solid black;
     padding: 2px;
     margin: 4px;
-    line-height: normal;
+    line-height: 1em;
 }
 #rodape{
     width: 900px;
