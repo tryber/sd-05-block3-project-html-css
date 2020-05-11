@@ -12,33 +12,33 @@ body {
   padding: 0;
 }
 
-.main{
-  background-image: url(Images/Autismo_main.jpg);
+.main {
+  background-image: url("Images/Autismo_main.jpg");
   height: 400px;
 }
 
 .caracteristicas {
-  background-image: url(Images/Autismo_entenda.jpg);
+  background-image: url("Images/Autismo_entenda.jpg");
   height: 300px;
 }
 
 .diagnostico {
-  background-image: url(Images/Autismo_diag.jpg);
+  background-image: url("Images/Autismo_diag.jpg");
   height: 300px;
 }
 
 .tratamento {
-  background-image: url(Images/Autismo_father.jpg);
+  background-image: url("Images/Autismo_father.jpg");
   height: 300px;
 }
 
 .leis {
-  background-image: url(Images/Autismo_2hand.jpg);
+  background-image: url("Images/Autismo_2hand.jpg");
   height: 300px;
 }
 
 .frequentes {
-  background-image: url(Images/Autismo_boy.jpg);
+  background-image: url("Images/Autismo_boy.jpg");
   height: 300px;
 }
 p , ul , ol {
@@ -71,7 +71,7 @@ p , ul , ol {
 }
 
 .table__car {
-  background-color:lightgray;
+  background-color: lightgray;
   padding: 2%;
   padding-right: 4%;
   border: rgb(162 , 169 , 177) solid 1px;
@@ -81,7 +81,7 @@ p , ul , ol {
 .table__girl {
   background-color: rgb(251 , 191 , 202);
   padding: 2%;
-  border: rgb(162, 169, 177) solid 1px;
+  border: rgb(162 , 169 , 177) solid 1px;
 }
 
 header {
