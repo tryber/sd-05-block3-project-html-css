@@ -3,6 +3,7 @@ body {
 }
 #cabecalho {
     Position: Fixed;
+    color: white;
 }
 #rodape {
     background-color: white;
