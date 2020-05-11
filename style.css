@@ -15,7 +15,7 @@ img{
    
     width: 100%;
     border-style: solid;
-    border-color: cornsilk;
+    border-color: rgba(255, 248, 220, 0);
     position: fixed;
 
 }
@@ -40,13 +40,17 @@ h2{
 	font-size: 35px;
 }
 .mylist{
-	width: 30%;
-	margin: 0 10px;
+	width: 35%;
+	margin-left: 10%;
   color: white;
 	font-size: 35px;
 	display: inline-block;
 	border-color: white;
 	border-style: solid;
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 0px;
+	
 }
 
 h1{
@@ -59,5 +63,15 @@ a:link{color: white;
 a:visited{
 	color: turquoise;
 
+}
+#rodape{
+	width: 100%;
+	border-style: solid;
+	border-color: tomato;
+	
+
+}
+h3{
+	color: white;
 }
 
