@@ -3,7 +3,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
-  font-family: 'Helvetica'
+  font-family: Helvetica
 }
 
 p , ul , ol {
@@ -67,11 +67,8 @@ header {
 
 .question__box {
   border: solid 1px rgb(217 , 217 , 217);
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 3%;
-  margin-top: 3%;
-  background-color: rgb(255 , 255 , 255);
+  margin: 3% 10%;
+  background-color: white;
 }
 
 .question__title {
@@ -81,7 +78,7 @@ header {
 
 .footer {
   background-color: rgb(0 , 102 , 179);
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .footer__text {
