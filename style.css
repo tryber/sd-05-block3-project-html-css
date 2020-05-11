@@ -7,11 +7,19 @@ body {
 
 #cabecalho {
     width: 100%;
+    height: 100px;
     position: fixed;
     top: 0;
     left: 0;
     color: #34A853;
     background-color: white;
+    padding: 20px 15px;
+}
+
+.indice{
+    margin: 15px 15px;
+    padding: 15px 15px;
+    display: inline-block;
 }
 
 #rodape {
@@ -21,8 +29,31 @@ body {
     right: 0;
     color: black;
     background-color: white;
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 #news {
-    color: black;
+    margin: 30px 30px;
+    padding: 30px 30px;
 }
+
+#title {
+    text-align: center;
+}
+
+#medals {
+    margin: 30px 30px;
+    padding: 30px 30px;
+}
+
+#bestscoreboards {
+    margin: 30px 30px;
+    padding: 30px 30px;
+}
+
+#cast {
+    margin: 30px 30px;
+    padding: 30px 30px;
+}
+
