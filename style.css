@@ -2,7 +2,7 @@ body
 {
     background-color: aliceblue;
 }
-.headerFixa
+#cabecalho
 {
     position: fixed;
     background-color: whitesmoke;
@@ -25,6 +25,12 @@ body
     border-style:solid ;
 }
 .marginTitle1
+{
+    text-align: center;
+    border-top:12em ;
+    clear: both;
+}
+.centralizarFigura
 {
     text-align: center;
 }
