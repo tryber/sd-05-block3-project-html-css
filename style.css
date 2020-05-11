@@ -1,0 +1,139 @@
+body {
+    background-color: #FFFFF0;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5em;
+}
+
+.corpo-da-pagina {
+    background-color: #CDCDC1;
+    margin: 5% 15% 2% 15%;
+    padding: 20px 15px 15px 15px;
+}
+
+#cabecalho {
+    position: fixed;
+    background-color: rgb(70, 110, 184);
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    padding-left: 20px;
+}
+
+nav a:link {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+nav a:visited {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+nav a:hover {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+nav a:focus {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+nav a:active {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#rodape {
+   text-align: center;
+   background-color: black;
+   color: white;
+   margin-bottom: 0%;
+   padding: 1px;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 40%;
+}
+
+.lado-direito {
+    float: right;
+    width: 55%;
+}
+
+.tabelas-centralizadas {
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.tabelas-centralizadas td, th {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.imagens-texto {
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+article p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+nav {
+    font-size: 1.5em;
+}
+article {
+    margin-top: 20px;
+}
+
+article h2 {
+    text-align: center;
+    background-color: white;
+    padding: 15px
+}
+
+.caixa-informacoes {
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.botao {
+    margin: auto;
+    background-color: gray;
+    font-weight: 600;
+    color: black;
+    margin: 0% 15% 2% 15%;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.botao a {
+    text-decoration: none;
+}
+
+.botao a:hover {
+    color: turquoise;
+}
