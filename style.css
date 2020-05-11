@@ -72,6 +72,10 @@ article #perfil{
     width: 15%;
     height: 15%;
     float: right;
+    border-radius: 15%;
 }
-
+#skills{
+    margin: 30px;
+    padding: 10px;
+}
 
