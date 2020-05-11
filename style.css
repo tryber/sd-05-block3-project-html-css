@@ -6,12 +6,15 @@ body {
   top: 10px;
   left: 10px;
 }
+
 #corpo {
   margin: 50px 10px;
 }
+
 #rodape {
   text-align: center;
 }
+
 td {
   margin: auto;
   border: 3px dashed red;
@@ -24,9 +27,10 @@ td {
   font-weight: bold;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
     float: left;
 }
-.lado-direito{
+
+.lado-direito {
     float: right;
 }
