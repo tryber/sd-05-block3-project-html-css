@@ -9,7 +9,7 @@ body {
     margin: 0%;
 }
 #cabecalho {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(172, 88, 227);
     position: fixed; 
     z-index: 1;
     width: 100%; 
@@ -28,9 +28,15 @@ body {
     text-decoration: none;
 }
 #menu a:link, a:visited {
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
 #menu a:hover {
     background-color: rgb(172, 88, 227);
     text-decoration: underline;
+}
+#container-main {
+    background-image: url("./tema.jpg");
+    background-size: cover;
+    background-position-y: center;
+    padding: 250px;
 }
