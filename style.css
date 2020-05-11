@@ -3,7 +3,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
-  font-family: "Helvetica"
+  font-family: Helvetica , sans-serif;
 }
 
 p , ul , ol {
