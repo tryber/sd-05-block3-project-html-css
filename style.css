@@ -23,3 +23,10 @@ td {
   line-height: 3;
   font-weight: bold;
 }
+
+.lado-esquerdo{
+    float: left;
+}
+.lado-direito{
+    float: right;
+}
