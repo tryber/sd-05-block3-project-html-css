@@ -3,7 +3,7 @@ body{
 }
 
 #cabecalho{
-    background-attachment: fixed;
+    position: fixed;
     background-color: royalblue;
     height: 100px;
 }
