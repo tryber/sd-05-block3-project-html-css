@@ -2,10 +2,9 @@ body {
     background-color: beige;
 }
 
-header {
+#cabecalho {
     text-align: center;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; 
+    position: fixed;
     width: 100%;
     text-align: center;
 }
