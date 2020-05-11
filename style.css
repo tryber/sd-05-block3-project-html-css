@@ -1,60 +1,64 @@
 body {
-background-color: coral;
+  background-color: coral;
 }
+
 #cabecalho {
-    width: 100%;
-    position: fixed;
+  width: 100%;
+  position: fixed;
 
 }
 .lado-esquerdo {
-    float: left;
+  float: left;
 }
+
 .lado-direito {
-    float: right;
+  float: right;
 }
+
 header {
-    margin: 5px;
-    padding: 5px;
-    border: 3px solid red;
-    font-size: 1.1em;
-    color: rebeccapurple;
-    text-align: justify;
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
-
-
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid red;
+  font-size: 1.1em;
+  color: rebeccapurple;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
 }
+
 article {
-    margin: 5px;
-    padding: 5px;
-    border: 3px solid red;
-    font-size: 1.1em;
-    color: rebeccapurple;
-    text-align: justify;
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid red;
+  font-size: 1.1em;
+  color: rebeccapurple;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
 }
+
 section {
-    margin: 5px;
-    padding: 5px;
-    border: 3px solid red;
-    font-size: 1.1em;
-    color: rebeccapurple;
-    text-align: justify;
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid red;
+  font-size: 1.1em;
+  color: rebeccapurple;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
 }
+
 footer {
-    margin: 5px;
-    padding: 5px;
-    border: 3px solid red;
-    font-size: 1.1em;
-    color: rebeccapurple;
-    text-align: justify;
-    text-decoration: underline;
-    font-weight: bold;
-    font-style: italic;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid red;
+  font-size: 1.1em;
+  color: rebeccapurple;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
 }
