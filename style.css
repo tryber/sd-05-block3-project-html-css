@@ -1,43 +1,35 @@
 body {
-
 background-color: black;
 }
 img {
-
 width: 150px;
 background-color: black;
 }
 #fototeam {
-
 width: 100%;
 border-color: crimson;
 border-style: solid;
 }
 #cabecalho {
-
 width: 100%;
 border-style: solid;
 border-color: rgba(255, 248, 220, 0);
 position: fixed;
 }
 .myfoto {
-
 margin-top: 90px;
 margin-left: 47%;
 }
-#fototeam h2 {
-
+h2 #fototeam {
 text-align: center;
 color: white;
 font-size: 50px;
 }
 h2 {
-
 color: white;
 font-size: 35px;
 }
 .mylist {
-
 width: 35%;
 margin-left: 10%;
 color: white;
@@ -50,25 +42,20 @@ padding-left: 50px;
 padding-right: 0px;
 }
 h1 {
-
 color: red;
 text-shadow: 2px 2px white;
 }
 a:link {
-
 color: white;
 }
 a:visited {
-
 color: turquoise;
 }
 #rodape {
-
 width: 100%;
 border-style: solid;
 border-color: rgb(158, 26, 3);
 }
 h3 {
-
 color: white;
 }
