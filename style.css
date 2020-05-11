@@ -2,7 +2,7 @@ body{
     background-color: lightsteelblue;
 }
 
-header #cabecalho{
+#cabecalho{
     position: fixed;
     background-color: royalblue;
     width: 100%;
