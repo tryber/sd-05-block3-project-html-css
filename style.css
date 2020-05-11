@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color:silver;
 }
 #cabecalho {
     background-color:#ffcb47;
@@ -8,7 +9,14 @@ body{
     left: 0;
     right: 0;
     height: 135px;
+    color:black;
+    margin-bottom: 100px;
   }
 #capadodisco{
     float:right;
+}
+#menu_principal{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
