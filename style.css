@@ -1,11 +1,14 @@
 body {
-    background-color: #fffff0;
+    background-color: #FFFFF0;
     margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5em;
 }
 
 .corpo-da-pagina {
-    background-color: #cdcdc1;
-    margin: 7% 15%;
+    background-color: #CDCDC1;
+    margin: 5% 15%;
+    padding: 20px 15px 15px 15px;
 }
 
 #cabecalho {
@@ -22,8 +25,31 @@ body {
 
 .lado-esquerdo {
     float: left;
+    width: 40%;
 }
 
 .lado-direito {
     float: right;
+    width: 55%;
+}
+
+.tabelas-centralizadas {
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.tabelas-centralizadas td,th {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.imagens-texto {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+article p {
+    text-align: justify;
+    font-size: 1.2em;
 }
