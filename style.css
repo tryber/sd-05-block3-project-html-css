@@ -1,5 +1,6 @@
 body{
     background-color: #FFFFF0;
+    margin: 0%;
 }
 
 .corpo-da-pagina{
@@ -7,10 +8,17 @@ body{
 }
 
 #cabecalho{
-    position: absolute
-    margin: 0% 0% 95% 0%;
+    position: fixed;
+    background-color: blue;
+    top: 0%;
+    left: 0%;
+    right: 0%;
 }
 .corpo-da-pagina{
-    clear: both;
-    margin: 0% 15%;
+    margin: 7% 15%;
+    
+}
+
+#rodape{
+    position: relative;
 }
