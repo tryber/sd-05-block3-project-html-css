@@ -29,6 +29,8 @@ body {
 }
 
 #cabecalho {
+    width: 100%;
+    position: fixed;
     padding-top: 20px;
     height: 65px;    
     background-color: #191919;
@@ -44,4 +46,27 @@ body {
 #studiopicture {
     text-align: center;
     margin: 0px;
+}
+
+#margem-nav {
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+}
+
+.nav {
+    text-align: center;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
 }
