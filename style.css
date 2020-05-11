@@ -28,7 +28,7 @@ h2 {
 }
 
 #footer {
-    position: fixed;
+    position: fixed bottom;
 }
 
 #indice {
@@ -36,4 +36,18 @@ h2 {
     margin-top: 2em;
     padding: 2em;
     border: 0.5em dotted black;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 60%;
+    padding: 2em;
+    margin: 1em;
+}
+
+.lado-direito {
+    float: right;
+    width: 20%;
+    padding: 2em;
+    margin: 1em;
 }
