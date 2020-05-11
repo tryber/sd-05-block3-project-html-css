@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    rgin: 0;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    font-family: Modak, cursive;
+    nt-family: Modak, cursive;
 }
 
 a {
@@ -38,7 +38,7 @@ video {
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+min-height: 100%;
 }
 
 nav {
