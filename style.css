@@ -3,10 +3,11 @@ body{
 }
 
 header #cabecalho{
+    display: inline-block;
     position: fixed;
     background-color: royalblue;
     width: 100%;
-    height: 100px;  
+    height: 200px;  
     padding: 15px;
 }
 
@@ -14,6 +15,7 @@ header #cabecalho{
     text-align: center;
     background-color: mintcream;
     border-radius: 10px;
+    padding: 10px 15px;
 }
 
 .conteudo{
@@ -22,8 +24,9 @@ header #cabecalho{
 }
 
 .conteudo-biografia{
-    padding: 15px 10px;
+    padding: 10px 10px;
     text-align: center;
+    align-items: center;
 }
 
 h1{
@@ -38,21 +41,53 @@ h2{
     font-size: 2em;
     font-weight: bold;
     color: midnightblue;
+    text-align: center;
 }
 
 .table{
+    width: 30%;
     background-color: black;
     color: white;
 }
 
 footer #rodape{
+    width: 100%;
     height: 100px;
 }
 
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.imagem-lista{
+    width: 100%;
+    height: 400px;
+}
+
 .imagem{
+    width: 50%;
     float: right;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 .lista{
+    width: 50%;
     float: left;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lista-texto{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
