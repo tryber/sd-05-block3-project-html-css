@@ -1,25 +1,23 @@
-body
-{
+body {
     background-color: aliceblue;
-    font:normal ;
+    font: normal;
     font-style: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
     line-height: 2em;
 }
-#cabecalho
-{
+
+#cabecalho {
     position: fixed;
     background-color: whitesmoke;
     width: 95%;
 }
 
-.sideBySide
-{
+.sideBySide {
     display: inline-block;
 }
-.sizePictures
-{
+
+.sizePictures {
     width: auto;
     height: 100px;
     margin-left: auto;
@@ -27,20 +25,29 @@ body
     padding: 1px;
     border: solid;
     border-color: black;
-    border: width 1px; 
+    border: width 1px;
 }
-.marginHeader
-{
+
+.marginHeader {
     border: red;
-    border-style:solid ;
+    border-style: solid;
 }
-.marginTitle1
-{
+
+.marginTitle1 {
     text-align: center;
-    border-top:12em ;
-    
+    border-top: 12em;
 }
-.centralizarFigura
-{
+
+.centralizarFigura {
     text-align: center;
+}
+
+.ladoEsquerdo {
+    float: left;
+    height: auto;
+}
+
+.ladoDireito {
+    height: auto;
+    float: right;
 }
