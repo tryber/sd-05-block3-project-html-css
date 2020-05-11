@@ -2,7 +2,7 @@ body {
     background-color:lightslategrey;
 }
 
-#cabecalho li {
+#cabecalho {
     position:fixed;
 }
 
