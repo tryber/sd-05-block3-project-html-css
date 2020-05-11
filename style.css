@@ -13,10 +13,9 @@ body{
 }
 
 .conteudo{
-background: #ffffff;
 padding: 80px;
 margin: auto;
-
+background:white;
 }
 
 .menu {
@@ -31,20 +30,19 @@ a{
     padding: 5px;
 }
 
-.img-sobre{
+.lado-esquerdo{
  border: rgb(41, 41, 41) 2px solid;
  width: 700px;
- height: 465px;
  margin: 20px;
  float:left
 }
 
-.img-2{
-    float: right;
+.lado-direito{
+ 
     border: rgb(41, 41, 41) 2px solid;
     width: 700px;
-    height: 465px;
     margin: 20px;
+    float: right;
 }
 
 #rodape{
