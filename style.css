@@ -1,5 +1,11 @@
 body{ background-color: #d4dded;}
-header{
+#cabecalho{
     background-color: #fcfdde;
     border: 5px 5px;
-    border-color: white;}
+    border-color: white;
+}
+#rodape{
+    background-color: rgb(188, 205, 234);
+}
+
+
