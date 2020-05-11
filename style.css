@@ -1,16 +1,27 @@
 body {
     background-color: rgb(224, 203, 174);
+    margin: 5em;
 }
 
 .image {
     width: 300px;
 }
 
+.content {
+    padding: 2em;
+}
 
 #cabecalho {
-    position: fixed;
+    position: fixed top;
 }
 
 #footer {
     position: fixed;
+}
+
+#indice {
+    margin-left: 3em;
+    margin-top: 2em;
+    padding: 2em;
+    border: 0.5em dotted black;
 }
