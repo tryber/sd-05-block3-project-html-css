@@ -41,7 +41,7 @@ nav .brand, nav .links{
 
 nav .brand{
     width: 30%;
-    text-align: center;
+    text-align: left;
 }
 
 nav .links{
@@ -54,10 +54,12 @@ nav li{
 }
 
 article#main{
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 2;
     text-align: center;
     margin: auto;
+    background-color: rgba(60,47,47,.4);
 }
 
 article#main section#content{
@@ -65,10 +67,16 @@ article#main section#content{
     width: 512px;
     height: 512px;
     margin: auto;
-    padding-top: 160px;
+    padding-top: 230px;
 }
 
 article#main h1{
     font-size: 64px;
     font-weight: 200;
+}
+
+footer{
+    background-color: #854442;
+    margin: 0;
+    height: 108px;
 }
