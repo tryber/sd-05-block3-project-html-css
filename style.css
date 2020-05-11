@@ -1,5 +1,6 @@
 body {
     background-color: rgb(224, 203, 174);
+    margin-top: 1em;
 }
 
 .image {
@@ -8,9 +9,9 @@ body {
 
 
 #cabecalho {
-    position: fixed top;
+    position: fixed;
 }
 
 #footer {
-    position: fixed bottom;
+    position: fixed;
 }
