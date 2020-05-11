@@ -23,12 +23,12 @@ h2 {
 }
 
 #cabecalho {
-    position: fixed top;
+    position: fixed;
     text-align: center;
 }
 
 #footer {
-    position: fixed bottom;
+    position: fixed;
 }
 
 #indice {
