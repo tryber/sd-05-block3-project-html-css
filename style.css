@@ -39,7 +39,10 @@ body {
     float: left;
     border: 10px;
     background-color: 916E50;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
 
 h2 {
     color:#0A6E38;
