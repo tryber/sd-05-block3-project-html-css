@@ -8,6 +8,7 @@ body {
   left: 0;
   height: 30px;
   width: 100%;
+  text-align: center;
 }
 
 #rodape {
@@ -39,6 +40,15 @@ ul , ol {
   top: 30px;
 }
 
+.lado-direito {
+  float: right;
+  max-width: 40%;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
 a {
   position: relative;
   top: 40px;
@@ -54,7 +64,6 @@ article {
 
 #referencias {
   position: relative;
-  float: right;
   border-style: dashed;
 }
 
