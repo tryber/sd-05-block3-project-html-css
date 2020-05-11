@@ -60,7 +60,11 @@ ul {
 }
 
 #cabecalho {
+    position: fixed;
+    border-bottom: 3px solid rgb(10, 140, 175);
     background-color: rgba(230, 240, 240, 1);
+    background-size: cover;
+    background-clip: cover;
 }
 
 .menu-itens {
@@ -93,7 +97,6 @@ ul {
     background-position: 50% 40%;
     background-size: auto;
     padding: 70px 0px;
-    border-top: 3px solid rgb(10, 140, 175);
     border-bottom: 3px solid rgb(75, 20, 30);
 }
 
