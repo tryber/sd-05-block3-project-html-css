@@ -1,13 +1,35 @@
 body{
-    width: 100%;
     background-color: black;
 }
-#cabecalho{
-    overflow: hidden;
+img{
+    width: 150px;
+    background-color: black;
+}
+#fototeam{
     width: 100%;
-    height: 60px;
+    border-color: crimson;
+    border-style: solid;
+    
+}
+#cabecalho{
+   
+    width: 100%;
     border-style: solid;
     border-color: cornsilk;
+    background-color: cornsilk;
     position: fixed;
 
 }
+.myfoto{
+    margin-left:  47%;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+h1{
+    color: red;
+    text-shadow: white;
+}
+
