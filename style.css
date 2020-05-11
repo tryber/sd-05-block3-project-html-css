@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color:silver;
+   }
+#sobre{
+    margin-top:12%;
+    margin-bottom:100px;
+    margin-left:30px;
+}
+#cabecalho{
+    background-color:#ffcb47;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 135px;
+    
+    margin:auto;
+}
+#cabecalho h1{
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: Verdana;
+}
+#menu_principal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  #menu_principal li {
+    float: left;
+  }
+  
+  #menu_principal li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: monospace;
+  }
+  
+  #menu_principal li a:hover {
+    background-color: #111111;
+    color:white;
+    font-weight: 700;
+  }
+#capadodisco{
+    float:right;
+}
+#menu_principal{
+    display:inline-block;
+    left:0;
+    right:0;
+    list-style:none;
+    
+}
+.lado-esquerdo{
+    line-height: 1.2em;
+    float:left;
+    width:70%;
+}
+.lado-direito{
+    font-size: 14px;
+    float:right;
+    width: 25%;
+    padding-top: 60px;
+    margin-left:5%;
+}
+td{
+    border-style: groove;
+    border-color: silver;
+    border-width: 1px;
+}
+#review{
+    margin:auto;
+}
+#leftbar-musicas{
+    clear:both;
+}
+#rodape{
+    clear:both;
+}
