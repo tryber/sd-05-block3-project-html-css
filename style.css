@@ -12,7 +12,8 @@ body {
     background-color: rgb(172, 88, 227);
     position: fixed; 
     z-index: 1;
-    width: 100%; 
+    width: 100%;
+    height: 70px; 
 }
 #menu {
     position: absolute;
@@ -39,37 +40,38 @@ h1 {
     font-weight: bold;
 
 }
-h2 {
+h2, h3 {
     font-size: 20px;
     text-align: center;
 }
-p {
-    margin: 10px;
-}
-#container-main {
-    background-image: url("./tema.jpg");
-    background-size: cover;
-    background-position-y: center;
-    padding: 250px;
+
+
+#imagem {
+    width: 100%;
+    height: 500px;
 }
 .text-main {
     text-align: center;
-    position: relative;
-    top: 420px;
     line-height: 28px;
+    margin: 20px;
 }
 .container {
-    background-color: saddlebrown;
-    position: relative;
-    top: 200px;
-    text-align: center;
-    margin-top: 20px;
-
+    background-color: rgb(255, 255, 255);
+    line-height: 28px;
+    margin: 20px;
 }
-
-#rodape {
+.container ul{
+    margin: 0px 30px;
+}
+.container ol{
+    margin: 0px 30px;
+}
+#tabela {
     position: relative;
-    top: 200px;
+    left: 35%;
+    padding: 40px;
+}
+#rodape {
     text-align: center;
     padding: 20px;
     background-color: rgb(172, 88, 227);
