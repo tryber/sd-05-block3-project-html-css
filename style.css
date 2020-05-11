@@ -32,20 +32,22 @@
 }
 
 #img-main-section {
-    margin-left: 8%;
+    margin-left: 6%;
     float: left;
+    max-width: 60%;
 }
 
 .nav {
 
     float: right;
-    margin-right: 20%;
-    margin-top: 10%;
-    text-align: right;
+    max-width: 40%;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: left;
     background-color: rgb(168, 189, 170);
 }
 
-ul , li {
+ul , ul > li {
     background-color: rgb(168, 189, 170);
     list-style-type: square;
     color: rgb(246, 199, 132);
@@ -69,7 +71,7 @@ a:hover {
     background-color: rgb(246, 233, 187);
 }
 
-.main-title {
+#main-title {
     background-color: rgb(168, 189, 170);
     font-size: 30px;
     margin-left: 15%;
@@ -105,8 +107,6 @@ a:hover {
 #rodape {
     background-color: rgb(246, 199, 132);
     height: 15px;
-    width: 100%;
-    position: absolute;
     bottom: 0;
     right: 0;
     text-align: right;
