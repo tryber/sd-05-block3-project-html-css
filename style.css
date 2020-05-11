@@ -16,10 +16,9 @@ body {
 }
 
 #rodape li {
-    bottom:1px;
-    position:absolute;
+    padding: 15px;
     display:inline;
-    padding: 20px;
+    bottom: 0px;
 }
 
 #cachorro {
@@ -35,9 +34,11 @@ body {
 }
 
 .lado-esquerdo {
-    padding: 15px;
+    float:left;
+    padding-left: 15px;
 }
 
 .lado-direito {
-    float: right;
+    float: right 30%;
+    padding-right: 20%;
 }
