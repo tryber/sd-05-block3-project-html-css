@@ -3,3 +3,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+#cabecalho{
+    width: 850px;
+
+}
+
+.name{
+    color: rgb(36, 36, 36);
+}
+
+.img-sobre{
+
+}
