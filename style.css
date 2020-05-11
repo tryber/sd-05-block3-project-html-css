@@ -16,20 +16,41 @@ img{
     width: 100%;
     border-style: solid;
     border-color: cornsilk;
-    background-color: cornsilk;
     position: fixed;
 
 }
+#list{
+
+}
+.mylist{
+
+}
 .myfoto{
+    margin-top: 90px;
     margin-left:  47%;
 }
-h2{
+#fototeam h2{
     text-align: center;
     color: white;
     font-size: 50px;
 }
+h2{
+
+  color: white;
+	font-size: 35px;
+}
+.mylist{
+	width: 30%;
+	margin: 0 10px;
+  color: white;
+	font-size: 35px;
+	display: inline-block;
+	border-color: white;
+	border-style: solid;
+}
+
 h1{
     color: red;
-    text-shadow: white;
+    text-shadow: 2px 2px white;
 }
 
