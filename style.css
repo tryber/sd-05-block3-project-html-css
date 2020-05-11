@@ -35,22 +35,20 @@ a{
 }
 
 .lado-esquerdo{
-    background:#e9e1e1;
- border: rgb(41, 41, 41) 2px solid;
+   
  width: 500px;
- margin: 20px;
  padding: 5px;
- float:left
+ float:left;
+ margin: 7px;
 }
 
 .lado-direito{
- 
-    border: rgb(41, 41, 41) 2px solid;
-    width: 700px;
-    margin: 20px;
+
+    width: 500px;
     float: right;
-    padding: 5px
-    ;
+    padding: 5px;
+    margin: 7px;
+    
 }
 
 #rodape{
