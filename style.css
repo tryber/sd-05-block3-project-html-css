@@ -1,3 +1,16 @@
+body{
+    background-color: #FFFFF0;
+}
+
 .corpo-da-pagina{
     background-color: #CDCDC1;
+}
+
+#cabecalho{
+    position: absolute
+    margin: 0% 0% 95% 0%;
+}
+.corpo-da-pagina{
+    clear: both;
+    margin: 0% 15%;
 }
