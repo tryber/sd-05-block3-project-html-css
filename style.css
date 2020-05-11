@@ -38,10 +38,10 @@ header {
   font-weight: 700;
 }
 
-.lado-esquerdo {
+.float-left {
   float: left;
 }
 
-.lado-direito {
+.float-right {
   float: right;
 }
