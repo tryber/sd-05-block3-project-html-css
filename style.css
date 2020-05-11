@@ -1,0 +1,115 @@
+body {
+  background-color: coral;
+}
+
+#cabecalho {
+  width: 90%;
+  height: 60px;
+  position: fixed;
+  left: 4%;
+  right: 4%;
+  vertical-align: center;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+header {
+  padding: 5px;
+  background-color: cornflowerblue;
+  border: 3px solid coral;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+  z-index: 1;
+}
+
+header h1 {
+  margin: 0;
+  line-height: 60px;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 90px;
+}
+
+article {
+  padding: 5px;
+  border: 3px solid coral;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+  width: 45%;
+}
+
+section {
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid coral;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+}
+
+section ol , section ul {
+  text-align: left;
+}
+
+
+aside {
+  margin: 5px;
+  border: 3px solid coral;
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+  width: 45%;
+  z-index: 2;
+}
+
+footer {
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid coral;
+  font-size: 1.1em;
+  color: white;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+}
+
+a {
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid coral;
+  font-size: 1.1em;
+  color: white;
+  text-align: justify;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
