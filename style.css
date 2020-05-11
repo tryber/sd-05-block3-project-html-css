@@ -53,6 +53,8 @@ a{
 }
 .border{
     border: 2px solid black;
+    padding: 2px;
+    margin: 4px;
 }
 #rodape{
     width: 900px;
