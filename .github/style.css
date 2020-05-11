@@ -8,3 +8,9 @@ body{
     background-size: cover;
     height: 200px;
 }
+
+#rodape{
+    background-color: royalblue;
+    background-size: cover;
+    height: 100px;
+}
