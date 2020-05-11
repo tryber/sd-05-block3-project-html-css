@@ -2,6 +2,6 @@ body {
     background-color: darkgrey;
 }
 
-#cabecalho {
+header#cabecalho {
     position: fixed;
 }
