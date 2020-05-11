@@ -1,3 +1,7 @@
 #cabecalho{
     position: fixed;
 }
+
+#rodape{
+    text-align: center;
+}
