@@ -4,4 +4,20 @@
 body {
     background-color: #090D15;
     color: white;
+    font-family: 'Titilium-Web', sans-serif;
 }
+
+header#cabecalho {
+    position: relative;
+    font-family: 'Amaranth', sans-serif;
+    display: block;
+    margin-right: auto;
+    border-bottom: 2px solid white;
+}
+
+    div#logo {
+        margin-left: 2px;
+    }
+
+
+    
