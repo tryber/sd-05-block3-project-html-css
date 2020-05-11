@@ -1,3 +1,8 @@
+body {
+  font-size: 14px;
+  background-color:rgb(234, 196, 182);
+}
+
 #cabecalho{
     position: fixed;
 }
@@ -5,3 +10,4 @@
 #rodape{
     text-align: center;
 }
+
