@@ -1,12 +1,16 @@
 body {
-    background-color: beige;
+    background-color:beige;
 }
 
 #cabecalho {
     text-align: center;
     position: fixed;
+    top: 0;
     width: 100%;
     text-align: center;
+    background-image: url(/mountain.jpeg);
+    padding: 22px;
+
 }
 
 .navbar {
@@ -24,11 +28,18 @@ body {
         color:white
       }
     
-
+.intro {
+    margin-top: 100px;
+}
 h2 {
     color: chocolate;
 }
 
 h3 {
     color: green
+}
+
+#rodape {
+    text-align: center;
+    font-size: 0.5em;
 }
