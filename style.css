@@ -1,6 +1,17 @@
 body {
     background-color: rgb(224, 203, 174);
-    margin: 5em;
+    margin: 2em;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 26px;
+    text-decoration: bold;
+    text-align: left;
 }
 
 .image {
@@ -13,6 +24,7 @@ body {
 
 #cabecalho {
     position: fixed top;
+    text-align: center;
 }
 
 #footer {
