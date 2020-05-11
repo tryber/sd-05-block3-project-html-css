@@ -5,8 +5,8 @@ body {
 #cabecalho {
   width: 100%;
   position: fixed;
-
 }
+
 .lado-esquerdo {
   float: left;
 }
@@ -23,7 +23,7 @@ header {
   color: rebeccapurple;
   text-align: justify;
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 900;
   font-style: italic;
 }
 
@@ -35,7 +35,7 @@ article {
   color: rebeccapurple;
   text-align: justify;
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 900;
   font-style: italic;
 }
 
@@ -47,7 +47,7 @@ section {
   color: rebeccapurple;
   text-align: justify;
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 900;
   font-style: italic;
 }
 
