@@ -12,12 +12,17 @@ h1{
     font-family: 'Modak', cursive;
 }
 
+a{
+    color: #fff4e6;
+    text-decoration: none;
+}
+
 header#cabecalho {
     position: fixed;
     background-color: rgba(60,47,47, .35);
     width: 100%;
     height: 15px;
-    padding: 30px 15px;
+    padding: 20px 15px;
 }
 
 video {
@@ -35,8 +40,16 @@ nav{
     padding: 0;
 }
 
+nav img{
+    position: absolute;
+    width: 32px;
+    left: 45px;
+    top: 15px;
+}
+
 nav .brand, nav .links{
     display: inline-block;
+    overflow: auto;
 }
 
 nav .brand{
@@ -51,6 +64,7 @@ nav .links{
 
 nav li{
     display: inline;
+    padding: 0 15px;
 }
 
 article#main{
@@ -78,5 +92,7 @@ article#main h1{
 footer{
     background-color: #854442;
     margin: 0;
-    height: 108px;
+    min-height: 108px;
+    text-align: center;
+    padding-top: 60px;
 }
