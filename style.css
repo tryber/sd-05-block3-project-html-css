@@ -69,6 +69,7 @@ article {
 #referencias {
   position: relative;
   border-style: dashed;
+  line-height: 25px;
 }
 
 section {
