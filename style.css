@@ -3,5 +3,9 @@ body {
 }
 
 #cabecalho {
+    position: fixed;
+}
 
+#rodape {
+    position: fixed;
 }
