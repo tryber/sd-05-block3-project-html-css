@@ -3,18 +3,18 @@
 }
 
 body {
-    background-color: rgb(190, 155, 123);
-    color: rgb(255, 244, 230);
-    font-family: "Indie Flower", cursive;
+    background-color: rgb(190 , 155 , 123);
+    color: rgb(255 , 244 , 230);
+    font-family: Indie Flower, cursive;
     font-weight: 100;
 }
 
 h1 {
-    font-family: "Modak", cursive;
+    font-family: Modak, cursive;
 }
 
 a {
-    color: rgb(255, 244, 230);
+    color: rgb(255 , 244 , 230);
     text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ hr {
 
 header#cabecalho {
     position: fixed;
-    background-color: rgba(60, 47, 47, .35);
+    background-color: rgba(60 , 47 , 47 , .35);
     width: 100%;
     height: 15px;
     padding: 20px 15px;
@@ -54,17 +54,17 @@ nav img {
     top: 15px;
 }
 
-nav .brand, nav .links {
+nav .lado-esquerdo, nav .lado-direito {
     display: inline-block;
     overflow: auto;
 }
 
-nav .brand {
+nav .lado-esquerdo {
     width: 30%;
     text-align: left;
 }
 
-nav .links {
+nav .lado-direito {
     width: 60%;
     text-align: right;
 }
@@ -80,7 +80,7 @@ article#main {
     z-index: 2;
     text-align: center;
     margin: auto;
-    background-color: rgba(60, 47, 47, .4);
+    background-color: rgba(60 , 47 , 47 , .4);
 }
 
 article#main section#content {
@@ -92,7 +92,7 @@ article#main section#content {
     text-align: center;
 }
 
-article#main aside{
+article#main aside {
     width: 50%;
     margin: auto;
 }
@@ -103,9 +103,22 @@ article#main h1 {
 }
 
 footer {
-    background-color: rgb(133, 68, 66);
-    margin: 0;
+    background-color: rgb(133 , 68 , 66);
+    margin: 0 auto;
     min-height: 108px;
     text-align: center;
-    padding-top: 60px;
+    padding: 60px;
+}
+
+footer table {
+    display: block;
+    width: 300px;
+    text-align: right;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+footer td, footer th {
+    text-align: right;
+    padding: 5px 20px;
 }
