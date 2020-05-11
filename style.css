@@ -1,10 +1,24 @@
-* {
+*{
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: dimgrey;
+  background-color: #EEE;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 #cabecalho {
@@ -20,6 +34,16 @@ body {
 
 #cabecalho ul li a {
   text-decoration: none;
-  color: white;
+  color: #FFF;
   font-size: 20px;
+  line-height: 60px;
+  margin-right: 20px;
+}
+
+.title {
+  padding-top: 70px;
+}
+
+.series-list {
+  margin-left: 20px;
 }
