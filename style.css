@@ -59,7 +59,7 @@ ul {
     padding: 0px;
 }
 
-#menu-bar {
+#cabecalho {
     background-color: rgba(230, 240, 240, 1);
 }
 
@@ -281,7 +281,7 @@ table {
     background-color: rgb(255, 210, 210, 0.3);
 }
 
-footer {
+#rodape {
     max-width: 650px;
     padding: 10px 0px 5px;
     margin: auto;
