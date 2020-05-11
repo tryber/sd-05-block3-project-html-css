@@ -13,10 +13,42 @@ p , ul , ol {
   text-align: justify;
 }
 
-table {
+.table {
+  width: 35%;
+  border: rgb(162, 169, 177) solid 1px;
+  margin-top: 2%;
+  margin-left: 2%;
+  padding: 0%;
+  overflow: auto;
+}
+
+.table__undertext {
+  font-size: 0.8em;
+  text-align: center;
+  width: 98%;
+}
+
+.table__boy {
+  background-color: blue;
+  padding: 2%;
+  border: rgb(162, 169, 177) solid 1px;
 
 }
 
+.table__car {
+  background-color:rgb(211, 211, 211);
+  padding: 2%;
+  padding-right: 2%;
+  border: rgb(162, 169, 177) solid 1px;
+
+}
+
+.table__girl {
+  background-color: rgb(251, 191, 202);
+  padding: 2%;
+  border: rgb(162, 169, 177) solid 1px;
+
+}
 header {
   position: fixed;
   background-color: rgb(0 , 102 , 179);
@@ -93,4 +125,31 @@ header {
   font-size: 0.7em;
   color: white;
   text-align: center;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 40%;
+}
+
+.lado-direito {
+  float: right;
+  width: 40%;
+}
+
+.clear {
+  clear: both;
+}
+
+.table__margin--left {
+  margin: 0;
+  margin: 5% 7% 5% 2%;
+}
+
+.table__margin--right {
+  margin: 5% 2% 5% 7%;
+}
+
+.text__small {
+  font-size: 0.7em;
 }
