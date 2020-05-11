@@ -1,7 +1,7 @@
 body {
     background-color: beige;
 }
-.navbar {
+#cabecalho {
     position: fixed;
 }
 
