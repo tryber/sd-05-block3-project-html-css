@@ -1,3 +1,8 @@
 body {
     background-color: lightslategrey;
 }
+
+#cabecalho {
+    position: fixed;
+    display: inline;
+}
