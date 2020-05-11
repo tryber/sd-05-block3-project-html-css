@@ -1,16 +1,25 @@
-body {
-    background-color: rgb(7, 54, 11);
-}
-#cabecalho {
-    font-family: Helvetica, sans-serif;
-    color: rgb(19, 15, 15);
-    text-align: center;
-    min-height: 50px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    border-bottom: 3px solid rgb(19, 15, 15);
-    background: rgb(255, 254, 255);
-    z-index: 2;
-  }
+    body {
+        background-color: rgb(7, 54, 11);
+    }
+    #cabecalho {
+        font-family: Helvetica, sans-serif;
+        color: rgb(19, 15, 15);
+        text-align: center;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        border-bottom: 3px solid rgb(19, 15, 15);
+        background: rgb(255, 254, 255);
+    }
+    #rodape {
+        text-align: center;
+        color: rgb(19, 15, 15);
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-top: 3px solid rgb(19, 15, 15);
+        background: rgb(255, 254, 255);
+    }
