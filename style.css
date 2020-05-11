@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(181, 243, 235);
+    margin: auto;
+    font-family: 'Times New Roman', 'Arial';
+}
+header {
+    margin-left: 30px;
+}
+nav{
+    margin: 30px;
+    font-size: 1.3em;    
+}
+section {
+    margin: 30px;
+    line-height: normal;
+}
+article {
+    color:black;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    line-height: 30px;
+}
+footer {
+    color: black;
+    margin: 30px;
+}
+h1 {
+    color:black;
+    line-height: 1.5em;
+}
+h2 {
+    color: black; 
+    font-size: 2em;
+    line-height: 15px;
+    text-decoration: underline;
+}
+p {
+    line-height: 1.5em;
+}
+img {
+    border-radius: 100%;
+    top: 270px;
+    left: 20px;
+    line-height: 30px;
+}
