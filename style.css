@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*Documento CSS*/
+        /*Defina a cor do conteúdo*/
+        body{
+            background: rgb(203, 235, 236);
+        }
+        header{
+            position: fixed;
+            top:0;
+            background-color: blue;
+            width: 100%;
+            font-size: 100px;
+            border: 4px solid red;
+        }
+        /*Essa seção é para a borda preta da imagem.*/
+        img {
+            border-color: #000000; 
+            border:thick; 
+            border-style:ridge;
+            margin-top: 300px;
+        }
+        p {
+            font-style:italic; 
+            font-size:50px;
+            color:#0000FF;
+            padding-top: 100px;
+
+        }
+
+        /*Essa seção é para os links
+        a:link{font-weight:normal; color:Navy}
+        a:visited{font-weight:normal; color:Green;}
+        a:hover{font-weight:bold; color: Red; font-variant:small-caps;}
+        /*Essa seção é para a seção do parágrafo*/
+       
+        
