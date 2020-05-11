@@ -1,5 +1,6 @@
 body {
     background-color:beige;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 #cabecalho {
@@ -10,6 +11,7 @@ body {
     text-align: center;
     background-image: url(/mountain.jpeg);
     padding: 22px;
+    margin-left: none;
 
 }
 
@@ -20,6 +22,8 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     text-align: center;
+    padding: 11px;
+   
 }
 
 .navbar a {
@@ -29,14 +33,35 @@ body {
       }
     
 .intro {
-    margin-top: 100px;
+    margin-top: 150px;
 }
+
+.intro-pic {
+    border-radius: 50%;
+    float: left;
+}
+
 h2 {
-    color: chocolate;
+    color: green;
+    text-align: center;
 }
 
 h3 {
-    color: green
+    color: #361C18;
+}
+
+h1 {
+    color: #361C18;
+}
+
+#content {
+    margin-top: 166px;
+}
+
+#media {
+    background-color: #361C18;
+    text-align: center;
+  
 }
 
 #rodape {
