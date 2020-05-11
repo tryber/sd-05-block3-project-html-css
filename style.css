@@ -62,7 +62,11 @@ h3 #media {
 }
 
 #content {
-    margin-top: 166px;
+    margin-top: 122px;
+}
+
+img {
+    display: inline-block;
 }
 
 #media {
