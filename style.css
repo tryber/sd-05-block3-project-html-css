@@ -9,7 +9,7 @@
 
     #cabecalho {
         font-family: Helvetica, sans-serif;
-        color: rgb(19, 15, 15);
+        color: rgb(221, 57, 45);
         text-align: center;
         height: 70px;
         position: fixed;
@@ -18,11 +18,13 @@
         left: 0;
         border-bottom: 3px solid rgb(19, 15, 15);
         background: rgb(88, 87, 88);
+        z-index: 1;
     }
     
     #rodape {
         text-align: center;
-        color: rgb(19, 15, 15);
+        color: rgb(221, 57, 45);
+        height: 40px;
         position: fixed;
         bottom: 0;
         right: 0;
@@ -32,6 +34,28 @@
         font-weight: 100;
     }
 
+    img {
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
     p {
+        color: white;
+        text-align: justify;
+        position: relative;
+        margin-top: 30px;;
+    }
+
+    h2 {
+        color: rgb(221, 57, 45);
+        text-align: center;
+    }
+
+    ul {
+        color: white;
+    }
+
+    ol {
         color: white;
     }
