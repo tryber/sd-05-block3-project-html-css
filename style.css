@@ -70,3 +70,13 @@ a:hover {
 a:visited {
     color: #ffffff;
 }
+
+#rodape {
+    width: 100%;
+    padding-top: 20px;
+    height: 65px;
+    background-color: #191919;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+}
