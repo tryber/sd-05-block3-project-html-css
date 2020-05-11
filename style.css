@@ -18,25 +18,62 @@ body {
     position: absolute;
     right: 50px;
     top: 25px;
-    z-index: 2;
+   
 }
 #menu li {
     display: inline-block;  
     padding-inline-start: 20px;
 }
-#menu a {
+ a {
     text-decoration: none;
 }
-#menu a:link, a:visited {
+a:link, a:visited {
     color: rgb(255, 255, 255);
 }
-#menu a:hover {
+a:hover {
     background-color: rgb(172, 88, 227);
     text-decoration: underline;
+}
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    margin: 10px;
 }
 #container-main {
     background-image: url("./tema.jpg");
     background-size: cover;
     background-position-y: center;
     padding: 250px;
+}
+.text-main {
+    text-align: center;
+    position: relative;
+    top: 420px;
+    line-height: 28px;
+}
+.container {
+    background-color: saddlebrown;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+#rodape {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(172, 88, 227);
+}
+.text-footer {
+    color: rgb(255, 255, 255);
 }
