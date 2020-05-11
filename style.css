@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(190 , 155 , 123);
+  color: rgb(255 , 244 , 230);
+  font-family: Indie Flower, cursive;
+  font-weight: 100;
+}
+
+h1 {
+  font-family: Modak, cursive;
+}
+
+a {
+  color: rgb(255 , 244 , 230);
+  text-decoration: none;
+}
+
+hr {
+  margin: 15px auto 30px;
+  width: 48px;
+  border-color: sienna;
+}
+
+header {
+  position: fixed;
+  background-color: rgba(60 , 47 , 47 , 0.35);
+  width: 100%;
+  height: 15px;
+  padding: 20px 15px;
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+nav img {
+  position: absolute;
+  width: 32px;
+  left: 45px;
+  top: 15px;
+}
+
+nav .lado-esquerdo , nav .lado-direito {
+  display: inline-block;
+  overflow: auto;
+}
+
+nav .lado-esquerdo {
+  width: 30%;
+  text-align: left;
+}
+
+nav .lado-direito {
+  width: 60%;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  padding: 0 15px;
+}
+
+article #main {
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 2;
+  text-align: center;
+  margin: auto;
+  background-color: rgba(60 , 47 , 47 , 0.4);
+}
+
+#main #content {
+  display: block;
+  width: 512px;
+  height: 512px;
+  margin: auto;
+  padding-top: 230px;
+  text-align: center;
+}
+
+#main aside {
+  width: 50%;
+  margin: auto;
+}
+
+#main h1 {
+  font-size: 64px;
+  font-weight: 200;
+}
+
+footer {
+  background-color: rgb(133 , 68 , 66);
+  margin: 0 auto;
+  min-height: 108px;
+  text-align: center;
+  padding: 60px;
+}
+
+footer table {
+  display: block;
+  width: 300px;
+  text-align: right;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+footer td , footer th {
+  text-align: right;
+  padding: 5px 20px;
+}
