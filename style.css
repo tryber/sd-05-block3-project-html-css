@@ -4,7 +4,7 @@ body
 }
 #cabecalho
 {
-    position: fixed;
+    object-position: fixed;
     background-color: whitesmoke;
     width: 95%;
 }
@@ -28,7 +28,7 @@ body
 {
     text-align: center;
     border-top:12em ;
-    clear: both;
+    
 }
 .centralizarFigura
 {
