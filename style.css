@@ -42,12 +42,12 @@ body {
     text-align: center;
 }
 
-.ladoEsquerdo {
+.lado-esquerdo {
     float: left;
     height: auto;
 }
 
-.ladoDireito {
+.lado-direito {
     height: auto;
     float: right;
 }
