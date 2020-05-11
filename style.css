@@ -11,19 +11,17 @@ body {
     text-align: center;
     background-image: url(/mountain.jpeg);
     padding: 22px;
-    margin-left: none;
 
 }
 
 .navbar {
     overflow: hidden;
-    background-color: green;
+    background-color:#0A6E38;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     text-align: center;
-    padding: 11px;
-   
+    padding: 11px; 
 }
 
 .navbar a {
@@ -39,19 +37,25 @@ body {
 .intro-pic {
     border-radius: 50%;
     float: left;
+    border: 10px;
+    background-color: 916E50;
 }
 
 h2 {
-    color: green;
+    color:#0A6E38;
     text-align: center;
 }
 
 h3 {
-    color: #361C18;
+    color: #674532;
 }
 
 h1 {
-    color: #361C18;
+    color: #674532;
+}
+
+h3 #media {
+    color: white;
 }
 
 #content {
@@ -59,12 +63,14 @@ h1 {
 }
 
 #media {
-    background-color: #361C18;
+    background-color: #674532;
     text-align: center;
+    padding: 22px;
   
 }
 
 #rodape {
     text-align: center;
     font-size: 0.5em;
+    margin-top: 40px;
 }
