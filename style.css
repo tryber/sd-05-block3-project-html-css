@@ -13,9 +13,9 @@ h1{color:rgb(247, 237, 121);
 li{text-align: center; align-content: center;line-height: 1.5em;}
 
 #cabecalho{
-    width: 40%;
-    align-content: center;
-    margin-left: 30%;
+    width: 30%;
+    align-content:left;
+    margin-left: 1%;
     margin-top:0px;
     position: fixed;
     background-color:rgb(10, 3, 20);
@@ -43,7 +43,8 @@ footer{
 
 
 #sub{
-    text-align: right;
+    text-align: center;
+    margin-top: 0em;
 }
 #follow{
     background-color: silver;
@@ -73,4 +74,12 @@ aside{
     background-color: silver;
     padding:20px;
     margin-bottom: 20px;
+}
+
+#tabelinha{
+    align-content: center;
+    margin-left: 42%;
+    margin-right: 40%;
+    padding:20px;
+    border:solid;
 }
