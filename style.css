@@ -7,6 +7,10 @@ body {
     font-family: monospace;
 }
 
+#cabecalho li{
+    display:inline;
+}
+
 #rodape li {
     bottom:0px;
     position:absolute;
@@ -15,4 +19,9 @@ body {
 
 #cachorro {
     width:500px;
+    top:600px;
     }
+
+.principal{
+    top:500%;
+}
