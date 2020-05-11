@@ -57,15 +57,16 @@ aside{
     margin-bottom: 20px;
     padding:10px;
 }
-#right{
-    float: right;
+
+.lado-esquerdo{
+    float: left;
     background-color: silver;
     padding:20px;
     margin-bottom: 20px;
 }
 
-#left{
-    float: left;
+.lado-direito{
+    float: right;
     background-color: silver;
     padding:20px;
     margin-bottom: 20px;
