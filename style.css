@@ -3,3 +3,19 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #EAE0C7;
 }
+
+#cabecalho {
+    text-align: center;
+    background-color: #39C694;
+    height: 3em;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 15px;
+}
+
+.main-title {
+    background-color: #39C694;
+    font-size: 15px;
+}
