@@ -19,7 +19,7 @@ body {
     right: 0%;
 }
 
-.corpo-da-pagina a:link {
+nav a:link {
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px;
@@ -27,7 +27,7 @@ body {
     background-color: whitesmoke;
 }
 
-.corpo-da-pagina a:visited {
+nav a:visited {
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px;
@@ -35,7 +35,7 @@ body {
     background-color: whitesmoke;
 }
 
-.corpo-da-pagina a:hover {
+nav a:hover {
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px;
@@ -43,7 +43,7 @@ body {
     background-color: black;
 }
 
-.corpo-da-pagina a:focus {
+nav a:focus {
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px;
@@ -51,7 +51,7 @@ body {
     background-color: black;
 }
 
-.corpo-da-pagina a:active {
+nav a:active {
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px;
@@ -96,4 +96,13 @@ article p {
 
 nav {
     font-size: 1.5em;
+}
+article {
+    margin-top: 40px;
+}
+
+article h2 {
+    text-align: center;
+    background-color: white;
+    padding: 15px
 }
