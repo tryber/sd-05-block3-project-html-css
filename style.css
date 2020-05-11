@@ -6,4 +6,6 @@ body {
 }
 #rodape {
     background-color: white;
+    Position: relative;
+    top: 100%;
 }
