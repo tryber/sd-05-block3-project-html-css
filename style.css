@@ -16,6 +16,16 @@ header #cabecalho{
     border-radius: 10px;
 }
 
+.conteudo{
+    width: 100%;
+    background-color: burlywood;
+}
+
+.conteudo-biografia{
+    padding: 15px 10px;
+    text-align: center;
+}
+
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 4em;
