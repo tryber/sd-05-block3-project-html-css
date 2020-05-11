@@ -11,7 +11,12 @@ body {
     text-align: center;
     background-image: url(/mountain.jpeg);
     padding: 22px;
+    margin-top: 38px;
 
+}
+
+nav .lado-esquerdo , nav .lado-direito {
+    display: inline-block;
 }
 
 .navbar {
@@ -21,7 +26,7 @@ body {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     text-align: center;
-    padding: 11px; 
+    padding: 5px; 
 }
 
 .navbar a {
@@ -31,8 +36,7 @@ body {
       }
     
 .intro {
-    margin-top: 150px;
-    display: inline-block;
+    margin-top: 200px;
 }
 
 .intro-pic {
@@ -62,8 +66,7 @@ h1, h3 {
 }
 
 img {
-    display: inline-block;
-    align-content: center;
+    justify-content: center;
 }
 
 #media {
