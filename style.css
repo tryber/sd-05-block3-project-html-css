@@ -1,0 +1,36 @@
+body {
+  background-color: orange;
+  margin: 0;
+}
+
+#cabecalho {
+  position: fixed;
+}
+
+h1 {
+  margin: 100px;
+  padding: 20px;
+  border: 1px solid black;
+  color: green;
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.lado-esquerdo {
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  height: 100%;
+}
+
+.lado-direito {
+  border: 1px solid green;
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  width: 30%;
+}
