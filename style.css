@@ -4,7 +4,14 @@
 body{
     background-color: #be9b7b;
     color: #fff4e6;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 100;
 }
+
+h1{
+    font-family: 'Modak', cursive;
+}
+
 header#cabecalho {
     position: fixed;
     background-color: rgba(60,47,47, .35);
@@ -12,6 +19,7 @@ header#cabecalho {
     height: 15px;
     padding: 30px 15px;
 }
+
 video {
     position: fixed;
     z-index: -1;
@@ -43,4 +51,24 @@ nav .links{
 
 nav li{
     display: inline;
+}
+
+article#main{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+}
+
+article#main section#content{
+    display: block;
+    width: 512px;
+    height: 512px;
+    margin: auto;
+    padding-top: 160px;
+}
+
+article#main h1{
+    font-size: 64px;
+    font-weight: 200;
 }
