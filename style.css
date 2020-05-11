@@ -5,3 +5,7 @@ body {
 #cabecalho {
     position: top fixed;
 }
+
+#footer {
+    position: bottom fixed;
+}
