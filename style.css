@@ -3,7 +3,6 @@ body{
 }
 
 header #cabecalho{
-    display: inline-block;
     position: fixed;
     background-color: royalblue;
     width: 100%;
@@ -11,7 +10,7 @@ header #cabecalho{
     padding: 15px;
 }
 
-.cabecalho-titulo{
+.biografia-titulo{
     text-align: center;
     background-color: mintcream;
     border-radius: 10px;
@@ -48,6 +47,11 @@ h2{
     width: 30%;
     background-color: black;
     color: white;
+}
+
+.link-tabela{
+    text-decoration: none;
+    text-decoration: none;
 }
 
 footer #rodape{
