@@ -5,8 +5,42 @@ body{
     background-color: #be9b7b;
     color: #fff4e6;
 }
-header#cabecalho{
-    background-color: rgba(60,47,47, .15);
-    height: 30%;
+header#cabecalho {
+    position: fixed;
+    background-color: rgba(60,47,47, .35);
+    width: 100%;
+    height: 15px;
     padding: 30px 15px;
+}
+video {
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+nav .brand, nav .links{
+    display: inline-block;
+}
+
+nav .brand{
+    width: 30%;
+    text-align: center;
+}
+
+nav .links{
+    width: 60%;
+    text-align: right;
+}
+
+nav li{
+    display: inline;
 }
