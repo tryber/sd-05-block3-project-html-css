@@ -17,16 +17,12 @@
         section ul, ol{
             display: inline-block;
             list-style-position: inside;
-
         }
         #cabecalho a{
             font-size: 30px;
             color:rgb(243, 247, 246);
             text-decoration: none;
             padding: 50px;
-
-            
-
         }
         /*Essa seção é para a borda preta da imagem.*/
         img {
@@ -38,36 +34,41 @@
             font-style:italic; 
             font-size:50px;
             color:#0000FF;
-
         }
         #titulo{
-            padding-top: 100px;
+            padding-top: 80px;
             color: coral;
             font-style: normal;
             font-family: fantasy;
             margin-left: 10%;
-
         }
         .lado-esquerdo{
             position: absolute;
             left: 10%;
-            top: 30%;
-           
+            top: 20%;
         }
         .lado-direito{
             position: absolute;
-            top:20%;
+            top:10%;
             right: 15%;
+        }
+        aside {
+            position: absolute;
+            top:500px;
+            left:10%;
+            text-indent: 20px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 2px solid red;
         }
         #rodape{
             background-color: coral;
             font-size: xx-large;
             text-align: center;
             position: absolute;
-            bottom: -10%;
+            bottom: 0%;
             width: 99%;
         }
-
         /*Essa seção é para os links
         a:link{font-weight:normal; color:Navy}
         a:visited{font-weight:normal; color:Green;}
