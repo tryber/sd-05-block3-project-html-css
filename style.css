@@ -4,9 +4,13 @@ body {
 
 header {
     text-align: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; 
+    width: 100%;
+    text-align: center;
 }
 
-#cabecalho {
+.navbar {
     overflow: hidden;
     background-color: green;
     position: fixed; /* Set the navbar to fixed position */
