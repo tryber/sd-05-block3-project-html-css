@@ -24,6 +24,7 @@ body {
 .img-content {
   position: relative;
   top: 60px;
+  width: 400px;
 }
 
 h1 {
@@ -33,6 +34,9 @@ h1 {
 article p {
   position: relative;
   top: 40px;
+  margin: auto;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 ul , ol {
@@ -72,4 +76,9 @@ section {
   max-width: 70%;
   height: 150px;
   text-align: center;
+}
+
+#motivos {
+  text-align: center;
+  width: 50%;
 }
