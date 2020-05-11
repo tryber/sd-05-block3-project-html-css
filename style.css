@@ -2,7 +2,13 @@ body {
     background-color: lightslategrey;
 }
 
-#cabecalho {
+#cabecalho li{
     position: fixed;
     display: inline;
+}
+
+#rodape li{
+    bottom: 0em;
+    position: absolute;
+    display: inline
 }
