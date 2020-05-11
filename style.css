@@ -12,12 +12,25 @@ body {
     background-color: white;
     color: #34A853;
     width: 100%;
-    height: 25%;
+    height: 20%;
+}
+
+#cbf {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+#indice {
+    position: absolute;
+    top: 8px;
+    right: 20px;
 }
 
 #title {
     text-align: center;
 }
+
 
 #rodape {
     position: fixed;
