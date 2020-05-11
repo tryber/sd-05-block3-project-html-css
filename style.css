@@ -24,6 +24,10 @@ body
     height: 100px;
     margin-left: auto;
     margin-right: auto;
+    padding: 1px;
+    border: solid;
+    border-color: black;
+    border: width 1px; 
 }
 .marginHeader
 {
