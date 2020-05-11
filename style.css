@@ -104,6 +104,12 @@ a:hover {
     font-weight: lighter;    
 }
 
+#aside-alert {
+    margin-left: 50%;
+    font-size: 10px;
+    text-align: center;
+}
+
 #rodape {
     background-color: rgb(246, 199, 132);
     height: 15px;
