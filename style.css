@@ -104,6 +104,17 @@ a:hover {
     font-weight: lighter;    
 }
 
+.table , td {
+    font-size: 12px;
+    margin: 1px;
+    padding-top: 5px;
+    width: 45%;
+    overflow: none;
+    border: 2px solid rgb(168, 189, 170);
+    border-collapse: collapse;
+    text-align: center;
+}
+
 #aside-alert {
     margin-left: 50%;
     font-size: 10px;
