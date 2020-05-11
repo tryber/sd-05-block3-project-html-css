@@ -1,12 +1,59 @@
 body {
     background-color: #02c39a;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 20px;
 }
 #cabecalho {
     Position: Fixed;
-    color: white;
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    left: 38%;
 }
 #rodape {
     background-color: white;
     Position: relative;
     top: 100%;
+}
+#ulist {
+    background-color: whitesmoke;
+    width: 25%;
+    position: relative;
+    left: 67%;
+    padding: 30px;
+    bottom: 180px;
+}
+#olist {
+    background-color: whitesmoke;
+    width: 25%;
+    position: relative;
+    left: 5%;
+    padding: 30px;
+    bottom: 380px;
+}
+#nav {
+    background-color: whitesmoke;
+    font-family: fantasy;
+    color: red;
+}
+#link {
+    background-color: pink;
+    padding: 5px;
+    font-family: cursive;
+} 
+#table {
+    width: 25%;
+    position: relative;
+    left: 40%;
+    bottom: 400px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    line-height: 40px;
 }
