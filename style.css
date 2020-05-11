@@ -1,9 +1,21 @@
 body {
     background-color: beige;
 }
-#cabecalho {
-    position: fixed;
+
+header {
+    text-align: center;
 }
+
+#cabecalho {
+    overflow: hidden;
+    background-color: green;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    text-align: center;
+}
+    
+    
 
 h2 {
     color: chocolate;
