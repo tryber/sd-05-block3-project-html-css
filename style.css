@@ -8,9 +8,9 @@ body {
 
 
 #cabecalho {
-    position: fixed;
+    position: fixed top;
 }
 
 #footer {
-    position: fixed;
+    position: fixed bottom;
 }
