@@ -1,25 +1,25 @@
-*{
+* {
     margin: 0;
 }
-body{
-    background-color: #be9b7b;
-    color: #fff4e6;
-    font-family: 'Indie Flower', cursive;
+body {
+    background-color: rgb(190, 155, 123);
+    color: rgb(255, 244, 230);
+    font-family: "Indie Flower", cursive;
     font-weight: 100;
 }
 
-h1{
-    font-family: 'Modak', cursive;
+h1 {
+    font-family: "Modak", cursive;
 }
 
-a{
-    color: #fff4e6;
+a {
+    color: rgb(255, 244, 230);
     text-decoration: none;
 }
 
 header#cabecalho {
     position: fixed;
-    background-color: rgba(60,47,47, .35);
+    background-color: rgba(60, 47, 47, .35);
     width: 100%;
     height: 15px;
     padding: 20px 15px;
@@ -34,49 +34,49 @@ video {
     min-height: 100%;
 }
 
-nav{
+nav {
     text-align: center;
     width: 100%;
     padding: 0;
 }
 
-nav img{
+nav img {
     position: absolute;
     width: 32px;
     left: 45px;
     top: 15px;
 }
 
-nav .brand, nav .links{
+nav .brand, nav .links {
     display: inline-block;
     overflow: auto;
 }
 
-nav .brand{
+nav .brand {
     width: 30%;
     text-align: left;
 }
 
-nav .links{
+nav .links {
     width: 60%;
     text-align: right;
 }
 
-nav li{
+nav li {
     display: inline;
     padding: 0 15px;
 }
 
-article#main{
+article#main {
     min-width: 100vw;
     min-height: 100vh;
     z-index: 2;
     text-align: center;
     margin: auto;
-    background-color: rgba(60,47,47,.4);
+    background-color: rgba(60, 47, 47, .4);
 }
 
-article#main section#content{
+article#main section#content {
     display: block;
     width: 512px;
     height: 512px;
@@ -84,13 +84,13 @@ article#main section#content{
     padding-top: 230px;
 }
 
-article#main h1{
+article#main h1 {
     font-size: 64px;
     font-weight: 200;
 }
 
-footer{
-    background-color: #854442;
+footer {
+    background-color: rgb(133, 68, 66);
     margin: 0;
     min-height: 108px;
     text-align: center;
