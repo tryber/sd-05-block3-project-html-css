@@ -7,6 +7,11 @@ body {
     background-color: #EEE;
 }
 
+table, th, td {
+    border: 1px solid gray;
+    padding: 2px;
+}
+
 #cabecalho {
     position: fixed;
     width: 100%;
