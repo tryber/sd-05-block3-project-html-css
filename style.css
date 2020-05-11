@@ -1,11 +1,34 @@
 body {
-    background-color: rgb(210, 210, 210);
+    background-color: rgba(240, 240, 240, 1);
 
 }
 h1 {
-    color: rgba(235, 146, 14, 0.938);
+    color: rgb(255, 255, 255);
     font-size: 45px;
+    background-color: rgba(255, 106, 40, 1);
+
 }
 header#cabecalho {
     position: fixed;
+    width: 100%;
+}
+h2 {
+    color: rgba(255, 106, 40, 1);
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    background-color: rgba(240, 240, 240, 1);
+    color: rgba(122, 122, 122, 1);
+    font-size: 15px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+    width: 85%;
+
+}
+#style-article {
+    background-color: white;
+    width: 80%;
+    
 }
