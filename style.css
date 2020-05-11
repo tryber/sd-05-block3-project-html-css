@@ -30,12 +30,16 @@ a{
     text-decoration: none;
     font-weight: bold;
     padding: 5px;
+
+
 }
 
 .lado-esquerdo{
+    background:#e9e1e1;
  border: rgb(41, 41, 41) 2px solid;
- width: 700px;
+ width: 500px;
  margin: 20px;
+ padding: 5px;
  float:left
 }
 
@@ -45,6 +49,8 @@ a{
     width: 700px;
     margin: 20px;
     float: right;
+    padding: 5px
+    ;
 }
 
 #rodape{
