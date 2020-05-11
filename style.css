@@ -10,7 +10,6 @@
             text-align: center;
             background-color: blue;
             width: 100%;
-            font-size: 100px;
             text-transform: uppercase;
             color: rgb(208, 226, 43);
             border: 4px solid red;
@@ -20,10 +19,13 @@
             list-style-position: inside;
 
         }
-        header.p{
-            padding-top: 200px;
-            font-size:100px;
-            color:rgb(255, 0, 43);
+        #cabecalho a{
+            font-size: 30px;
+            color:rgb(243, 247, 246);
+            text-decoration: none;
+            padding: 50px;
+
+            
 
         }
         /*Essa seção é para a borda preta da imagem.*/
@@ -40,7 +42,14 @@
         }
         #p-1{
             padding-top: 100px;
+            color: coral;
+            font-style: normal;
+            font-family: monospace;
 
+        }#rodape{
+            background-color: coral;
+            font-size: xx-large;
+            text-align: center;
         }
 
         /*Essa seção é para os links
