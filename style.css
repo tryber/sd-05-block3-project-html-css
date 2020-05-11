@@ -85,3 +85,13 @@ aside{
     padding:20px;
     border:solid;
 }
+#menu{
+    float: right;
+    align-content:center;
+    position:relative;
+    background-color: slategrey;
+    margin-right: 5%;
+    margin-top: 50px;
+    font-size: 1.5em;
+    padding:10px;
+}
