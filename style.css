@@ -6,6 +6,8 @@ body{
 
 #cabecalho{
     position: fixed;
+    width: 1056px;
+    height:701;
 }
 
 .name{
