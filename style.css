@@ -2,10 +2,8 @@ body {
     background-color: darkgrey;
 }
 
-header#cabecalho {
+#cabecalho {
     position: fixed;
-    background-color: rgba(60 , 47 , 47 , .35);
+    top: 0;
     width: 100%;
-    height: 15px;
-    padding: 20px 15px;
 }
