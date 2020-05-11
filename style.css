@@ -2,7 +2,7 @@ body {
     background-color: aliceblue;
     font: 100;
     font-style: normal;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family:  sans-serif,'Lucida Sans';
     font-weight: 100;
     line-height: 2em;
 }
@@ -46,7 +46,7 @@ body {
     width: 10px;
     height: 100%;
     border: red;
-    border-style:solid ;
+    border-style:solid;
 }
 
 .lado-direito {
