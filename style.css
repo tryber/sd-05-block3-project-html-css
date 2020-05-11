@@ -4,10 +4,11 @@ body
 }
 #cabecalho
 {
-    object-position: fixed;
+    position: fixed;
     background-color: whitesmoke;
     width: 95%;
 }
+
 .sideBySide
 {
     display: inline-block;
