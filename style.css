@@ -1,8 +1,9 @@
 body {
-    background-color: #C4DFE6;
+    background-color: #c4dfe6;
     margin-top: 0px;
     margin-left: 0px;
 }
+
 header {
     position: fixed;
     background-color: blue;
@@ -10,10 +11,7 @@ header {
     width: 96%;
     padding: 2%;
 }
-.header__text :hover {
-    background-color: blueviolet;
-    font-weight: bold;
-}
+
 .header__image {
     margin-left: 2%;
     width: 3%;
@@ -21,6 +19,7 @@ header {
     top: 50%;
     transform: translateY(-50%);
 }
+
 .header__text {
     text-decoration: none;
     font-weight: 300;
@@ -29,16 +28,20 @@ header {
     font-size: 0.8em;
     padding-left: 1%;
 }
+
 .header__nav {
-width: 95%;
-text-align: right;
+    width: 95%;
+    text-align: right;
 }
+
 .header__nav :hover {
-    font-weight: bold;
+    font-weight: 700;
 }
+
 .lado-esquerdo {
     float: left;
 }
+
 .lado-direito {
     float: right;
 }
