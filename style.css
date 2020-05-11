@@ -12,3 +12,9 @@ body {
 #rodape {
         text-align: center;
 }
+td {
+    margin: auto;
+    border: 3px dashed red;
+    padding: 3px 3px 3px 3px;
+    
+}
