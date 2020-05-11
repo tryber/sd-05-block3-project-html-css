@@ -19,7 +19,7 @@ p {
 /* Main content formatting*/
 
 div#interface {
-    width: 80%;
+    width: 100%;
 }
 
     header#cabecalho {
@@ -32,6 +32,10 @@ div#interface {
 
 nav#menu {
     display: block;
+}
+
+footer#rodape {
+    text-align: center;
 }
 
 
