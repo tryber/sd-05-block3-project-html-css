@@ -6,8 +6,17 @@ body {
     position:fixed;
 }
 
+.navegador li{
+    display:inline;
+}
+
 #rodape li {
     bottom:0px;
     position:absolute;
     display:inline;
 }
+
+#cachorro {
+    width:500px;
+    
+    }
