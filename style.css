@@ -30,6 +30,9 @@ section h1{
     z-index: 3;
 
 }
+header #cabecalho{
+    position: fixed;
+}
 #cabecalho ul{
     position: fixed;
     left: 0;
