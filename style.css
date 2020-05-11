@@ -21,8 +21,12 @@ p {
 
     header#cabecalho {
         position: fixed;
-        display: block;
         border-bottom: 2px solid white;
+    }
+
+    footer#rodape {
+        position: fixed;
+        text-align: center;
     }
 
 
