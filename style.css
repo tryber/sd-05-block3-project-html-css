@@ -32,6 +32,7 @@ body {
     
 .intro {
     margin-top: 150px;
+    display: inline-block;
 }
 
 .intro-pic {
@@ -44,21 +45,16 @@ body {
 }
 
 
+
+
 h2 {
     color:#0A6E38;
     text-align: center;
 }
 
-h3 {
+h1, h3 {
     color: #674532;
-}
-
-h1 {
-    color: #674532;
-}
-
-h3 #media {
-    color: white;
+    text-align: center;
 }
 
 #content {
@@ -67,6 +63,7 @@ h3 #media {
 
 img {
     display: inline-block;
+    align-content: center;
 }
 
 #media {
