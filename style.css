@@ -1,0 +1,62 @@
+    body {
+        background-color: rgb(107, 26, 20);
+        background-image: url(https://lombadaquadrada.files.wordpress.com/2019/08/mordor-1.jpg?w=1200);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #cabecalho {
+        font-family: Helvetica, sans-serif;
+        color: rgb(221, 57, 45);
+        text-align: center;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        border-bottom: 3px solid rgb(19, 15, 15);
+        background: rgb(88, 87, 88);
+        z-index: 1;
+    }
+    
+    #rodape {
+        text-align: center;
+        color: rgb(221, 57, 45);
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        border-top: 3px solid rgb(19, 15, 15);
+        background: rgb(88, 87, 88);
+        font-weight: 100;
+    }
+
+    img {
+        float: left;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+
+    p {
+        color: white;
+        text-align: justify;
+        position: relative;
+        margin-top: 30px;;
+    }
+
+    h2 {
+        color: rgb(221, 57, 45);
+        text-align: center;
+        padding: 70px;
+    }
+
+    ul {
+        color: white;
+    }
+
+    ol {
+        color: white;
+    }
