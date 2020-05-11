@@ -11,11 +11,27 @@ body {
         font-family: 'Amaranth', sans-serif;
     }
 
-header#cabecalho {
-    position: fixed;
-    display: inline-block;
-    margin: 10px 10px 10px 10px;
-    border-bottom: 2px solid white;
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/* Main content formatting*/
+
+div#interface {
+    width: 80%;
+}
+
+    header#cabecalho {
+        position: fixed;
+        display: block;
+        border-bottom: 2px solid white;
+    }
+
+/* Menu formatting*/ 
+
+nav#menu {
+    display: block;
 }
 
 
