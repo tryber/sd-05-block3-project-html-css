@@ -1,0 +1,16 @@
+body {               
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #a8dadc;
+    color: #1d3557;
+    margin: 0%;
+}
+
+#cabecalho {
+    padding: 10px;
+    text-align: center;
+    background-color: #1d3557;
+    color: #f1faee;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif; 
+}
