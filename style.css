@@ -8,39 +8,40 @@ body {
   background-size: cover;
   width: 100%;
   filter: brightness(50%);
-  margin: 0% 0% 2% 0%;
+  margin: 0% 0% 2%;
   padding: 0;
 }
 
 .main {
-  background-image: url("Images/Autismo_main.jpg");
+  background-image: url('Images/Autismo_main.jpg');
   height: 400px;
 }
 
 .caracteristicas {
-  background-image: url("Images/Autismo_entenda.jpg");
+  background-image: url('Images/Autismo_entenda.jpg');
   height: 300px;
 }
 
 .diagnostico {
-  background-image: url("Images/Autismo_diag.jpg");
+  background-image: url('Images/Autismo_diag.jpg');
   height: 300px;
 }
 
 .tratamento {
-  background-image: url("Images/Autismo_father.jpg");
+  background-image: url('Images/Autismo_father.jpg');
   height: 300px;
 }
 
 .leis {
-  background-image: url("Images/Autismo_2hand.jpg");
+  background-image: url('Images/Autismo_2hand.jpg');
   height: 300px;
 }
 
 .frequentes {
-  background-image: url("Images/Autismo_boy.jpg");
+  background-image: url('Images/Autismo_boy.jpg');
   height: 300px;
 }
+
 p , ul , ol {
   line-height: 1em;
   margin-left: 10%;
@@ -201,7 +202,7 @@ header {
 }
 
 .text__beforebackground {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .text__afterbackground--main {
