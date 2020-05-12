@@ -1,30 +1,30 @@
 body {
   font-size: 14px;
-  background-color:rgb(234, 196, 182);
+  background-color: rgb(234 , 196 , 182);
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
 }
 
-#rodape{
+#rodape {
   text-align: center;
 }
 
-.lado-direito{
+.lado-direito {
   text-align: right;
 
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   text-align: left;
 
 }
 
-.tabela{
+.tabela {
 
 }
 
-.aside{
+.aside {
   text-align: right;
 }
