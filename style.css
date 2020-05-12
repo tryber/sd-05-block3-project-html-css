@@ -1,5 +1,5 @@
 * {
-    margin:0px;
+    margin: 0px;
     font-family: 'Roboto', 'Montserrat', sans-serif;
     background-color: rgb(239, 246, 224);
 }
@@ -38,7 +38,7 @@
 }
 
 .nav {
-
+    
     float: right;
     max-width: 40%;
     margin-right: 5%;
@@ -114,7 +114,7 @@ a:hover {
     margin-bottom: 5px;
     font-weight: 600;
 }
-#visual-content{
+#visual-content {
     text-align: center;
     color: rgb(246, 199, 132);
     font-weight: bold;
@@ -128,7 +128,7 @@ a:hover {
     margin-top: 2%;
 }
 
-#docs{
+#docs {
     float: left;
     margin-left: 2%;
     margin-bottom: 5%;
@@ -153,7 +153,7 @@ a:hover {
     font-size: 13px;
 }
 
-#final{
+#final {
     margin-top: 20%;
 }
 .table , td {
