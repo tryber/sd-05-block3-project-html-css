@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 body {
@@ -65,7 +65,6 @@ p {
   text-align: center;
 }
 
-
 #rodape a {
   text-decoration: none;
   color: white;
@@ -91,8 +90,6 @@ p {
   line-height: 70px;
   margin: 0 auto;
 }
-
-
 
 .top {
   padding-top: 80px;
@@ -158,6 +155,7 @@ p {
   width: 100%;
   border-radius: 5px;
 }
+
 .popcorn {
   text-align: center;
   margin-top: 40px;
