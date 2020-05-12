@@ -1,15 +1,40 @@
 body {
     background-color: rgb(239, 225, 225);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+h3 {
+    font-size: 150%;
 }
 
 #cabecalho {
     position: fixed;
+    font-size: smaller;
     top: 0;
     left: 0;
 }
 
 #top-page {
     margin-top: 35px;
+    width: 50%;
+}
+
+#background-header {
+    background-image: url("images/pug-background.jpg");
+    background-size: cover;
 }
 
 #rodape {
