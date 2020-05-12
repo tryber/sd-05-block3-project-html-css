@@ -10,7 +10,7 @@ body {
     top: 0;
     left: 0;
     background-color: white;
-    color: #339966;
+    color: #396;
     width: 100%;
     height: 22%;
     z-index: 1;
@@ -33,25 +33,25 @@ body {
 }
 
 #news {
-    margin: 100px 0px 0px;
+    margin: 100px 1px 1px;
     padding: 20px 1px;
     z-index: 1;
 }
 
 #medals {
-    margin: 100px 0px 0px;
+    margin: 100px 1px 1px;
     padding: 20px 1px;
     z-index: 1;
 }
 
 #bestscoreboards {
-    margin: 100px 0px 0px;
+    margin: 100px 1px 1px;
     padding: 20px 1px;
     z-index: 1;
 }
 
 #cast {
-    margin: 100px 0px 0px;
+    margin: 100px 1px 1px;
     padding: 20px 1px;
     z-index: 1;
 }
