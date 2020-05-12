@@ -44,11 +44,14 @@ body {
 }
 
 .top-tabela {
-
-
+  text-align: center;
+  float: center;
+  font-style: oblique; 
 }
 
 .item-tabela {
+  text-align: center;
+  float: center;
 
 }
 
