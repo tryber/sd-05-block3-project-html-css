@@ -24,25 +24,46 @@ body {
 }
 #menu ul li{
     display: inline;
-    padding:3%; 
+    padding:3%;
+} 
+a:link{
+    text-decoration:none;
 }
-article {
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+a:visited{
+    color: rgb(255, 255, 255);  
 }
-#paragrafo1{
-    padding-top: 180px;
+a:hover{
+	text-decoration: none; 
+    background-color: rgba(255, 115, 1, 0.719);
+    color: rgb(255, 255, 255); 
+}
+a:active{
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
 }
 img{
     margin-left: 5%;
     width: 300px;
     background-size: 100% 100%;
     clear: none;
+    align: left;
 }
+#paragrafo1{
+    padding-top: 180px;
+}
+article {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+aside {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}    
 #rodape {
     background-color: rgb(245, 100, 32);
-    margin-top: 200px;
+    margin-top: 80px;
     margin-bottom: 0px;
     padding: 10px;
     font-size: 1em;
