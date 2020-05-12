@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-#body {
-  background-color: black;
-}
-
 #container {
   background-color: black;
   display: flex;
@@ -173,10 +169,6 @@ img {
 }
 
 @media screen and ( min-width : 569px ) and ( max-width : 799px ) {
-  #body {
-    background-color: black;
-  }
-
   #container {
     background-color: black;
   }
@@ -198,10 +190,6 @@ img {
 }
 
 @media screen and ( min-width : 800px ) {
-  #body {
-    background-color: black;
-  }
-
   #container {
     background-color: black;
   }
@@ -266,10 +254,6 @@ img {
 }
 
 @media screen and ( min-width : 320px ) and ( max-width : 568px ) {
-  #body {
-    background-color: black;
-  }
-
   #container {
     display: flex;
     flex-direction: column;
