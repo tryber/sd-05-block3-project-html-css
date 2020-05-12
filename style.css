@@ -34,12 +34,15 @@ p, li {
 
 #titulo-tabela {
   text-align: center;
-  margin: auto;
+  margin-top: 600px;
+  padding: 10px 12px;
+
 }
 
 #exemplo {
   text-align: center;
-  margin: auto;
+  margin:0;
+  display: inline;
   padding: 10px 12px;
 }
 
