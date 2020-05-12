@@ -1,8 +1,9 @@
-body{
-    background-color: #E0E0E2;
+body {
+    background-color: #e0e0e2;
     font-family: garamond, sans-serif;
     color: #476788;
 }
-#cabecalho{
+
+#cabecalho {
     position: fixed;
 }
