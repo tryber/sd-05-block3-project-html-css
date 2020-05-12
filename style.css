@@ -68,8 +68,8 @@ body {
 
 .img-left {
   float: left;
-  border: 2px solid white;
-  padding: 30px;
+  border: 1px dashed white;
+  padding: 15px;
   margin-top: 0%;
   height: 200px;
   
