@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-#corpo {
+#container {
   background-color: yellow;
   display: flex;
   flex-direction: column;
@@ -14,8 +14,7 @@
   background-color: orangered;
   display: flex;
   justify-content: center;
-  margin-top: -1px;
-  padding: 20px;
+  padding: 10px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -167,7 +166,7 @@ img {
 
 @media screen and ( min-width : 569px ) and ( max-width : 799px ) {
 
-  #corpo {
+  #container {
     background-color: gainsboro;
   }
 
@@ -189,7 +188,7 @@ img {
 
 @media screen and ( min-width : 800px ) {
 
-  #corpo {
+  #container {
     background-color: gainsboro;
   }
 
@@ -254,7 +253,7 @@ img {
 
 @media screen and ( min-width : 320px ) and ( max-width : 568px ) {
 
-  #corpo {
+  #container {
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
