@@ -51,16 +51,12 @@ img{
 #paragrafo1{
     padding-top: 180px;
 }
-article {
+
+.art {
     margin-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
-}
-aside {
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
-}    
+}   
 #rodape {
     background-color: rgb(245, 100, 32);
     margin-top: 80px;
