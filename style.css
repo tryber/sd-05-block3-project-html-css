@@ -21,14 +21,14 @@ body {
     top: 100%;
     border: 1px solid red;
 }
-#lado-esquerdo {
+.lado-esquerdo {
     background-color: whitesmoke;
     width: 25%;
     float: left;
     left: 70%;
     padding: 30px;
 }
-#lado-direito {
+.lado-direito {
     background-color: whitesmoke;
     width: 25%;
     float: right;
