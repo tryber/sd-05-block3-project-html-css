@@ -9,12 +9,13 @@ body {
   position: fixed;
   background: rgb(237, 224, 10);
   height: 40px;
-  width: 2000px;
+  width: 500px;
   bottom: 100px;
   left: 0;
   top: 0;
   letter-spacing: 2px;
   text-align: auto;
+  margin-left: 250px;
 }
 
 #rodape {
@@ -49,4 +50,6 @@ body {
   text-align: right;
   float: right;
   align-items: center;
+  position: relative;
+  justify-content: right;
 }
