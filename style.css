@@ -28,8 +28,7 @@ p, li {
 #rodape {
   text-align: center;
   color: purple;
-  position: relative;
-  bottom: 0;
+  position: fixed bottom;
 }
 
 #titulo-tabela {
