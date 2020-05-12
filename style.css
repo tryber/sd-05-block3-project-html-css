@@ -6,7 +6,7 @@ body{
     background-color: black;
 }
 
-header #cabecalho{
+#cabecalho{
     position: fixed;
     background-color: rgba(60 , 47 , 47 , .35);
     width: 100%;
@@ -16,7 +16,7 @@ header #cabecalho{
 
 .biografia-titulo{
     text-align: center;
-    background-color: mintcream;
+    background-color: gray; opacity: 0.1;
     border-radius: 10px;
     padding: 15px 15px;
     font-size: 2em;
@@ -35,7 +35,7 @@ code, kbd, samp {
 .conteudo{
     width: 100%;
     background-color: lightgray;
-    margin-bottom: 30px;
+    margin-bottom: 150px;
 }
 
 .conteudo-biografia{
