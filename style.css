@@ -1,5 +1,5 @@
 body {
-  width: 1920px;
+  width: 1710px;
   height: 1080;
   background-color: rgb(212 , 221 , 237);
   font-family: sans-serif;
@@ -9,7 +9,7 @@ body {
   position: fixed;
   background: rgb(81 , 158 , 223);
   height: 64px;
-  width: 2000px;
+  width: 1710px;
   color: white;
   font-weight: 600;
   margin-bottom: 15px;
@@ -113,10 +113,10 @@ body {
   float: left;
   position: relative;
   left: 10px;
-  top: 190px;
+  top: 170px;
   background-color: white;
   height: 64px;
-  width: 2000px;
+  width: 1710px;
   color: rgb(81 , 158 , 223);
   border-radius: 15px;
   padding-bottom: 25px;
@@ -146,4 +146,36 @@ td {
 
 #rosa {
   color: rgb(228 , 52 , 171);
+}
+
+#mem {
+  float: left;
+  position: relative;
+  left: 150px;
+  top: 80px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.divvazio {
+  float: left;
+  width: 120px;
+  height: 150px;
+  background-color: rgb(242 , 242 , 242);
+  padding-left: 10px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 120px;
+  height: 150px;
+  background-color: rgb(242 , 242 , 242);
+}
+
+.lado-direito {
+  float: left;
+  width: 120px;
+  height: 150px;
+  background-color: rgb(242 , 242 , 242);
 }
