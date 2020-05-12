@@ -263,7 +263,7 @@
 @media screen and (min-width: 320px) and (max-width: 568px) {
 
   .centro {
-    background-color:#e0e0e0;
+    background-color: rgb(225, 226, 225);
     border: 5px solid;
     display: flex;
     flex-direction: column;
