@@ -84,13 +84,19 @@ body {
   border-bottom: 1px solid black;
 }
 
+#ulfooter li {
+  display: inline-block;
+  margin: 20px;
+  border-right: 1px solid black;
+}
+
 #secaocomu ol {
   background-color: rgb(241 , 249 , 255);
 }
 
 #secaocomu ol li {
   border: 1px solid black;
-  margin: 10px 10px 10px 0px;
+  margin: 10px 10px 10px 0;
 }
 
 #infos {
@@ -113,11 +119,7 @@ body {
   width: 2000px;
   color: rgb(81 , 158 , 223);
   border-radius: 15px;
-}
-
-#ulfooter li {
-  display: inline-block;
-  margin: 20px;
+  padding-bottom: 25px;
 }
 
 .darkblue {
@@ -130,4 +132,18 @@ body {
 
 table {
   border-spacing: 0;
+}
+
+td {
+  font-size: 25px;
+  color: grey;
+  padding: 10px;
+}
+
+.tdali {
+  text-align: right;
+}
+
+#rosa {
+  color: rgb(228 , 52 , 171);
 }
