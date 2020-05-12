@@ -4,21 +4,27 @@ body {
 }
 
 #cabecalho{
-    position: fixed;
+  position: fixed;
 }
 
 #rodape{
-    text-align: center;
+  text-align: center;
 }
 
 .lado-direito{
+  text-align: right;
 
 }
 
 .lado-esquerdo{
+  text-align: left;
 
 }
 
 .tabela{
-  
+
+}
+
+.aside{
+  text-align: right;
 }
