@@ -7,6 +7,8 @@ body {
 }
 
 #cabecalho {
+  background-image: url("empatia.jpeg");
+  background-size: cover;
   position: fixed;
   background: rgb(237, 224, 10);
   height: 40px;
