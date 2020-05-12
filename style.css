@@ -61,13 +61,14 @@ p, li {
 
 .top-tabela {
   text-align: center;
-  float: center;
-  font-style: oblique; 
+  font-weight: bold;
+  line-height: 0.8;
 }
 
 .item-tabela {
   text-align: center;
   float: center;
+  line-height: 0.8;
 
 }
 
