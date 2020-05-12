@@ -48,4 +48,5 @@ body {
 .aside {
   text-align: right;
   float: right;
+  align-items: center;
 }
