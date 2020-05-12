@@ -104,7 +104,8 @@ h2 {
 }
 
 .img-bottom {
-  float: bottom;
+  float: center;
+  margin-top: 0;
   height: 300px;
   width: 200px;
     
