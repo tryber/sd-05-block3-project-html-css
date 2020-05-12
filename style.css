@@ -4,14 +4,14 @@
 }
 
 .centro {
-  background-color: rgb(255 ,209 ,73);
+  background-color:rgb(255, 209, 73);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
 .cabecalho {
-  background-color: rgb(198 ,113 ,0);
+  background-color:rgb(198 ,113 ,0);
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -21,7 +21,7 @@
 }
 
 .navegacao {
-  background-color: rgb(255, 209, 73);
+  background-color:rgb(255, 209, 73);
   display: block;
   width: 100%;
 }
@@ -39,7 +39,7 @@
 }
 
 .tag-li a {
-  color: black;
+  color:black;
   text-decoration: none;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .tr:hover {
-  background-color: rgb(225, 226, 225);
+  background-color:rgb(225, 226, 225);
 }
 
 .responsive-iframe {
@@ -167,7 +167,7 @@
 
 .rodape {
   align-items: center;
-  background-color: rgb(174, 174, 174);
+  background-color:rgb(174, 174, 174);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -176,7 +176,7 @@
 @media screen and (min-width: 569px) and (max-width: 799px) {
 
   .centro {
-    background-color: rgb(225, 226, 225);
+    background-color:rgb(225, 226, 225);
   }
 
   .imagens-cards {
@@ -198,7 +198,7 @@
 @media screen and (min-width: 800px) {
 
   .centro {
-    background-color: rgb(225, 226, 225);
+    background-color:rgb(225, 226, 225);
   }
   .imagens-cards {
     padding-left: 400px;
@@ -262,14 +262,14 @@
 @media screen and (min-width: 320px) and (max-width: 568px) {
 
   .centro {
-    background-color: rgb(225, 226, 225);
+    background-color:rgb(225, 226, 225);
     display: flex;
     flex-direction: column;
     overflow: hidden;
   }
 
   .cabecalho {
-    background-color: rgb(198, 113, 0);
+    background-color:rgb(198, 113, 0);
     top: -1px;
   }
 
