@@ -30,5 +30,11 @@ h3 {
 #style-article {
     background-color: white;
     width: 80%;
+    font-size: 20px;
+    line-height: 36px;
     
+}
+
+footer#rodape {
+    text-align: center;
 }
