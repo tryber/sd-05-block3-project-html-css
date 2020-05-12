@@ -37,12 +37,12 @@ header#cabecalho {
   margin-bottom: 0.6rem;
 }
 
-img.lado-esquerdo {
+section.lado-esquerdo {
   float: left;
   
 }
 
-section.lado-direito {
+img.lado-direito {
   float: right;
 }
 
