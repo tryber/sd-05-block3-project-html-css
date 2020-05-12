@@ -13,9 +13,9 @@ body {
 }
 
 #main-title {
-  border-bottom: 4px solid rgb(254, 193, 7);
+  border-bottom: 4px solid rgb(254 , 193 , 7);
   display: inline-block;
-  font-family: 'Gotham SSm A' , 'Gotham SSm B' , Helvetica , sans-serif;
+  font-family: Helvetica , sans-serif;
   font-style: normal;
   font-weight: 700;
   letter-spacing: normal;
@@ -33,7 +33,7 @@ body {
   letter-spacing: normal;
   line-height: 1.24;
   font-size: 1.45em;
-  color: rgb(197, 197, 197);
+  color: rgb(197 , 197 , 197);
   margin-bottom: 0.6rem;
 }
 
