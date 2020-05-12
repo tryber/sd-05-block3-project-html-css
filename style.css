@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.cabecalho {
+#cabecalho {
   background-color: orangered;
   display: flex;
   justify-content: center;
@@ -260,7 +260,7 @@ img {
     overflow: hidden;
   }
 
-  .cabecalho {
+  #cabecalho {
     background-color: orangered;
     top: -1px;
   }
