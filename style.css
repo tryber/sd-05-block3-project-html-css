@@ -18,7 +18,7 @@ body {
 #rodape li {
     padding: 15px;
     display: inline;
-    bottom: 0px;
+    bottom: 1px;
 }
 
 #cachorro {
@@ -34,11 +34,11 @@ body {
 }
 
 .lado-esquerdo {
-    float: left;
-    padding-left: 15px;
+  float: left;
+  padding-left: 15px;
 }
 
 .lado-direito {
-    float: right 30%;
-    padding-right: 20%;
+  float: right 30%;
+  padding-right: 20%;
 }
