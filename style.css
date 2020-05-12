@@ -1,0 +1,93 @@
+body {
+  margin: 50px;
+  background-color: yellow;
+  color: blue;
+  font-family: Courier, monospace;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: rgb(52 , 168 , 83);
+  width: 100%;
+  height: 22%;
+  z-index: 1;
+}
+
+#cbf {
+  position: absolute;
+  top: 8px;
+  left: 25px;
+}
+
+#indice {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+}
+
+#title {
+  text-align: center;
+}
+
+#news {
+  margin: 100px 1px 1px;
+  padding: 20px 1px;
+  z-index: 1;
+}
+
+#medals {
+  margin: 100px 1px 1px;
+  padding: 20px 1px;
+  z-index: 1;
+}
+
+#bestscoreboards {
+  margin: 100px 1px 1px;
+  padding: 20px 1px;
+  z-index: 1;
+}
+
+#cast {
+  margin: 50px 1px;
+  padding: 20px 1px;
+  z-index: 1;
+}
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+
+.player-container {
+  display: inline-block;
+  margin: 1px 20px;
+  padding: 1px 20px;
+}
+
+.left-div {
+  float: left;
+  width: 50%;
+  margin: 1px 20px 50px;
+}
+
+.right-div {
+  float: right;
+  width: 30%;
+  border-width: 1px;
+  border-style: double;
+  border-color: blue;
+  margin: 1px 20px 50px;
+  padding: 1px 20px;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
