@@ -39,6 +39,7 @@ body {
 
 .top-tabela {
 
+
 }
 
 .item-tabela {
@@ -61,4 +62,7 @@ body {
   align-items: center;
   position: relative;
   justify-content: right;
+  width: 40%;
+  text-indent: 50px;
+  padding: 5%;
 }
