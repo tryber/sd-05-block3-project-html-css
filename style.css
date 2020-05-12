@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  background-color: gainsboro;
+}
+
 #container {
   background-color: yellow;
   display: flex;
@@ -44,9 +48,14 @@
 }
 
 .article-inicial {
+  background-color: lawngreen;
   display: block;
   flex-direction: column;
-  margin-top: 20px;
+}
+
+.paragrafo {
+  text-align: justify;
+  text-indent: 50px;
 }
 
 .sessao-artigo {
@@ -241,8 +250,8 @@ img {
   }
 
   .article-inicial {
-    padding-left: 300px;
-    padding-right: 300px;
+    left: 500px;
+    right: 500px;
   }
 
   .campo-aside {
