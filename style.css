@@ -5,6 +5,13 @@ body {
 
 #cabecalho {
   position: fixed;
+  background: #a4c467;
+  height: 40px;
+  width: 2000px;
+  bottom: 100px;
+  left: 0;
+  top: 0;
+  text-align: left;
 }
 
 #rodape {
