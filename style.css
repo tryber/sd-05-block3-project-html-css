@@ -55,3 +55,18 @@ h3 {
     border-radius: 10%;
     border: ridge red 5px;
 }
+
+.section-header {
+    margin: auto;
+    margin-top: 80px;
+    padding: 50px 20px;
+    background-color: rgb(0, 255, 76);
+    background-size: cover;
+}
+
+.section-header-text {
+    margin: auto;
+    max-width: 50%;
+    font-size: 1.15em;
+    line-height: 2em;
+}
