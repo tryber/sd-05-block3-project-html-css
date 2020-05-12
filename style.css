@@ -51,6 +51,12 @@ p, li {
   display: inline-block;
 }
 
+.lado-direito, ol {
+  float: right;
+  text-align: right;
+  display: inline-block;
+  
+}
 .top-tabela {
   text-align: center;
   font-weight: bold;
