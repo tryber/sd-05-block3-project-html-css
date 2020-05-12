@@ -27,14 +27,10 @@ h3 {
     left: 0;
 }
 
-#top-page {
-    margin-top: 35px;
-    width: 50%;
-}
-
-#background-header {
+#header {
     background-image: url("images/pug-background.jpg");
     background-size: cover;
+    margin-top: 20px 
 }
 
 #rodape {
