@@ -51,7 +51,7 @@ body {
 }
 
 #cast {
-  margin: 50px 1px 50px;
+  margin: 50px 1px;
   padding: 20px 1px;
   z-index: 1;
 }
@@ -73,19 +73,19 @@ body {
   padding: 1px 20px;
 }
 
-#left-div {
+.left-div {
   float: left;
   width: 50%;
-  margin: 1px 20px 50px 20px;
+  margin: 1px 20px 50px;
 }
 
-#right-div {
+.right-div {
   float: right;
   width: 30%;
   border-width: 1px;
   border-style: double;
   border-color: blue;
-  margin: 1px 20px 50px 20px;
+  margin: 1px 20px 50px;
   padding: 1px 20px;
   position: absolute;
   top: 200px;
