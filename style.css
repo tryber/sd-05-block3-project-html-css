@@ -3,7 +3,7 @@ body {
   color: white;
 }
 
-#cabecalho {
+header#cabecalho {
   position: fixed;
   top: 0;
   left: 0;
@@ -37,12 +37,13 @@ body {
   margin-bottom: 0.6rem;
 }
 
-.lado-esquerdo {
+img.lado-esquerdo {
   float: left;
 }
 
-.lado-direito {
+img.lado-direito {
   float: right;
+  width: 40%;
 }
 
 #main-img {
