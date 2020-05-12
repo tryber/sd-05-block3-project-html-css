@@ -49,6 +49,15 @@ p , ul , ol {
   text-align: justify;
 }
 
+.table__ul {
+  padding-left: 0;
+}
+
+.table__head--text {
+  font-size: 1em;
+  text-align: center;
+}
+
 .table {
   width: 35%;
   border: rgb(162 , 169 , 177) solid 1px;
@@ -70,6 +79,7 @@ p , ul , ol {
   height: 3%;
   border: rgb(162 , 169 , 177) solid 1px;
   text-align: center;
+  font-size: 0.9em;
 }
 
 .table__car {
@@ -78,6 +88,8 @@ p , ul , ol {
   padding-right: 4%;
   border: rgb(162 , 169 , 177) solid 1px;
   text-align: center;
+  height: 3%;
+  font-size: 0.9em;
 }
 
 .table__girl {
@@ -85,6 +97,8 @@ p , ul , ol {
   padding: 2%;
   border: rgb(162 , 169 , 177) solid 1px;
   text-align: center;
+  height: 3%;
+  font-size: 0.9em;
 }
 
 header {
