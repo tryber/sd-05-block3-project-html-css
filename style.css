@@ -163,12 +163,13 @@ td {
   height: 150px;
   background-color: rgb(242 , 242 , 242);
   display: inline-block;
+  text-align: center;
 }
 
 #mem img {
   width: 100px;
   height: 100px;
-  margin: 10px;
+  margin: 10px 10px -20px 10px;
 }
 
 .lado-esquerdo {
@@ -176,6 +177,7 @@ td {
   height: 150px;
   background-color: rgb(242 , 242 , 242);
   display: inline-block;
+  text-align: center;
 }
 
 .lado-direito {
@@ -183,4 +185,5 @@ td {
   height: 150px;
   background-color: rgb(242 , 242 , 242);
   display: inline-block;
+  text-align: center;
 }
