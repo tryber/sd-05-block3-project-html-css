@@ -4,9 +4,9 @@ body {
   color: rgb(172 , 88 , 227);
   z-index: 0;
 }
-*  {
-  padding: 0%;
-  margin: 0%;
+*  { 
+    padding: 0%;
+    margin: 0%;
 }
 #cabecalho {
   background-color: rgb(172 , 88 , 227);
@@ -27,8 +27,7 @@ body {
 a {
   text-decoration: none;
 }
-a:link,
-a:visited {
+a:link , a:visited {
   color: rgb(255 , 255 , 255);
 }
 a:hover {
@@ -39,8 +38,7 @@ h1 {
   font-size: 25px;
   font-weight: 600;
 }
-h2,
-h3 {
+h2 , h3 {
   font-size: 20px;
 }
 
