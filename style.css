@@ -30,7 +30,8 @@ h2 {
   font-size: relative;
 }
 
-#rodape {
+footer#rodape {
+  position: fixed;
   text-align: center;
   color: purple;
 }
