@@ -47,7 +47,7 @@ body {
   text-decoration: none;
 }
 
-.article-inicial {
+.lado-esquerdo {
   background-color: lawngreen;
   display: block;
   flex-direction: column;
@@ -135,7 +135,7 @@ img {
   width: 300px;
 }
 
-.campo-aside {
+.lado-direito {
   align-items: center;
   display: block;
   flex-direction: column;
@@ -249,12 +249,12 @@ img {
     width: 600px;
   }
 
-  .article-inicial {
+  .lado-esquerdo {
     left: 500px;
     right: 500px;
   }
 
-  .campo-aside {
+  .lado-direito {
     padding-left: 500px;
     padding-right: 500px;
   }
