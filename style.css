@@ -156,12 +156,6 @@ img {
   list-style: none;
 }
 
-.achecker {
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-}
-
 .rodape {
   align-items: center;
   background-color: gray;
