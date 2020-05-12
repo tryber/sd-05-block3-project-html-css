@@ -95,10 +95,12 @@ body {
   border: 1px solid black;
   margin-right: 10px;
 }
+
 .lado-esquerdo {
   float: left;
   color: rgb(81 , 158 , 223);
 }
+
 .lado-direito {
   float: right;
   color: rgb(81 , 158 , 223);
