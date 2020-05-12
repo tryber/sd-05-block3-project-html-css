@@ -51,7 +51,6 @@ p, li {
   width: 80%;
   display: inline-block;
   position:auto;
-  float: inline-start;
 }
 
 .lado-direito, ol {
@@ -59,6 +58,7 @@ p, li {
 }
 
 .tabela {
+  border: rgb(237, 224, 10);
   
 }
 
