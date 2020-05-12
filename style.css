@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  font-size: 16px;
+  font-style: inherit;
+}
+
+#tiamat {
+  border: ridge red 6px;
+  margin-top: 32px;
+}
+
+#cabecalho {
+  background-color: red;
+  color: aliceblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 35px;
+  margin: auto;
+  text-align: center;
+  font-family: cursive, sans-serif;
+  font-size: 2em;
+}
+
+h1 , h2 {
+  text-align: center;
+  clear: both;
+}
+
+.lado-esquerdo {
+  width: 600px;
+  padding: 0;
+  margin-bottom: 18px;
+  float: left;
+  border: ridge   red   6px;
+}
+
+.firsttext {
+  text-align: center;
+  margin-top: 12px;
+  padding: 6px;
+}
+
+.cordaletra {
+  color: white;
+  font-family: fantasy, sans-serif;
+}
+
+#ul-lista {
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+.lado-direito {
+  width: 600px;
+  margin: 0;
+  padding: 6px;
+  float: right;
+  font-family: fantasy, sans-serif;
+}
+
+.table {
+  background-color: darkred;
+  margin: 3px;
+  padding: 0;
+  width: 200px;
+  border: ridge white 6px;
+}
+
+#links {
+  text-align: center;
+  font-family: fantasy, sans-serif;
+}
+
+#rodape {
+  background-color: red;
+  color: aliceblue;
+  clear: both;
+  height: 40px;
+  width: 1270px;
+  text-align: center;
+  font-family: fantasy, sans-serif;
+}
+
+.bloodred {
+  color: red;
+}
+
+.gold {
+  color: gold;
+}
+
+.blue {
+  color: blue;
+}
+
+.teste {
+  margin: 0;
+}
