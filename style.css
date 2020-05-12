@@ -1,7 +1,5 @@
 body {
     background-color: rgba(240, 240, 240, 1);
-
-
 }
 
 header#cabecalho {
@@ -33,33 +31,39 @@ h1 {
     margin-left: 130px;
 }
 
-# {
-
-}
-
 h2 {
     color: rgba(255, 106, 40, 1);
     font-size: 20px;
     text-align: center;
+    padding: 20px;
 }
+
 h3 {
     background-color: rgba(240, 240, 240, 1);
     color: rgba(122, 122, 122, 1);
-    font-size: 15px;
-    padding: 15px 0;
+    font-size: 19px;
+    padding: 9px;
     text-align: center;
     font-weight: 700;
-    width: 85%;
-
+    width: 70%;
+    margin-left: 20px;
 }
+
 #style-article {
     background-color: white;
     width: 80%;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 36px;
-    
+    margin-left: 130px;
+    }
+#config-nav {
+    font-size: 18px;
+    color: rgba(255, 106, 40, 1);
 }
 
 footer#rodape {
     text-align: center;
+    padding: 5px;
+    background-color: rgba(232, 232, 232, 1);
+    color: rgba(122, 122, 122, 1);
 }
