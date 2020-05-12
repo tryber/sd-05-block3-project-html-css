@@ -70,3 +70,7 @@ h3 {
     font-size: 1.15em;
     line-height: 2em;
 }
+
+.lado-esquerdo {
+    max-width: 50%;
+}
