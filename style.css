@@ -37,11 +37,20 @@ body {
 
 }
 
-.tabela {
+.top-tabela {
 
 }
 
-.lista{
+.item-tabela {
+
+}
+
+.tabela {
+  text-align: center;
+
+}
+
+.lista {
   text-align: left;
   list-style-position: inside;
 }
