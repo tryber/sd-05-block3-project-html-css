@@ -22,7 +22,8 @@ body {
 #rodape {
   text-align: center;
   color: purple;
-  padding: 10px 12px;
+  position: absolute;
+  bottom: 0;
 }
 
 #titulo-tabela {
