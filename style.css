@@ -99,6 +99,8 @@ body {
   left: 120px;
   top: 80px;
   background-color: white;
+  border-top-right-radius: 75px;
+  padding: 15px;
 }
 
 #rodape {
@@ -116,4 +118,16 @@ body {
 #ulfooter li {
   display: inline-block;
   margin: 20px;
+}
+
+.darkblue {
+  background-color: rgb(212 , 221 , 237);
+}
+
+.azul {
+  background-color: rgb(241 , 249 , 255);
+}
+
+table {
+  border-spacing: 0;
 }
