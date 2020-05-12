@@ -38,10 +38,10 @@ h2 {
 
 #titulo-tabela {
   text-align: center;
-  margin-top: 600px;
+  margin-top: 50px;
   padding: 10px 12px;
-
-}
+  clear: both;
+  }
 
 #exemplo {
   text-align: center;
@@ -64,9 +64,12 @@ h2 {
   margin: 0.8em;
 }
 
+td {
+  padding: 8px;
+}
 .tabela {
-  border: rgb(237, 224, 10);
-  
+  border: rgb(237, 224, 10) solid 3px;
+  margin: auto;
 }
 
 .top-tabela {
@@ -105,8 +108,9 @@ h2 {
 
 .img-bottom {
   float: center;
-  margin-top: 0;
-  height: 300px;
-  width: 200px;
-    
+  margin: auto;
+  margin-top: 20px;
+  width: 150px;
+  height: 200px;
+  display: block;
 }
