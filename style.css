@@ -61,35 +61,43 @@ ul {
 
 #cabecalho {
     position: fixed;
+    width: fit-content;
+    margin: 0px;
+    padding: 0%;
     border-bottom: 3px solid rgb(10, 140, 175);
-    background-color: rgba(230, 240, 240, 1);
-    background-size: cover;
-    background-clip: cover;
+    background-image: linear-gradient(270deg, rgb(0, 0, 20), rgba(30, 40, 75, 1), rgb(10, 140, 175), rgba(30, 40, 75, 1), rgb(0, 0, 20));
 }
 
 .menu-itens {
-    min-width: 650px;
-    padding: 7px 7px 3px 10px;
+    min-width: 100vmax;
+    margin-top: 0px;
+    padding: 5px 7px 5px 20px;
 }
 
 .inicial-pag {
-    border-radius: 10px;
-    padding: 10px;
-    margin-right: 2em;
-    background-color: rgb(255, 210, 210, 0.3);
+    position: fixed;
+    top: 6px;
+    border-radius: 2em;
+    padding: 6px;
+    background-color: rgba(230, 240, 240, 1);
 }
 
 .sobre-pag {
-    border-radius: 10px;
-    padding: 10px;
-    margin-right: 2em;
-    background-color: rgb(255, 210, 210, 0.3);
+    position: fixed;
+    top: 6px;
+    right: 120px;
+    border-radius: 2em;
+    padding: 6px;
+    background-color: rgba(230, 240, 240, 1);
 }
 
 .contato-pag {
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(255, 210, 210, 0.3);
+    position: fixed;
+    top: 6px;
+    right: 30px;
+    border-radius: 2em;
+    padding: 6px;
+    background-color: rgba(230, 240, 240, 1);
 }
 
 #inicio-topo {
@@ -264,21 +272,21 @@ table {
     padding: 0px;
 }
 
-.nat-geo {
+.lado-esquerdo {
     border-radius: 10px;
     padding: 10px;
     margin-right: 2em;
     background-color: rgb(255, 210, 210, 0.3);
 }
 
-.quadrinho {
+.meio {
     border-radius: 10px;
     padding: 10px;
     margin-right: 2em;
     background-color: rgb(255, 210, 210, 0.3);
 }
 
-.wikipedia {
+.lado-direito {
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(255, 210, 210, 0.3);
