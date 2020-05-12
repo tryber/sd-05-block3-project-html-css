@@ -63,6 +63,9 @@
 }
 
 .titulo-tabela {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   height: auto;
   padding: 20px;
   width: 100%;
@@ -118,7 +121,7 @@
   text-align: center;
 }
 
-.imagens-cards img {
+img {
   margin: 20px;
   width: 300px;
 }
@@ -153,12 +156,6 @@
   list-style: none;
 }
 
-.titulo-tabela {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
 .achecker {
   display: flex;
   justify-content: center;
@@ -173,7 +170,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 569px) and (max-width: 799px) {
+@media screen and ( min-width : 569px ) and ( max-width : 799px ) {
 
   .centro {
     background-color: gainsboro;
