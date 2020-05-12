@@ -4,14 +4,14 @@
 }
 
 .centro {
-  background-color:rgb(255, 209, 73);
+  background-color: rgb(255 ,209 ,73);
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
 .cabecalho {
-  background-color:rgb(198 ,113 ,0);
+  background-color: rgb(198 ,113 ,0);
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -21,7 +21,7 @@
 }
 
 .navegacao {
-  background-color:rgb(255, 209, 73);
+  background-color: rgb(255 ,209 ,73);
   display: block;
   width: 100%;
 }
@@ -86,7 +86,7 @@
 }
 
 .tr:hover {
-  background-color:rgb(225, 226, 225);
+  background-color: rgb(225 ,226 ,225);
 }
 
 .responsive-iframe {
