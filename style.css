@@ -1,25 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-  background-color: cadetblue;
+  background-color: silver;
 }
 
-footer {
-  margin: 0 20px;
-  padding: 0 20px;
-  border: 1px solid black;
-}
-
-
-.lado-esquerdo {
-  float: left;
-}
-
-.lado-direito {
-  float: right;
+p {
+  line-height: 32px;
+  margin: 20px 0;
 }
 
 .container {
@@ -32,7 +24,7 @@ footer {
   position: fixed;
   width: 100%;
   height: 60px;
-  background-color: blueviolet;
+  background-color: rgb(138, 43, 226);
 }
 
 #cabecalho ul {
@@ -45,13 +37,105 @@ footer {
   font-size: 20px;
   line-height: 60px;
   margin-right: 20px;
-  border-bottom: 1px solid black;
+}
+
+#rodape {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(138, 43, 226);
+  color: white;
+}
+
+#rodape p {
+  line-height: 70px;
+  margin: 0 auto;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: white;
+}
+
+.top {
+  padding-top: 80px;
 }
 
 .title {
-  padding-top: 70px;
+  font-size: 25px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .series-list {
-  margin-left: 20px;
+  display: flex;
+  list-style: none;
+}
+
+.series-list li {
+  flex: 1;
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.series-list li:last-child {
+  margin-right: 0;
+}
+
+.series-list img {
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.series-list span {
+  text-align: center;
+  display: block;
+  font-size: 1.1em;
+  padding: 5px 0;
+}
+
+.section-area {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.info-list {
+  width: 500px;
+  padding: 20px 0;
+  margin-right: 10px;
+  float: right;
+}
+
+.info-list a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.article-title {
+  padding: 20px 0;
+}
+
+.article-img {
+  width: 100%;
+  border-radius: 5px;
+}
+.popcorn {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.popcorn a {
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
 }

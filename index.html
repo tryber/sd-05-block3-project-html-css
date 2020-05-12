@@ -1,79 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width" />
   <title>Project Html & CSS</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header id="cabecalho">
     <div class="container">
       <nav>
-        <ul class="lado-esquerdo">
+        <ul>
           <li>
             <a href="#">Home</a>
             <a href="#">Contato</a>
             <a href="#">Sobre</a>
           </li>
         </ul>
-        <ul class="lado-direito">
-          <li>
-            <a href="#">Logout</a>
-          </li>
-        </ul>
       </nav>
     </div>
   </header>
-<div class="container">
-  <h1 class="title">lista de Melhores Séries 2019 segundo o IMDB</h1>
-  <ol class="series-list">
-    <li>Chernobyl</li>
-    <li>Succession</li>
-    <li>Watchmen</li>
-    <li>Euphoria</li>
-  </ol>
-  <a href="https://www.imdb.com/best-of/highest-rated-shows-of-2019/ls091392279/" target="_blank">IMDB Melhores séries</a>
-  <section>
-    <article>
-      <h1>Melhores Filmes de 2019</h1>
-      <p>O cinema foi bastante movimentado em 2019. Para continuar a seleção de favoritos do <strong>Omelete</strong>, a equipe editorial agora escolhe os melhores filmes do ano. Veja abaixo!</p>
-      <h2>Parasita</h2>
-      <img src="https://cdn.ome.lt/WrqX6_yyYfo6GWXaIM8NfHxsBKo=/fit-in/837x500/smart/uploads/conteudo/fotos/parasite.jpeg" alt="imagem do Filme Parasita">
-      <p>Um dos melhores filmes não apenas do ano, mas da década. O longa cria o balanço perfeito entre vários estilos e passeia por eles com tranquilidade: comédia, suspense, terror, drama… além disso, as atuações são fora de série e é um filme que chega como favorito a pelo menos uma premiação do Oscar (no caso, melhor filme estrangeiro) - Fábio Gomes</p>
-      <p>A estrutura é parecida com a de Bacurau: começo meio arrastado para apresentar a realidade dos personagens e um clímax frenético em total oposição a essa normalidade inicial. Bacurau me deixou impactada por dias e o fato de ser uma história no nordeste conquistou meu coração. Mas sinto que Parasita se aprofundou muito mais no conceito que propôs e a narração da sequência final foi de chorar - Camila Sousa </p>
-    </article>
-  </section>
-  <section>
-    <article>
-      <h2>BACURAU</h2>
-      <img src="https://cdn.ome.lt/Ovr9TpNwyBVRmcIQ5FMvEiwkvNI=/fit-in/837x500/smart/uploads/conteudo/fotos/bacurau.png" alt="imagem filme Bacurau">
-      <p>Pode não ter sido o melhor do ano, mas foi o mais importante. Com metáforas explícitas, convenções de gênero e apoiado na narrativa clássica, Bacurau é um filme de arte que se recorre à linguagem do cinema industrial para se comunicar com o maior número de pessoas possível. É um filme específico do Brasil, retrato desta década, um documento cultural que vai sobreviver por longos anos na memória do seu público - Lucas Zacarias</p>
-    </article>
-  </section>
+  <div class="container">
+    <h1 class="title top">Melhores Séries 2019 segundo o IMDB</h1>
+    <ol class="series-list">
+      <li>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/pt/9/92/PosterChernobyl.jpg"
+          alt="Chernobyl image">
+        <span>Chernobyl</span>
+      </li>
+      <li>
+        <img
+          src="https://4.bp.blogspot.com/-Z-GeQLIniJ0/XKez7ad2V4I/AAAAAAAAlGU/1AWZZAhmjTEXJk9feLMm8KGhxmna-TpCgCLcBGAs/s1600/our%2Bplanet.jpg"
+          alt="Our Planet image">
+        <span>Our Planet</span>
+      </li>
+      <li>
+        <img
+          src="https://i.pinimg.com/originals/8b/33/39/8b3339bb744abb0fe5278a7c67a08ae8.png"
+          alt="when they see us image">
+        <span>When they see us</span>
+      </li>
+      <li>
+        <img
+          src="https://ydibeinmaradiencelalexe.i-mpr.com/9==QY4MjZ3IjOyJmL0VmbuAXdl5WasBEc1VmbpxmO0gDOwQjMzAjMyozZwpmLwUDNwATMfNjM3ATOxI2Zy9lU4AjN4RDM08lcl5WZlJ3YT9lUQ9VMT9VWChEVGJTJt92Yu4Was92ZwQTJzVmel5WZtJnRyUSaGJTJt92YuIHct1SaGJTJGJTJBNTJwRHdopzN"
+          alt="when they see us image">
+        <span>The Boys</span>
+      </li>
+      
+    </ol>
+    <p class="info-list">Você pode conferir a lista completa aqui: <a href="https://www.imdb.com/best-of/highest-rated-shows-of-2019/ls091392279/" target="_blank">IMDB Melhores
+      séries 2019</a></p>
+    <section class="section-area" style="clear: both;">
+      <article>
+        <h1 class="title">Melhores Filmes de 2019</h1>
+        <p>O cinema foi bastante movimentado em 2019. Para continuar a seleção de favoritos do <a href="https://www.omelete.com.br/melhores-filmes-series/melhores-filmes-2019#68" style="text-decoration: none; color: black;"><strong>Omelete</strong></a>,
+          a equipe editorial agora escolhe os melhores filmes do ano. Veja abaixo!</p>
+        <h2 class="article-title">Parasita</h2>
+        <img class="article-img"
+          src="https://cdn.ome.lt/WrqX6_yyYfo6GWXaIM8NfHxsBKo=/fit-in/837x500/smart/uploads/conteudo/fotos/parasite.jpeg"
+          alt="imagem do Filme Parasita">
+        <p>Um dos melhores filmes não apenas do ano, mas da década. O longa cria o balanço perfeito entre vários estilos
+          e passeia por eles com tranquilidade: comédia, suspense, terror, drama… além disso, as atuações são fora de
+          série e é um filme que chega como favorito a pelo menos uma premiação do Oscar (no caso, melhor filme
+          estrangeiro) - <strong>Fábio Gomes</strong></p>
+        <p>A estrutura é parecida com a de Bacurau: começo meio arrastado para apresentar a realidade dos personagens e
+          um clímax frenético em total oposição a essa normalidade inicial. Bacurau me deixou impactada por dias e o
+          fato de ser uma história no nordeste conquistou meu coração. Mas sinto que Parasita se aprofundou muito mais
+          no conceito que propôs e a narração da sequência final foi de chorar - <strong>Camila Sousa</strong> </p>
+      </article>
+    </section>
+    <section class="section-area">
+      <article>
+        <h2 class="article-title">BACURAU</h2>
+        <img class="article-img"
+          src="https://cdn.ome.lt/Ovr9TpNwyBVRmcIQ5FMvEiwkvNI=/fit-in/837x500/smart/uploads/conteudo/fotos/bacurau.png"
+          alt="imagem filme Bacurau">
+        <p>Pode não ter sido o melhor do ano, mas foi o mais importante. Com metáforas explícitas, convenções de gênero
+          e apoiado na narrativa clássica, Bacurau é um filme de arte que se recorre à linguagem do cinema industrial
+          para se comunicar com o maior número de pessoas possível. É um filme específico do Brasil, retrato desta
+          década, um documento cultural que vai sobreviver por longos anos na memória do seu público - <strong>Lucas Zacarias</strong>
+        </p>
+      </article>
+    </section>
 
-  <aside>
-    <a href="#">Melhor pipoca do mundo para acompanhar</a>
-  </aside>
+    <aside class="popcorn">
+      <a href="https://www.clubedapipoca.com/blog/categorias/receitas/" target="_blank">Receitas de pipocas para acompanhar</a>
+    </aside>
+  </div>
 
-  <table>
-    <tr>
-      <th>Cidade</th>
-      <th>População</th>
-    </tr>
-    <tr>
-      <td>Recife</td>
-      <td>1.633.697</td>
-    </tr>
-    <tr>
-      <td>João Pessoa</td>
-      <td>811.598</td>
-    </tr>
-  </table>
-
-</div>
   <footer id="rodape">
-  <h1>Rodapé</h1>
+    <p>Compilado com amor por <a href="https://github.com/AndersonAGodoy" target="_blank"><strong>Anderson Godoy</strong></a></p>
   </footer>
 </body>
+
 </html>
