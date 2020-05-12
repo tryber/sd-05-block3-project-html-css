@@ -7,6 +7,10 @@ header#cabecalho {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+}
+
 .lado-esquerdo {
     float: left;
 }
@@ -15,4 +19,6 @@ header#cabecalho {
     float: right;
 }
 
-
+img{
+    float: right;
+}
