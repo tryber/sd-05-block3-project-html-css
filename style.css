@@ -66,3 +66,7 @@ body {
   text-indent: 50px;
   padding: 5%;
 }
+
+.img-left {
+  float: left;
+}
