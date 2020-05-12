@@ -49,15 +49,16 @@ p, li {
 .lado-direito, .lado-esquerdo{
   width: 80%;
   display: inline-block;
+  padding: -100px;
 }
 
 .lado-direito, ol {
   float: right;
   text-align: right;
-  display: inline-block;
-  
+  width: 100px;
 }
-.top-tabela {
+
+.top-tabela, .tabela {
   text-align: center;
   font-weight: bold;
   line-height: 0.8;
@@ -69,11 +70,6 @@ p, li {
   float: center;
   line-height: 0.8;
   word-spacing: 10px;
-
-}
-
-.tabela {
-  text-align: center;
 
 }
 
