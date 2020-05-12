@@ -23,47 +23,25 @@ body {
 }
 
 #cabecalho {
-  display: block;
   position: fixed;
   background-color: var(--bg-color);
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 10000;
+  height: 25%;
 }
 
 #title {
-  display: inline;
   font-weight: 300;
   font-style: italic;
   font-size: 3em;
   text-align: left;
   margin-left: 1em;
-}
-
-nav {
-  font-size: 1.5em;
-  margin: 0;
-  padding: 0;
-  width: 30%;
-}
-
-.horizontal_nav {
-  display: inline;
-  list-style-type: none;
-  line-height: 3em;
-}
-
-.horizontal_nav li {
-  display: inline-block;
-  margin-top: 0;
+  width: 50%;
 }
 
 a {
-  color: rgb(0,0,0);
-}
-
-nav a {
-  text-decoration: none;
+  color: black;
 }
 
 a:hover {
@@ -76,19 +54,61 @@ h2 {
   font-size: 1em;
 }
 
-#main {
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.lado-direito {
+  width: 50%;
+  float: right;
+  height: 30%;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+  height: 30%;
+}
+
+main {
   display: block;
   text-align: justify;
-  float: right;
   position: relative;
   background-color: white;
   margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
   margin-top: auto;
   width: 100%;
-  padding: 20% 5% 5%;
+  padding-right: 5%;
+  padding-left: 5%;
   font-size: 1.3em;
-  margin-bottom: 1em;
 }
+
+#text_info {
+  padding-top: 15%;
+}
+
+#table {
+  padding-top: 10%;
+} 
 
 #image_container {
   text-align: center;
@@ -98,13 +118,12 @@ h2 {
 
 #video_container {
   text-align: center;
-  padding: 2%;
+  padding-top: 10%;
 }
 
 #video_container h2 {
   text-align: left;
   padding: 2%;
-
 }
 
 #image , #video {
@@ -113,6 +132,24 @@ h2 {
 
 figcaption {
   font-size: 0.8em;
+}
+
+.tables {
+  width: 800px;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+
+.tbl_header {
+  text-align: center;
+  background-color: #C6D9F1;
+}
+
+.tables td {
+    border: 1px solid #000000;
+    padding: 0px 6px;
 }
 
 #references {
@@ -131,7 +168,4 @@ figcaption {
 
 #rodape {
   text-align: center;
-  display: block;
-  position: relative;
-  bottom: 0;
 }
