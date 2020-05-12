@@ -46,17 +46,9 @@ p, li {
   padding: 10px 12px;
 }
 
-.lado-direito {
-  width: 50%;
-  float: right;
-  justify-content: space-around;
-  align-items: right;
-}
-
-.lado-esquerdo {
-  text-align: left;
-  float: left;
-
+.lado-direito, .lado-esquerdo{
+  width: 80%;
+  display: inline-block;
 }
 
 .top-tabela {
@@ -77,10 +69,6 @@ p, li {
 .tabela {
   text-align: center;
 
-}
-
-.lista {
-  
 }
 
 .aside {
