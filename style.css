@@ -1,0 +1,189 @@
+body {
+  width: 1710px;
+  height: 1080;
+  background-color: rgb(212 , 221 , 237);
+  font-family: sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  background: rgb(81 , 158 , 223);
+  height: 64px;
+  width: 1710px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#busca {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(97 , 131 , 173);
+  position: relative;
+  bottom: 190px;
+  left: 1320px;
+  border-radius: 10px;
+}
+
+#sup li {
+  display: inline-block;
+  position: relative;
+  left: 300px;
+  bottom: 68px;
+  margin-right: 30px;
+}
+
+#sup1 li {
+  display: inline-block;
+  position: relative;
+  left: 950px;
+  bottom: 112px;
+  margin-left: 40px;
+}
+
+#pesq {
+  background-color: white;
+  position: relative;
+  top: 6px;
+  left: 15px;
+  width: 230px;
+  height: 38px;
+  font-size: 25px;
+}
+
+#orkutbr {
+  position: relative;
+  left: 130px;
+}
+
+#lipreto {
+  color: black;
+}
+
+#secaocomu {
+  background-color: white;
+  float: left;
+  position: relative;
+  left: 75px;
+  top: 80px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+#minhafoto {
+  position: relative;
+  left: 10px;
+  bottom: -10px;
+  width: 230px;
+  border-bottom: 1px solid black;
+}
+
+#secaocomu p {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid black;
+}
+
+#ulfooter li {
+  display: inline-block;
+  margin: 20px;
+  border-right: 1px solid black;
+}
+
+#secaocomu ol {
+  background-color: rgb(241 , 249 , 255);
+}
+
+#secaocomu ol li {
+  border: 1px solid black;
+  margin: 10px 10px 10px 0;
+}
+
+#infos {
+  float: left;
+  position: relative;
+  left: 120px;
+  top: 80px;
+  background-color: white;
+  border-top-right-radius: 75px;
+  padding: 15px;
+}
+
+#rodape {
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 170px;
+  background-color: white;
+  height: 64px;
+  width: 1710px;
+  color: rgb(81 , 158 , 223);
+  border-radius: 15px;
+  padding-bottom: 25px;
+}
+
+.darkblue {
+  background-color: rgb(212 , 221 , 237);
+}
+
+.azul {
+  background-color: rgb(241 , 249 , 255);
+}
+
+table {
+  border-spacing: 0;
+}
+
+td {
+  font-size: 25px;
+  color: grey;
+  padding: 10px;
+}
+
+.tdali {
+  text-align: right;
+}
+
+#rosa {
+  color: rgb(228 , 52 , 171);
+}
+
+#mem {
+  float: left;
+  position: relative;
+  left: 150px;
+  top: 80px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.divvazio {
+  width: 120px;
+  height: 150px;
+  background-color: rgb(242 , 242 , 242);
+  display: inline-block;
+  text-align: center;
+}
+
+#mem img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px -20px 10px;
+}
+
+.lado-esquerdo {
+  width: 120px;
+  height: 150px;
+  background-color: rgb(242 , 242 , 242);
+  display: inline-block;
+  text-align: center;
+}
+
+.lado-direito {
+  width: 120px;
+  height: 150px;
+  background-color: rgb(242 , 242 , 242);
+  display: inline-block;
+  text-align: center;
+}
