@@ -1,36 +1,36 @@
 body {
-    background-color: lightslategrey;
+  background-color: lightslategrey;
 }
 
 #cabecalho {
-    position : fixed;
-    font-family : monospace;
-    padding : 5px;
-    color : blanchedalmond;
-    background-color : black;
+  position: fixed;
+  font-family: monospace;
+  padding: 5px;
+  color: blanchedalmond;
+  background-color: black;
 }
 
 #cabecalho li {
-    display: inline;
-    padding: 90px;
+  display: inline;
+  padding: 90px;
 }
 
 #rodape li {
-    padding: 15px;
-    display: inline;
-    bottom: 1px;
+  padding: 15px;
+  display: inline;
+  bottom: 1px;
 }
 
 #cachorro {
-    width: 500px;
-    top: 600px;
-    border: 5px ridge black;
-    margin-left: 30%;
-    }
+  width: 500px;
+  top: 600px;
+  border: 5px ridge black;
+  margin-left: 30%;
+}
 
 #principal {
-    padding-top: 60px;
-    margin-left: 20%;
+  padding-top: 60px;
+  margin-left: 20%;
 }
 
 .lado-esquerdo {
