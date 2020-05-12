@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.centro {
+#corpo {
   background-color: yellow;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,8 @@
   background-color: orangered;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  margin-top: -1px;
+  padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -156,7 +157,7 @@ img {
   list-style: none;
 }
 
-.rodape {
+#rodape {
   align-items: center;
   background-color: gray;
   display: flex;
@@ -166,7 +167,7 @@ img {
 
 @media screen and ( min-width : 569px ) and ( max-width : 799px ) {
 
-  .centro {
+  #corpo {
     background-color: gainsboro;
   }
 
@@ -188,7 +189,7 @@ img {
 
 @media screen and ( min-width : 800px ) {
 
-  .centro {
+  #corpo {
     background-color: gainsboro;
   }
 
@@ -253,7 +254,7 @@ img {
 
 @media screen and ( min-width : 320px ) and ( max-width : 568px ) {
 
-  .centro {
+  #corpo {
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
