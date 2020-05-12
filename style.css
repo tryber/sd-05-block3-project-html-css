@@ -4,6 +4,12 @@ body {
 
 #cabecalho {
     position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#top-page {
+    margin-top: 35px;
 }
 
 #rodape {
