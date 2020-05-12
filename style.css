@@ -21,13 +21,6 @@ body {
     top: 100%;
     border: 1px solid red;
 }
-#lado-direito {
-    background-color: whitesmoke;
-    width: 25%;
-    float: right;
-    padding: 30px;
-    bottom: 180px;
-}
 #lado-esquerdo {
     background-color: whitesmoke;
     width: 25%;
@@ -35,6 +28,14 @@ body {
     left: 70%;
     padding: 30px;
 }
+#lado-direito {
+    background-color: whitesmoke;
+    width: 25%;
+    float: right;
+    padding: 30px;
+    bottom: 180px;
+}
+
 #nav {
     background-color: whitesmoke;
     font-family: fantasy;
