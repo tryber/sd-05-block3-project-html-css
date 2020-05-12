@@ -159,23 +159,28 @@ td {
 }
 
 .divvazio {
-  float: left;
   width: 120px;
   height: 150px;
   background-color: rgb(242 , 242 , 242);
-  padding-left: 10px;
+  display: inline-block;
+}
+
+#mem img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
 .lado-esquerdo {
-  float: left;
   width: 120px;
   height: 150px;
   background-color: rgb(242 , 242 , 242);
+  display: inline-block;
 }
 
 .lado-direito {
-  float: left;
   width: 120px;
   height: 150px;
   background-color: rgb(242 , 242 , 242);
+  display: inline-block;
 }
