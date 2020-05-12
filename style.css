@@ -69,5 +69,7 @@ body {
 
 .img-left {
   float: left;
-  border-image: 2px white;
+  border-image: 10px white;
+  padding: 30px;
+  margin-top: 0%;
 }
