@@ -32,7 +32,7 @@ h2 , h3 {
   font-size: 20px;
 }
 
-#cabecalho{
+#cabecalho {
   background-color: rgb(172 , 88 , 227);
   position: fixed;
   z-index: 1;
