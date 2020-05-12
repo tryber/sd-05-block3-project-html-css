@@ -4,11 +4,11 @@
 }
 
 body {
-  background-color: gainsboro;
+  background-color: black;
 }
 
 #container {
-  background-color: yellow;
+  background-color: black;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -48,7 +48,6 @@ body {
 }
 
 .lado-esquerdo {
-  background-color: lawngreen;
   display: block;
   flex-direction: column;
 }
@@ -174,9 +173,12 @@ img {
 }
 
 @media screen and ( min-width : 569px ) and ( max-width : 799px ) {
+  body {
+    background-color: black;
+  }
 
   #container {
-    background-color: gainsboro;
+    background-color: black;
   }
 
   .imagens-cards {
@@ -196,9 +198,12 @@ img {
 }
 
 @media screen and ( min-width : 800px ) {
+  body {
+    background-color: black;
+  }
 
   #container {
-    background-color: gainsboro;
+    background-color: black;
   }
 
   .imagens-cards {
@@ -261,9 +266,11 @@ img {
 }
 
 @media screen and ( min-width : 320px ) and ( max-width : 568px ) {
+  body {
+    background-color: black;
+  }
 
   #container {
-    background-color: gainsboro;
     display: flex;
     flex-direction: column;
     overflow: hidden;
