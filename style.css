@@ -2,7 +2,12 @@ body {
   background-color: black;
   font-size: 16px;
   font-style: inherit;
-} 
+}
+
+#tiamat {
+  border: ridge red 6px;
+  margin-top: 32px;
+}
 
 #cabecalho {
   background-color: red;
@@ -18,20 +23,20 @@ body {
   font-size: 2em;
 }
 
-h1, h2 {
+h1 , h2 {
   text-align: center;
   clear: both;
 }
 
 .lado-esquerdo {
   width: 600px;
-  padding: 0px;
+  padding: 0;
   margin-bottom: 18px;
   float: left;
   border: ridge   red   6px;
 }
 
- .firsttext {
+.firsttext {
   text-align: center;
   margin-top: 12px;
   padding: 6px;
@@ -39,7 +44,7 @@ h1, h2 {
 
 .cordaletra {
   color: white;
-  font-family:fantasy, sans-serif;
+  font-family: fantasy, sans-serif;
 }
 
 #ul-lista {
@@ -55,9 +60,17 @@ h1, h2 {
   font-family: fantasy, sans-serif;
 }
 
+.table {
+  background-color: darkred;
+  margin: 3px;
+  padding: 0;
+  width: 200px;
+  border: ridge white 6px;
+}
+
 #links {
   text-align: center;
-  font-family:fantasy, sans-serif;
+  font-family: fantasy, sans-serif;
 }
 
 #rodape {
@@ -67,19 +80,19 @@ h1, h2 {
   height: 40px;
   width: 1270px;
   text-align: center;
-  font-family:fantasy, sans-serif;
+  font-family: fantasy, sans-serif;
 }
 
 .bloodred {
-  color:red;
+  color: red;
 }
 
 .gold {
-  color:gold;
+  color: gold;
 }
 
 .blue {
-  color:blue;
+  color: blue;
 }
 
 .teste {
