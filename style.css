@@ -1,15 +1,15 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(59,227,174);
-  color: rgb(172,88,227);
+  background-color: rgb(59 , 227 , 174);
+  color: rgb(172 , 88 , 227);
   z-index: 0;
 }
-* {
+*  {
   padding: 0%;
   margin: 0%;
 }
 #cabecalho {
-  background-color: rgb(172,88,227);
+  background-color: rgb(172 , 88 , 227);
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -29,15 +29,15 @@ a {
 }
 a:link,
 a:visited {
-  color: rgb(255,255,255);
+  color: rgb(255 , 255 , 255);
 }
 a:hover {
-  background-color: rgb(172,88,227);
+  background-color: rgb(172 , 88 , 227);
   text-decoration: underline;
 }
 h1 {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 600;
 }
 h2,
 h3 {
@@ -54,12 +54,12 @@ h3 {
   margin: 20px;
 }
 .container {
-  background-color: rgb(255,255,255);
+  background-color: rgb(255 , 255 , 255);
   line-height: 28px;
   margin: 20px auto;
 }
 .container ol {
-  margin: 0px 30px;
+  margin: 0 30px;
 }
 .lado-esquerdo {
   margin-left: 200px;
@@ -84,8 +84,8 @@ h3 {
 #rodape {
   text-align: center;
   padding: 20px;
-  background-color: rgb(172,88,227);
+  background-color: rgb(172 , 88 , 227);
 }
 .text-footer {
-  color: rgb(255,255,255);
+  color: rgb(255 , 255 , 255);
 }
