@@ -4,8 +4,10 @@ body {
 }
 
 #cabecalho {
+  position: fixed;
   background: rgb(81 , 158 , 223);
   height: 64px;
+  width: 2000px;
   color: white;
   font-weight: bold;
   margin-bottom: 15px;
@@ -20,7 +22,7 @@ body {
   height: 50px;
   background-color: rgb(97 , 131 , 173);
   position: relative;
-  bottom: 170px;
+  bottom: 190px;
   left: 1320px;
   border-radius: 10px;
 }
@@ -64,6 +66,7 @@ body {
   background-color: white;
   position: relative;
   left: 130px;
+  top: 80px;
   width: 250px;
   border-radius: 15px;
 }
