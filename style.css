@@ -76,17 +76,13 @@ body {
   left: 10px;
   bottom: -10px;
   width: 230px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
+  border-bottom: 1px solid black;
 }
 
 #secaocomu p {
   margin-left: 10px;
   margin-right: 10px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
+  border-bottom: 1px solid black;
 }
 
 #secaocomu ol {
@@ -94,8 +90,6 @@ body {
 }
 
 #secaocomu ol li {
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
+  border: 1px solid black;
   margin-right: 10px;
 }
