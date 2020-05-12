@@ -45,15 +45,18 @@ p, li {
   padding: 10px 12px;
 }
 
-
-.lado-direito, .lado-esquerdo{
-  width: 80%;
-  display: inline-block;
-  position:auto;
+.lado-esquerdo {
+  float: left;
+  width: 60%;
+  padding: 2em;
+  margin: 0.8em;
 }
 
-.lado-direito, ol {
+.lado-direito {
   float: right;
+  width: 20%;
+  padding: 2em;
+  margin: 0.8em;
 }
 
 .tabela {
