@@ -4,9 +4,9 @@ body {
 
 header#cabecalho {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1;
-    margin-top: 0px;
 }
 
 h1 {
@@ -14,6 +14,7 @@ h1 {
     font-size: 45px;
     background-color: rgba(255, 106, 40, 1);
     text-align: center;
+    margin: 0px;
 }
 
 #config-img {
@@ -25,7 +26,7 @@ h1 {
 }
 
 .tabela {
-    border: 1px solid black;
+    border: 1px solid rgba(122, 122, 122, 1);
     text-align: center;
     float: left;
     margin-left: 130px;
@@ -66,4 +67,5 @@ footer#rodape {
     padding: 5px;
     background-color: rgba(232, 232, 232, 1);
     color: rgba(122, 122, 122, 1);
+    position: relative;
 }
