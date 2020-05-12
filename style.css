@@ -8,9 +8,10 @@ body{
 
 header #cabecalho{
     position: fixed;
-    background-color: royalblue;
+    background-color: rgba(60 , 47 , 47 , .35);
     width: 100%;
-    height: 200px; 
+    height: 15px;
+    padding: 20px 15px;
 }
 
 .biografia-titulo{
