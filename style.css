@@ -103,10 +103,31 @@ a:hover {
     text-align: left;
     font-weight: lighter;    
 }
-
+.o-list , ol > li {
+    margin-left: 2%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.visual-content{
+    text-align: center;
+    color: rgb(246, 199, 132);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.picture {
+    width: 25%;
+    padding: 0,5%;
+    margin-top: 2%;
+}
 .table , td {
     font-size: 12px;
     margin: 1px;
+    margin-top: 40px;
+    margin-left: 10px;
     padding-top: 5px;
     width: 45%;
     overflow: none;
@@ -116,9 +137,22 @@ a:hover {
 }
 
 #aside-alert {
-    margin-left: 50%;
-    font-size: 10px;
-    text-align: center;
+    background-color: rgb(168, 189, 170);
+    border: 2px solid rgb(246, 199, 132);
+    padding: 5px;
+    width: 30%;
+    margin-left: 65%;
+    margin-bottom: 15%;
+    font-size: 15px;
+    text-align: center;    
+}
+
+.button {
+    color: black;
+    background-color: rgb(168, 189, 170);
+    text-decoration: none;
+    padding: 3px 6px;
+    font-size: 13px;
 }
 
 #rodape {
