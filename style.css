@@ -74,13 +74,13 @@
 }
 
 .th {
-  border: 1px solid rgb(221, 221, 221);
+  border: 1px solid orange;
   padding: 8px;
   text-align: left;
 }
 
 .td {
-  border: 1px solid rgb(221, 221, 221);
+  border: 1px solid orange;
   padding: 8px;
   text-align: left;
 }
@@ -195,7 +195,7 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width : 800px) {
 
   .centro {
     background-color: gainsboro;
