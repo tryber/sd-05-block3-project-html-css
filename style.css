@@ -42,7 +42,6 @@ h1 {
 }
 h2, h3 {
     font-size: 20px;
-    text-align: center;
 }
 
 
@@ -58,18 +57,31 @@ h2, h3 {
 .container {
     background-color: rgb(255, 255, 255);
     line-height: 28px;
-    margin: 20px;
-}
-.container ul{
-    margin: 0px 30px;
+    margin: 20px auto;
 }
 .container ol{
     margin: 0px 30px;
 }
-#tabela {
+.lado-esquerdo {
+    margin-left: 200px; 
+}
+.text-produtos{
+    margin-left: 180px; 
+}
+.lado-direito {
     position: relative;
-    left: 35%;
+    left: 700px;
+    bottom: 190px; 
+}
+#contato {
+    text-align: center;
+    
+}
+.tabela {
+    position: relative;
+    left: 33%;
     padding: 40px;
+    border: solid 2px black;
 }
 #rodape {
     text-align: center;
@@ -79,3 +91,5 @@ h2, h3 {
 .text-footer {
     color: rgb(255, 255, 255);
 }
+
+  
