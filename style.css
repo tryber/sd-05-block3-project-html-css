@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-body {
+#body {
   background-color: black;
 }
 
@@ -173,7 +173,7 @@ img {
 }
 
 @media screen and ( min-width : 569px ) and ( max-width : 799px ) {
-  body {
+  #body {
     background-color: black;
   }
 
@@ -198,7 +198,7 @@ img {
 }
 
 @media screen and ( min-width : 800px ) {
-  body {
+  #body {
     background-color: black;
   }
 
@@ -266,7 +266,7 @@ img {
 }
 
 @media screen and ( min-width : 320px ) and ( max-width : 568px ) {
-  body {
+  #body {
     background-color: black;
   }
 
