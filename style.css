@@ -1,16 +1,16 @@
 body {
-      background-color: rgb( 10 , 3 , 20 );
-      font-family: 'Roboto' , sans-serif;
-      align-content: center; 
-      text-align: center;
-      color: white;
+        background-color: rgb( 10 , 3 , 20 );
+        font-family: Roboto , sans-serif;
+        align-content: center;
+        text-align: center;
+        color: white;
 }
 
 h1 {
       color: #f7ed79;
-      font-family: 'Biryani' , sans-serif;
-}
-
+      font-family: Biryani , sans-serif;
+    }
+    
 li {
       text-align: center;
       align-content: center;
@@ -18,87 +18,87 @@ li {
 }
 
 #cabecalho {
-      width: 30%;
-      align-content: left;
-      margin-left: 1%;
-      margin-top: 0;
-      position: fixed;
-      background-color: rgb( 10 , 3 , 20 );
-      padding: 0;
-      text-align: left;
+        width: 30%;
+        align-content: left;
+        margin-left: 1%;
+        margin-top: 0;
+        position: fixed;
+        background-color: rgb( 10 , 3 , 20 );
+        padding: 0;
+        text-align: left;
 }
 
 footer {
-      background-color: rgb ( 247 , 237 , 121 );
-      color: rgb( 10 , 3 , 20 );
-      clear: both;
-      border-style: dashed;
+        background-color: rgb ( 247 , 237 , 121 );
+        color: rgb( 10 , 3 , 20 );
+        clear: both;
+        border-style: dashed;
 }
 
 #requisitos {
-      color: white;
-      width: 45%;
-      align-content: center;
-      margin-left: 30%;
-      margin-top: 10px;
-      clear: both;
-      padding: 10px;
-      line-height: 1.2em;
-      position: relative;
+        color: white;
+        width: 45%;
+        align-content: center;
+        margin-left: 30%;
+        margin-top: 10px;
+        clear: both;
+        padding: 10px;
+        line-height: 1.2em;
+        position: relative;
 }
 
 #sub {
-      text-align: left;
-      margin-top: 0;
-      padding-top: 0;
+        text-align: left;
+        margin-top: 0;
+        padding-top: 0;
 }
 
 #follow {
-      background-color: silver;
-      color: rgb( 10 , 3 , 20 );
-      padding: 20px;
-      width: 40%;
-      align-content: center;
-      margin-left: 30%;
-      margin-top: 20px;
+        background-color: silver;
+        color: rgb( 10 , 3 , 20 );
+        padding: 20px;
+        width: 40%;
+        align-content: center;
+        margin-left: 30%;
+        margin-top: 20px;
 }
 
 aside {
-      margin-left: 40%;
-      margin-right: 30%;
-      margin-bottom: 20px;
-      padding: 10px;
+        margin-left: 40%;
+        margin-right: 30%;
+        margin-bottom: 20px;
+        padding: 10px;
 }
 
 .lado-esquerdo {
-      float: left;
-      background-color: silver;
-      padding: 20px;
-      margin-bottom: 20px;
+        float: left;
+        background-color: silver;
+        padding: 20px;
+        margin-bottom: 20px;
 }
 
 .lado-direito {
-      float: right;
-      background-color: silver;
-      padding: 20px;
-      margin-bottom: 20px;
+        float: right;
+        background-color: silver;
+        padding: 20px;
+        margin-bottom: 20px;
 }
 
 #tabelinha {
-      align-content: center;
-      margin-left: 45%;
-      margin-right: 20%;
-      padding: 20px;
-      border: solid;
+        align-content: center;
+        margin-left: 45%;
+        margin-right: 20%;
+        padding: 20px;
+        border: solid;
 }
 
 #menu {
-      float: right;
-      align-content: center;
-      position: relative;
-      background-color: slategrey;
-      margin-right: 5%;
-      margin-top: 50px;
-      font-size: 1.5em;
-      padding: 10px;
+        float: right;
+        align-content: center;
+        position: relative;
+        background-color: slategrey;
+        margin-right: 5%;
+        margin-top: 50px;
+        font-size: 1.5em;
+        padding: 10px;
 }
