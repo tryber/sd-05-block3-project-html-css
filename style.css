@@ -24,6 +24,11 @@ body {
   padding: 10px 12px;
 }
 
+#titulo-tabela {
+  text-align: center;
+  margin: auto;
+}
+
 .lado-direito {
   width: 50%;
   float: right;
