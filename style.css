@@ -64,13 +64,13 @@ body {
   justify-content: right;
   width: 40%;
   text-indent: 50px;
-  padding: 5%;
 }
 
 .img-left {
   float: left;
-  border-image: 10px solid white;
+  border: 2px solid white;
   padding: 30px;
   margin-top: 0%;
   height: 200px;
+  
 }
