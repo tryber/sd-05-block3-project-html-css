@@ -63,12 +63,14 @@ p, li {
   text-align: center;
   font-weight: bold;
   line-height: 0.8;
+  word-spacing: 10px;
 }
 
 .item-tabela {
   text-align: center;
   float: center;
   line-height: 0.8;
+  word-spacing: 10px;
 
 }
 
