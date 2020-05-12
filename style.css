@@ -1,4 +1,4 @@
-body {
+body {    
     font-size: 20px;
     font-family: arial, sans-serif;
     background-color: #e6e8e6;
@@ -13,7 +13,7 @@ body {
     left: 150px;
     top: 580px;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    background-color: #fff;
     color: #191919;
 }
 
@@ -24,17 +24,18 @@ body {
     left: 150px;
     top: 680px;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    background-color: #fff;
     color: #191919;
 }
 
 #cabecalho {
     width: 100%;
     position: fixed;
+    z-index: 3;
     padding-top: 20px;
-    height: 65px;    
+    height: 65px;
     background-color: #191919;
-    color: #ffffff;    
+    color: #fff;
 }
 
 #headpicture {
@@ -55,20 +56,33 @@ body {
 
 .nav {
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     margin-top: -10px;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: bold;
+    color: #f15025;
+    margin-left: 150px;
+}
+
 a:link {
-    color: #ffffff;
+    color: #fff;
 }
 
 a:hover {
-    color: #ffffff;
+    color: #fff;
 }
 
 a:visited {
-    color: #ffffff;
+    color: #fff;
+}
+
+#abbey {
+    position: relative;
+    left: 250px;
 }
 
 #rodape {
@@ -76,7 +90,7 @@ a:visited {
     padding-top: 20px;
     height: 65px;
     background-color: #191919;
-    color: #ffffff;
+    color: #fff;
     display: inline-block;
     text-align: center;
 }
