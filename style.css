@@ -102,6 +102,6 @@ body {
 }
 
 .lado-direito {
-  float: right;
+  float: left;
   color: rgb(81 , 158 , 223);
 }
