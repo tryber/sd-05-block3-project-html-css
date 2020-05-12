@@ -6,7 +6,7 @@ body{
     background-color: black;
 }
 
-header #cabecalho{
+.header #cabecalho{
     position: fixed;
     background-color: rgba(60 , 47 , 47 , .35);
     width: 100%;
