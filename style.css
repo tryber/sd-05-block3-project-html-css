@@ -2,8 +2,7 @@ body {
     background-color: darkgrey;
 }
 
-header {
+header#cabecalho {
     position: fixed;
-    top: 0;
     width: 100%;
 }
