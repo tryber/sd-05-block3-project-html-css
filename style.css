@@ -3,11 +3,11 @@ body {
 }
 
 #cabecalho {
-    position: fixed;
-    font-family: monospace;
-    padding: 5px;
-    color: blanchedalmond;
-    background-color: black;
+    position : fixed;
+    font-family : monospace;
+    padding : 5px;
+    color : blanchedalmond;
+    background-color : black;
 }
 
 #cabecalho li {
