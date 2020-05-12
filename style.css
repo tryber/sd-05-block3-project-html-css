@@ -3,3 +3,6 @@ body{
     font-family: garamond, sans-serif;
     color: #476788;
 }
+#cabecalho{
+    position: fixed;
+}
