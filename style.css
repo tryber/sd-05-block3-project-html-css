@@ -39,11 +39,11 @@ header#cabecalho {
 
 img.lado-esquerdo {
   float: left;
+  
 }
 
-img.lado-direito {
+section.lado-direito {
   float: right;
-  width: 40%;
 }
 
 #main-img {
