@@ -1,95 +1,91 @@
 body {
-    font-family: sans-serif;
-    background-color: rgb(59, 227, 174);
-    color: rgb(172, 88, 227);
-    z-index: 0;
+  font-family: sans-serif;
+  background-color: rgb(59, 227, 174);
+  color: rgb(172, 88, 227);
+  z-index: 0;
 }
 * {
-    padding: 0%;
-    margin: 0%;
+  padding: 0%;
+  margin: 0%;
 }
 #cabecalho {
-    background-color: rgb(172, 88, 227);
-    position: fixed; 
-    z-index: 1;
-    width: 100%;
-    height: 70px; 
+  background-color: rgb(172, 88, 227);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
 }
 #menu {
-    position: absolute;
-    right: 50px;
-    top: 25px;
-   
+  position: absolute;
+  right: 50px;
+  top: 25px;
 }
 #menu li {
-    display: inline-block;  
-    padding-inline-start: 20px;
+  display: inline-block;
+  padding-inline-start: 20px;
 }
- a {
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-a:link, a:visited {
-    color: rgb(255, 255, 255);
+a:link,
+a:visited {
+  color: rgb(255, 255, 255);
 }
 a:hover {
-    background-color: rgb(172, 88, 227);
-    text-decoration: underline;
+  background-color: rgb(172, 88, 227);
+  text-decoration: underline;
 }
 h1 {
-    font-size: 25px;
-    font-weight: bold;
-
+  font-size: 25px;
+  font-weight: bold;
 }
-h2, h3 {
-    font-size: 20px;
+h2,
+h3 {
+  font-size: 20px;
 }
-
 
 #imagem {
-    width: 100%;
-    height: 500px;
+  width: 100%;
+  height: 500px;
 }
 .text-main {
-    text-align: center;
-    line-height: 28px;
-    margin: 20px;
+  text-align: center;
+  line-height: 28px;
+  margin: 20px;
 }
 .container {
-    background-color: rgb(255, 255, 255);
-    line-height: 28px;
-    margin: 20px auto;
+  background-color: rgb(255, 255, 255);
+  line-height: 28px;
+  margin: 20px auto;
 }
-.container ol{
-    margin: 0px 30px;
+.container ol {
+  margin: 0px 30px;
 }
 .lado-esquerdo {
-    margin-left: 200px; 
+  margin-left: 200px;
 }
-.text-produtos{
-    margin-left: 180px; 
+.text-produtos {
+  margin-left: 180px;
 }
 .lado-direito {
-    position: relative;
-    left: 700px;
-    bottom: 190px; 
+  position: relative;
+  left: 700px;
+  bottom: 190px;
 }
 #contato {
-    text-align: center;
-    
+  text-align: center;
 }
 .tabela {
-    position: relative;
-    left: 33%;
-    padding: 40px;
-    border: solid 2px black;
+  position: relative;
+  left: 33%;
+  padding: 40px;
+  border: solid 2px black;
 }
 #rodape {
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(172, 88, 227);
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(172, 88, 227);
 }
 .text-footer {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
-
-  
