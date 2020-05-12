@@ -4,27 +4,26 @@ body {
 }
 
 #cabecalho {
-  background: rgb(7,86,153);
-background: linear-gradient(0deg, rgba(7,86,153,1) 10%, rgba(81,158,223,1) 50%, rgba(7,86,153,1) 90%);
+  background: rgb(81 , 158 , 223);
   height: 64px;
   color: white;
   font-weight: bold;
   margin-bottom: 15px;
-  }
+}
 
 #rodape {
   background-color: rgb(188 , 205 , 234);
 }
 
 #busca {
-  width:300px;
-  height:50px;
+  width: 300px;
+  height: 50px;
   background-color: rgb(97 , 131 , 173);
   position: relative;
   bottom: 170px;
   left: 1320px;
   border-radius: 10px;
-  }
+}
 
 #sup li {
   display: inline-block;
@@ -41,6 +40,7 @@ background: linear-gradient(0deg, rgba(7,86,153,1) 10%, rgba(81,158,223,1) 50%, 
   bottom: 112px;
   margin-left: 40px;
 }
+
 #pesq {
   background-color: white;
   position: relative;
@@ -55,9 +55,11 @@ background: linear-gradient(0deg, rgba(7,86,153,1) 10%, rgba(81,158,223,1) 50%, 
   position: relative;
   left: 130px;
 }
+
 #lipreto {
   color: black;
 }
+
 #secaocomu {
   background-color: white;
   position: relative;
@@ -65,6 +67,7 @@ background: linear-gradient(0deg, rgba(7,86,153,1) 10%, rgba(81,158,223,1) 50%, 
   width: 250px;
   border-radius: 15px;
 }
+
 #minhafoto {
   position: relative;
   left: 10px;
@@ -72,18 +75,21 @@ background: linear-gradient(0deg, rgba(7,86,153,1) 10%, rgba(81,158,223,1) 50%, 
   width: 230px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-width: black;
+  border-bottom-color: black;
 }
+
 #secaocomu p {
   margin-left: 10px;
   margin-right: 10px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-width: black;
+  border-bottom-color: black;
 }
+
 #secaocomu ol {
   background-color: rgb(241 , 249 , 255);
 }
+
 #secaocomu ol li {
   border-width: 1px;
   border-style: solid;
