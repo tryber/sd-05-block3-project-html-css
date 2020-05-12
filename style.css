@@ -30,6 +30,12 @@ body {
   margin: auto;
 }
 
+#exemplo {
+  text-align: center;
+  margin: auto;
+  padding: 10px 12px;
+}
+
 .lado-direito {
   width: 50%;
   float: right;
