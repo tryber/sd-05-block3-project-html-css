@@ -14,7 +14,7 @@ header #cabecalho{
     padding: 20px 15px;
 }
 
-#menu ul li { 
+#menu th { 
     display: inline;
     padding: 15px 15px;
     text-align: center;
