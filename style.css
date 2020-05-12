@@ -67,8 +67,9 @@ p , ul , ol {
 .table__boy {
   background-color: blue;
   padding: 2%;
+  height: 3%;
   border: rgb(162 , 169 , 177) solid 1px;
-
+  text-align: center;
 }
 
 .table__car {
@@ -76,13 +77,14 @@ p , ul , ol {
   padding: 2%;
   padding-right: 4%;
   border: rgb(162 , 169 , 177) solid 1px;
-
+  text-align: center;
 }
 
 .table__girl {
   background-color: rgb(251 , 191 , 202);
   padding: 2%;
   border: rgb(162 , 169 , 177) solid 1px;
+  text-align: center;
 }
 
 header {
