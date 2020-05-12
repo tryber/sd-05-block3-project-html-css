@@ -1,4 +1,6 @@
 body {
+  width: 1920px;
+  height: 1080;
   background-color: rgb(212 , 221 , 237);
   font-family: sans-serif;
 }
@@ -9,7 +11,7 @@ body {
   height: 64px;
   width: 2000px;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 
@@ -92,4 +94,12 @@ body {
 #secaocomu ol li {
   border: 1px solid black;
   margin-right: 10px;
+}
+.lado-esquerdo {
+  float: left;
+  color: rgb(81 , 158 , 223);
+}
+.lado-direito {
+  float: right;
+  color: rgb(81 , 158 , 223);
 }
