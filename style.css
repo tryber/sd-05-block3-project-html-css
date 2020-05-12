@@ -31,9 +31,9 @@ h2 {
 }
 
 #rodape {
-  position: fixed;
   text-align: center;
   color: purple;
+  margin-bottom: 5px;
 }
 
 #titulo-tabela {
