@@ -1,5 +1,5 @@
 body {
-    background-color:beige;
+    background-color:black;
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
@@ -10,14 +10,22 @@ body {
     width: 100%;
     text-align: center;
     background-image: url(/mountain.jpeg);
-    padding: 22px;
-    margin-top: 38px;
+    padding: 33px;
+    margin-top: 60px;
+    align-items: center;
 
 }
 
 nav .lado-esquerdo , nav .lado-direito {
     display: inline-block;
+    align-items: stretch;
 }
+
+nav .lado-esquerdo {
+    text-align: left;
+    width:63%;
+}
+
 
 .navbar {
     overflow: hidden;
@@ -26,7 +34,6 @@ nav .lado-esquerdo , nav .lado-direito {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     text-align: center;
-    padding: 5px; 
 }
 
 .navbar a {
@@ -36,7 +43,7 @@ nav .lado-esquerdo , nav .lado-direito {
       }
     
 .intro {
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 .intro-pic {
@@ -49,16 +56,21 @@ nav .lado-esquerdo , nav .lado-direito {
 }
 
 
-
+p, ul, ol, table, a {
+    color: white;
+}
 
 h2 {
-    color:#0A6E38;
+    color:#EDD382;
     text-align: center;
 }
 
 h1, h3 {
     color: #674532;
-    text-align: center;
+}
+
+img .international {
+    flex-direction: center;
 }
 
 #content {
@@ -79,5 +91,7 @@ img {
 #rodape {
     text-align: center;
     font-size: 0.5em;
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
 }
