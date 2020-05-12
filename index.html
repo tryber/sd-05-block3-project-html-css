@@ -7,8 +7,6 @@
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
-    <h1 class="lado-esquerdo">O</h1>
-    <h2 class="lado-direito">A</h2>
     <header id="cabecalho">
         <img id="orkutbr" src="images/orkutbr.jpg" alt="logotipo do orkut br em cor de rosa">
         <ul id="sup">
@@ -27,14 +25,16 @@
         <img id="minhafoto" src="images/orkutsemfoto.jpg" alt="logotipo da trybe">
         <p>Trybe <br> (1 membros)</p>
         <p>editar perfil</p>
-        <ol>
-            <li>fórum</li>
-            <li>enquetes</li>
-            <li>eventos</li>
-            <li>membros</li>
-        </ol>
+        <nav id="navcomunidade">
+            <ol>
+                <li>fórum</li>
+                <li>enquetes</li>
+                <li>eventos</li>
+                <li>membros</li>
+            </ol>
+        </nav>
     </section>
-    <section>
+    <article id="infos">
         <h1>Trybe</h1>
         <p>Início > Comunidades > Trybe</p>
         <table>
@@ -70,13 +70,21 @@
                 <td>1</td>
             </tr>
         </table>
-    </section>
-    <section>
+    </article>
+    <aside>
         <p>Ainda não é membro?</p>
         <p>ENTRAR JÁ</p>
-    </section>
+    </aside>
     <footer id="rodape">
-        <p>© 2020 Orkut.br - <a>Sobre o Orkut.br</a> - <a>Centro de segurança</a> - <a>Privacidade</a> - <a>Termos</a> - Desenvolvido por <a>Murillo Fagá</a></p>
+        <ul id="ulfooter">
+            <li>orkut</li>
+            <li>Sobre o orkut</li>
+            <li>Novidades</li>
+            <li>Centro de segurança</li>
+            <li>Privacidade</li>
+            <li>Termos de uso</li>
+            <li>Ajuda</li>
+        </ul>
     </footer>
 </body>
 </html>
