@@ -1,6 +1,7 @@
 body {
     background-color: rgb(228, 240, 237);
     font-family: 'Times New Roman', Times, serif;
+    width: 88%
 }
 
 * {
@@ -24,7 +25,15 @@ h4 {
     font-size: 220%;
     margin-left: 90px;
     margin-bottom: 30px;
-    margin-top: 40px
+    margin-top: 40px;
+}
+
+h5 {
+    font-size: 150%;
+    width: 80%;
+    margin: auto;
+    font-weight: lighter;
+    text-align: center;
 }
 
 #cabecalho {
@@ -99,12 +108,29 @@ h4 {
 }
 
 .lado-esquerdo {
-    
-    max-width: 50%;
+    width: 50%;
     float: left;
 }
 
 .lado-direito {
-    max-width: 50%;
+    width: 50%;
     float: right;
 }
+
+.aside {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 11%;
+    height: 100%;
+    background-color:white;
+    border: 1px dashed black;
+    border-top: 4px solid orange;
+}
+
+#aside-text {
+   width: 80%;
+   margin: auto;
+   line-height: 1.5em;
+}
+
