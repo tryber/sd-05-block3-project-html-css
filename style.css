@@ -10,7 +10,8 @@ body {
     top:0px;   
     text-align: center;
     position: fixed;
-    width: 100%; 
+    width: 100%;
+    z-index: 1; 
 }
 #title {
     color: rgb(255, 255, 255);
@@ -46,8 +47,8 @@ nav ul a:active{
     margin-top: 50%;
     margin-right: 0px;
     margin-left: 82%;
-    margin-bottom: 50%;
-    padding: 2% 0% 4% 2%;    
+    border: 2% 2% 2% 2%;
+    padding:0;    
     background-color: rgba(255, 147, 5, 0.87);
     position: absolute;
     align-items: center;
@@ -58,9 +59,18 @@ nav ul a:active{
     background-color: rgb(255, 255, 255);
     font-size: 0.9em;
     color: black;
+    
 }
 .posi{
     display: inline-block;
+}
+#nomeTabela{
+    text-align: center;
+    font-size: 1em;
+}
+#tabela{
+    padding: 18px;
+    align-items: center;
 }
 td a:link{
     text-decoration:none;    
