@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(239, 225, 225);
-    font-family: 'Times New Roman', Times, serif
+    background-color: rgb(228, 240, 237);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 * {
@@ -24,7 +24,7 @@ h4 {
     font-size: 220%;
     margin-left: 90px;
     margin-bottom: 30px;
-    margin-top: 60px
+    margin-top: 40px
 }
 
 #cabecalho {
@@ -38,6 +38,7 @@ h4 {
     background-image: url("images/pug-background.jpg");
     background-size: cover;
     padding: 60px 15px 40px;
+    color: black;
 }
 
 #header-content {
@@ -61,19 +62,22 @@ h4 {
 .section-header {
     margin: auto;
     margin-top: 80px;
-    padding: 50px 20px;
-    background-color: rgb(0, 255, 76);
+    padding: 100px 20px;
+    background-color:white;
     background-size: cover;
+    border: ridge black 1px;
 }
 
 .section-header-text {
     margin: auto;
     max-width: 50%;
-    font-size: 1.15em;
+    font-size: 1.3em;
     line-height: 2em;
 }
 
 .dog-section {
+   border: solid orange 10px;
+   background-color: white;
    display: inline-block;
    margin-top: 80px;
    margin-bottom: 80px;
@@ -90,12 +94,12 @@ h4 {
 }
 
 .dog-image {
-    border: ridge red 2px;
     width: 100%;
     
 }
 
 .lado-esquerdo {
+    
     max-width: 50%;
     float: left;
 }
