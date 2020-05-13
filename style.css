@@ -114,6 +114,7 @@ a:hover {
 
 .lado-esquerdo {
   margin-left: 10px;
+  height: 450px;
   float: left;
   position: relative;
   z-index: 4;
@@ -137,4 +138,13 @@ a:hover {
   position: relative;
   top: 250px;
   left: 700px;
+}
+
+.eqtos {  
+  margin-left: 150px;
+  top: 680px;
+  float: left;
+  position: absolute;
+  color: #630000;
+  z-index: 3;
 }
