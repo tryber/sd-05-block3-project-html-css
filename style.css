@@ -88,8 +88,8 @@ h5 {
    border: solid orange 10px;
    background-color: white;
    display: inline-block;
-   margin-top: 80px;
-   margin-bottom: 80px;
+   
+   margin-bottom: 160px;
 }
 
 .dog-section p {
