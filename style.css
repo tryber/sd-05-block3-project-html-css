@@ -26,20 +26,47 @@ body {
     display: inline;
     padding:3%;
 } 
-a:link{
+nav ul a:link{
     text-decoration:none;
 }
-a:visited{
+nav ul a:visited{
     color: rgb(255, 255, 255);  
 }
-a:hover{
+nav ul a:hover{
 	text-decoration: none; 
     background-color: rgba(255, 115, 1, 0.719);
     color: rgb(255, 255, 255); 
 }
-a:active{
+nav ul a:active{
     text-decoration: none;
     color: rgb(255, 255, 255);  
+}
+#tubular{
+    width: 15%;
+    margin-top: 50%;
+    margin-right: 0px;
+    margin-left: 82%;
+    margin-bottom: 50%;
+    padding: 2% 0% 4% 2%;    
+    background-color: rgba(255, 147, 5, 0.87);
+    position: absolute;
+    align-items: center;
+    Border: 1px solid #000000;
+    z-index: 0;
+}
+#tubular tr{
+    background-color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    color: black;
+}
+.posi{
+    display: inline-block;
+}
+td a:link{
+    text-decoration:none;    
+}
+td a:visited{
+    color: rgb(18, 2, 75);  
 }
 img{
     margin-left: 5%;
@@ -51,7 +78,6 @@ img{
 #paragrafo1{
     padding-top: 180px;
 }
-
 .art {
     margin-top: 10px;
     margin-left: 5%;
