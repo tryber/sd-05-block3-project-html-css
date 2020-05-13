@@ -162,11 +162,6 @@ img {
   padding: 50px;
 }
 
-.link-aside {
-  background-color: darkseagreen;
-  border: 2px solid;
-}
-
 .titulo-aside-ingles {
   align-items: center;
   border: 1px solid;
@@ -202,7 +197,11 @@ img {
 
 @media screen and ( max-width : 600px ) {
 
-  .lado-esquerdo.middle, .lado-direito.side {
+  .lado-esquerdo.middle {
+    width: 100%;
+  }
+
+  .lado-direito.side {
     width: 100%;
   }
 
@@ -214,7 +213,7 @@ img {
 
 @media screen and ( min-width : 601px ) {
 
-  p,th,tr {
+  p {
     font-size: 20px;
   }
 
