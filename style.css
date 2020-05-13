@@ -105,14 +105,14 @@ a:hover {
   background-color: #0a0909;
   color: #ffffff;
   display: inline-block;
-  text-align: center;
+  text-align: center;  
 }
 
 .abbey-relative {
   background-color: #f4f4f4;
 }
 
-.lado-esquerdo {
+.box-esquerdo {
   margin-left: 10px;
   height: 450px;
   float: left;
@@ -120,14 +120,14 @@ a:hover {
   z-index: 4;
 }
 
-.lado-direito {
+.box-direito {
   width: 620px;
   height: 1200px;
   padding: 50px 50px 80px 50px;  
-  margin-right: 220px;
-  margin-top: 320px;
+  margin-right: 190px;
+  margin-top: 200px;
   float: right;
-  line-height: 1.5em;
+  line-height: 1.6em;
   z-index: 3;  
 }
 
@@ -141,8 +141,11 @@ a:hover {
   left: 700px;    
 }
 
-.eqtos {  
-  margin-left: 150px;
+.eqtos {
+  border: 1px solid #630000;
+  background-color: #bbbbbb;  
+  margin-left: 240px;
+  padding: 20px;
   top: 680px;
   float: left;
   position: absolute;
