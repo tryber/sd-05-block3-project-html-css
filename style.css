@@ -1,7 +1,7 @@
 body {
   font-size: 20px;
   font-family: arial, sans-serif;
-  background-color: #bbbbbb;
+  background-color: #f4f4f4;
   color: #0a0909;
   margin: 0%;
 }
@@ -37,7 +37,7 @@ body {
   padding-top: 20px;
   height: 65px;
   background-color: #0a0909;
-  color: #f4f4f4;
+  color: #ffffff;
 }
 
 #headpicture {
@@ -58,7 +58,7 @@ body {
 
 .nav {
   text-align: center;
-  color: #f4f4f4;
+  color: #ffffff;
   margin-top: -10px;
 }
 
@@ -76,15 +76,17 @@ h2 {
 }
 
 a:link {
-  color: #f4f4f4;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #f4f4f4;
+  color: #ffffff;
 }
 
 a:hover {
   color: #630000;
+  background-color: #ffffff;
 }
 
 #abbey-picture {
@@ -101,13 +103,13 @@ a:hover {
   z-index: 5;
   height: 65px;
   background-color: #0a0909;
-  color: #f4f4f4;
+  color: #ffffff;
   display: inline-block;
   text-align: center;
 }
 
 .abbey-relative {
-  background-color: #bbbbbb;
+  background-color: #f4f4f4;
 }
 
 .lado-esquerdo {
@@ -118,10 +120,10 @@ a:hover {
 }
 
 .lado-direito {
-  width: 600px;
-  height: 300px;
+  width: 620px;
+  height: 1200px;
   padding: 50px 50px 80px 50px;  
-  margin-right: 250px;
+  margin-right: 220px;
   margin-top: 320px;
   float: right;
   line-height: 1.5em;
@@ -129,9 +131,9 @@ a:hover {
 }
 
 .caixa {
-  border: 1px solid #0a0909;
+  border: 1px solid #630000;
   width: 1000px;
-  height: 500px;
+  height: 1280px;
   position: relative;
   top: 250px;
   left: 700px;
