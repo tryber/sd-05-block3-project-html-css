@@ -20,6 +20,13 @@ h3 {
     font-size: 150%;
 }
 
+h4 {
+    font-size: 220%;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    margin-top: 60px
+}
+
 #cabecalho {
     position: fixed;
     font-size: smaller;
@@ -69,6 +76,17 @@ h3 {
 .dog-section {
    display: inline-block;
    margin-top: 80px;
+   margin-bottom: 80px;
+}
+
+.dog-section p {
+    font-style: italic;
+    font-size: 1.4em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    line-height: 2em;
+    font-weight: 500;
 }
 
 .dog-image {
