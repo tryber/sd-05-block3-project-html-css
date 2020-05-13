@@ -51,11 +51,6 @@ h3 {
     position: fixed;
 }
 
-.dog-image {
-    border-radius: 10%;
-    border: ridge red 5px;
-}
-
 .section-header {
     margin: auto;
     margin-top: 80px;
@@ -71,6 +66,22 @@ h3 {
     line-height: 2em;
 }
 
+.dog-section {
+   display: inline-block;
+   margin-top: 80px;
+}
+
+.dog-image {
+    border: ridge red 2px;
+    width: 100%;
+}
+
 .lado-esquerdo {
     max-width: 50%;
+    float: left;
+}
+
+.lado-direito {
+    max-width: 50%;
+    float: right;
 }
