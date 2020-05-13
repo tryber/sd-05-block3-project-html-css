@@ -1,0 +1,55 @@
+body
+{
+background-color: gray
+}
+
+#cabecalho
+{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    width: 950px;
+    height: 100px;
+    border: 1px solid white;
+}
+
+.escolha
+{
+    width: 450px;
+    height: 360px;
+}
+
+.bloco-1 .bloco-2
+{
+    width: 450px;
+    height: 360px;
+    
+}
+
+#brazil
+{
+    position: relative;
+    float: left;
+    margin-left: 12.5px;
+    margin-top: 125px;
+    border: 1px solid white;
+}
+
+#america
+{
+    position: relative;
+    margin-left: 25px;
+    margin-top: 125px;
+    border: 1px solid white;
+    
+}
+
+#rodape
+{
+    width: 950px;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid white;
+    color: white;
+}
+
