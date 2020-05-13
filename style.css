@@ -134,3 +134,13 @@ h5 {
    line-height: 1.5em;
 }
 
+#references {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+    width: max-content;
+}
+
+#references-title {
+    margin-bottom: 15px;
+}
