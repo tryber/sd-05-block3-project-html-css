@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(228, 240, 237);
+    background-color: rgb(174, 240, 223);
     font-family: 'Times New Roman', Times, serif;
-    width: 88%
+    width: 89%
 }
 
 * {
@@ -47,7 +47,6 @@ h5 {
     background-image: url("images/pug-background.jpg");
     background-size: cover;
     padding: 60px 15px 40px;
-    color: black;
 }
 
 #header-content {
@@ -139,6 +138,7 @@ h5 {
     margin: 10px;
     padding: 30px;
     width: max-content;
+    background-color: white;
 }
 
 #references-title {
