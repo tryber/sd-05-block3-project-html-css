@@ -36,14 +36,14 @@ h5 {
     text-align: center;
 }
 
-#navegation {
+#cabecalho {
     position: fixed;
     font-size: smaller;
     top: 0;
     left: 0;
 }
 
-#cabecalho {
+#navigation {
     background-image: url("images/pug-background.jpg");
     background-size: cover;
     padding: 60px 15px 40px;
