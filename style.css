@@ -20,18 +20,20 @@ p {
 }
 
 .lado-esquerdo {
-    float: left;
     width: 80%;
 }
 
 .lado-direito {
-    float: right;
     width: 20%;
 }
 
-header#cabecalho .logo-subtitulo {
-    font-size: 8pt;
-    }
+header#cabecalho {
+    position: fixed;
+}
+
+    header#cabecalho .logo-subtitulo {
+        font-size: 8pt;
+        }
 
 /* Menu formatting */
 
