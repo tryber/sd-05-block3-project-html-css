@@ -5,6 +5,8 @@ body {
     background-color: #090D15;
     color: white;
     font-family: 'Titilium-Web', sans-serif;
+    border: 2px solid white;
+    box-shadow: 2px 2px 2px grey;
 }
 
     body h1 {
@@ -17,20 +19,34 @@ p {
     padding: 20px;
 }
 
-/* Main content formatting*/
+.lado-esquerdo {
+    float: left;
+    width: 80%;
+}
 
-    header#cabecalho {
-        position: fixed;
-        border-bottom: 2px solid white;
+.lado-direito {
+    float: right;
+    width: 20%;
+}
+
+header#cabecalho .logo-subtitulo {
+    font-size: 8pt;
     }
 
-    footer#rodape {
-        position: fixed;
-        text-align: center;
-    }
+/* Menu formatting */
 
+nav#menu {
+    text-align: right;
+}
 
+nav#menu .item-cabecalho {
+    display: inline;
+    padding: 10px;
+}
 
+/* Footer formatting */
 
-
-    
+footer#rodape {
+    text-align: center;
+    font-size: 8px;
+}
