@@ -12,7 +12,7 @@ body {
   z-index: 2;
   left: 150px;
   top: 560px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: rgb(244 , 244 , 244);
   padding: 10px;
   color: rgb(10 , 9 , 9);
@@ -178,7 +178,7 @@ a:hover {
 }
 
 .alinhamento {
-  padding: 20px 50px 80px 50px;
+  padding: 20px 50px 80px;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
