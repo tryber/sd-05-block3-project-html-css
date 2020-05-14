@@ -17,161 +17,161 @@
 }
 
 .head-title {
-    background-color: rgb(246 , 199 , 132);
-    font-size: 15px;
+  background-color: rgb(246 , 199 , 132);
+  font-size: 15px;
 }
 
 #main-section {
-    height: 300px;
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    background-color: rgb(168 , 189 , 170);
-    border-bottom: 3px solid rgb(246 , 233 , 187);
-    border-top: 3px solid rgb(246 , 233 , 187);
+  height: 300px;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgb(168 , 189 , 170);
+  border-bottom: 3px solid rgb(246 , 233 , 187);
+  border-top: 3px solid rgb(246 , 233 , 187);
 }
 
 #img-main-section {
-    margin-left: 6%;
-    float: left;
-    max-width: 60%;
+  margin-left: 6%;
+  float: left;
+  max-width: 60%;
 }
 
 .nav {
-    float: right;
-    max-width: 40%;
-    margin-right: 5%;
-    margin-top: 5%;
-    text-align: left;
-    background-color: rgb(168 , 189 , 170);
+  float: right;
+  max-width: 40%;
+  margin-right: 5%;
+  margin-top: 5%;
+  text-align: left;
+  background-color: rgb(168 , 189 , 170);
 }
 
 .list-nav {
-    background-color: rgb(168 , 189 , 170);
-    list-style-type: square;
-    color: rgb(246 , 199 , 132);
-    line-height: 30px;
+  background-color: rgb(168 , 189 , 170);
+  list-style-type: square;
+  color: rgb(246 , 199 , 132);
+  line-height: 30px;
 }
 
 .link-nav {
-    background-color: rgb(168 , 189 , 170);
-    text-decoration: none;
-    color: rgb(246 , 199 , 132);
+  background-color: rgb(168 , 189 , 170);
+  text-decoration: none;
+  color: rgb(246 , 199 , 132);
 }
 
 .link {
-    text-decoration: none;
-    border-bottom: 2px solid rgb(168 , 189 , 170);
-    color: rgb(168 , 189 , 170);
-    font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid rgb(168 , 189 , 170);
+  color: rgb(168 , 189 , 170);
+  font-weight: 700;
 }
 
 a:hover {
-    background-color: rgb(246 , 233 , 187);
+  background-color: rgb(246 , 233 , 187);
 }
 
 #main-title {
-    background-color: rgb(168 , 189 , 170);
-    font-size: 30px;
-    padding-left: 8px;
-    margin: 10px 15% 20px;
-    text-align: center;
+  background-color: rgb(168 , 189 , 170);
+  font-size: 30px;
+  padding-left: 8px;
+  margin: 10px 15% 20px;
+  text-align: center;
 }
 
 .body-text {
-    font-size: 15px;
-    font-weight: 10;
-    margin: 0 60px 0 3%;
-    padding-left: 8px;
-    line-height: 30px;
-    text-align: justify;
+  font-size: 15px;
+  font-weight: 10;
+  margin: 0 60px 0 3%;
+  padding-left: 8px;
+  line-height: 30px;
+  text-align: justify;
 }
 
 .list-body {
-    list-style-type: square;
-    font-size: 12px;
-    line-height: 25px;
+  list-style-type: square;
+  font-size: 12px;
+  line-height: 25px;
 }
 
 .sub-title {
-    background-color: rgb(168 , 189 , 170);
-    font-size: 18px;
-    padding: 8px;
-    margin: 20px 50% 20px 3%;
-    text-align: left;
-    font-weight: 200;
+  background-color: rgb(168 , 189 , 170);
+  font-size: 18px;
+  padding: 8px;
+  margin: 20px 50% 20px 3%;
+  text-align: left;
+  font-weight: 200;
 }
 
 .o-list , ol > li {
-    margin-left: 2%;
-    font-size: 13px;
-    line-height: 20px;
-    margin-bottom: 5px;
-    font-weight: 600;
+  margin-left: 2%;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 
 #visual-content {
-    text-align: center;
-    color: rgb(246 , 199 , 132);
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 3%;
-    margin-bottom: 2%;
+  text-align: center;
+  color: rgb(246 , 199 , 132);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 3%;
+  margin-bottom: 2%;
 }
 
 .picture {
-    width: 25%;
-    padding: 0.5%;
-    margin-top: 2%;
+  width: 25%;
+  padding: 0.5%;
+  margin-top: 2%;
 }
 
 #docs {
-    float: left;
-    margin-left: 2%;
-    margin-bottom: 5%;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 5%;
 }
 
 #aside-alert {
-    float: right;
-    background-color: rgb(168 , 189 , 170);
-    border: 2px solid rgb(246 , 199 , 132);
-    padding: 5px;
-    width: 30%;
-    margin: 20% 5%;
-    font-size: 15px;
-    text-align: center;
+  float: right;
+  background-color: rgb(168 , 189 , 170);
+  border: 2px solid rgb(246 , 199 , 132);
+  padding: 5px;
+  width: 30%;
+  margin: 20% 5%;
+  font-size: 15px;
+  text-align: center;
 }
 
 .button {
-    color: black;
-    background-color: rgb(168 , 189 , 170);
-    text-decoration: none;
-    padding: 3px 6px;
-    font-size: 13px;
+  color: black;
+  background-color: rgb(168 , 189 , 170);
+  text-decoration: none;
+  padding: 3px 6px;
+  font-size: 13px;
 }
 
 #final {
-    margin-top: 20%;
+  margin-top: 20%;
 }
 
 .table , td {
-    font-size: 12px;
-    margin: 5% 30%;
-    padding-top: 5px;
-    width: 50%;
-    overflow: none;
-    border: 2px solid rgb(168 , 189 , 170);
-    border-collapse: collapse;
-    text-align: center;
+  font-size: 12px;
+  margin: 5% 30%;
+  padding-top: 5px;
+  width: 50%;
+  overflow: none;
+  border: 2px solid rgb(168 , 189 , 170);
+  border-collapse: collapse;
+  text-align: center;
 }
 
 #rodape {
-    background-color: rgb(246 , 199 , 132);
-    height: 15px;
-    bottom: 0;
-    right: 0;
-    text-align: right;
-    font-size: 15px;
-    padding: 5px;
-    color: black;
+  background-color: rgb(246 , 199 , 132);
+  height: 15px;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
 }
