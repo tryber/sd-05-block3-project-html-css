@@ -43,11 +43,11 @@ nav ul a:active{
 }
 #tubular{
     width: 15%;
-    margin-top: 50%;
+    margin-top: 25%;
     margin-right: 0px;
-    margin-left: 82%;
+    margin-left: 84%;
     border: 2% 2% 2% 2%;
-    padding:0;    
+    padding:15% 0% 25% 0%;    
     background-color: rgba(255, 147, 5, 0.87);
     position: absolute;
     align-items: center;
@@ -58,16 +58,16 @@ nav ul a:active{
     background-color: rgb(255, 255, 255);
     font-size: 0.9em;
     color: black;
-    
 }
 .posi{
     display: inline-block;
 }
 #nomeTabela{
     text-align: center;
+    font-weight: bolder;
 }
 #tabela{
-    padding: 18px;
+    padding: 40% 18px;
     align-items: center;
 }
 td a:link{
@@ -77,11 +77,16 @@ td a:visited{
     color: rgb(18, 2, 75);  
 }
 img{
+    margin-top: 3%;
     margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 1%;
     width: 300px;
     background-size: 100% 100%;
     clear: none;
     align: left;
+    float: left;
+    clear: both;
 }
 #paragrafo1{
     padding-top: 180px;
@@ -89,7 +94,7 @@ img{
 .art {
     margin-top: 10px;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 17%;
 }
 #servicos {
     margin-left: 10%;
