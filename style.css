@@ -1,0 +1,10 @@
+body {
+    background-color: #e0e0e2;
+    font-family: garamond, sans-serif;
+    color: #476788;
+}
+
+#cabecalho {
+    position: fixed;
+    width: 50px;
+}
