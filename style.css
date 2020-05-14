@@ -1,8 +1,8 @@
 body {
   font-size: 20px;
   font-family: arial, sans-serif;
-  background-color: rgb(244,244,244);
-  color: rgb(10,9,9);
+  background-color: rgb(244 , 244 , 244);
+  color: rgb(10 , 9 , 9);
   margin: 0%;
 }
 
@@ -13,7 +13,7 @@ body {
   left: 150px;
   top: 560px;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(244,244,244);
+  background-color: rgb(244 , 244 , 244);
   padding: 10px;
   color: rgb(10,9,9);
 }
@@ -24,8 +24,8 @@ body {
   z-index: 2;
   left: 150px;
   top: 670px;
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(244,244,244);
+  font-family: Roboto, sans-serif;
+  background-color: rgb(244 , 244 , 244);
   padding: 10px;
   color: rgb(10,9,9);
 }
@@ -36,8 +36,8 @@ body {
   z-index: 10;
   padding-top: 20px;
   height: 65px;
-  background-color: rgb(10,9,9);
-  color: rgb(255, 255, 255);
+  background-color: rgb(10 , 9 , 9);
+  color: white;
 }
 
 #headpicture {
@@ -58,15 +58,15 @@ body {
 
 .nav {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: white;
   margin-top: -10px;
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 25px;
   font-style: bold;
-  color: rgb(99,0,0);
+  color: rgb(99 , 0 , 0);
   margin-left: 150px;
 }
 
@@ -82,16 +82,16 @@ h2 {
 
 a:link {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 a:visited {
-  color: rgb(99,0,0);
+  color: rgb(99 , 0 , 0);
 }
 
 a:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(99,0,0);
+  color: white;
+  background-color: rgb(99 , 0 , 0);
 }
 
 #abbey-picture {
@@ -107,14 +107,14 @@ a:hover {
   width: 100%;
   z-index: 5;
   height: 65px;
-  background-color: rgb(10,9,9);
-  color: rgb(255, 255, 255);
+  background-color: rgb(10 , 9 , 9);
+  color: white;
   display: inline-block;
   text-align: center;
 }
 
 .abbey-relative {
-  background-color: rgb(244,244,244);
+  background-color: rgb(244 , 244 , 244);
 }
 
 .box-esquerdo {
@@ -137,7 +137,7 @@ a:hover {
 
 .caixa {
   z-index: 2;
-  border: 1px solid rgb(99,0,0);
+  border: 1px solid rgb(99 , 0 , 0);
   width: 1000px;
   height: 1280px;
   position: relative;
@@ -147,18 +147,18 @@ a:hover {
 
 .eqtos {
   margin-top: 110px;
-  border: 1px solid rgb(99,0,0);
-  background-color: rgb(187,187,187);
+  border: 1px solid rgb(99 , 0 , 0);
+  background-color: rgb(187 , 187 , 187);
   margin-left: 240px;
   padding: 20px;
   float: left;
-  color: rgb(99,0,0);
+  color: rgb(99 , 0 , 0);
 }
 
 .abbey-destaque {
-  color: rgb(99,0,0);
+  color: rgb(99 , 0 , 0);
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .lado-esquerdo {
@@ -179,7 +179,7 @@ a:hover {
 }
 
 .alinhamento {
-  padding: 20px 50px 80px 50px;  
+  padding: 20px 50px 80px 50px;
   margin-left: auto;
   margin-right: auto;
   align-content: center;
