@@ -15,7 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(244 , 244 , 244);
   padding: 10px;
-  color: rgb(10,9,9);
+  color: rgb(10 , 9 , 9);
 }
 
 #main-title1 {
@@ -27,7 +27,7 @@ body {
   font-family: Roboto, sans-serif;
   background-color: rgb(244 , 244 , 244);
   padding: 10px;
-  color: rgb(10,9,9);
+  color: rgb(10 , 9 , 9);
 }
 
 #cabecalho {
@@ -48,7 +48,6 @@ body {
 
 #studiopicture {
   text-align: center;
-  margin: 0px;
 }
 
 #margem-nav {
@@ -128,7 +127,7 @@ a:hover {
 .box-direito {
   width: 620px;
   height: 1000px;
-  padding: 50px 50px 80px 50px;
+  padding: 50px 50px 80px;
   margin-right: 170px;
   margin-top: 80px;
   float: right;
