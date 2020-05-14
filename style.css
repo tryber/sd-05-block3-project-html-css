@@ -8,11 +8,3 @@ body {
     position: fixed;
     width: 100px;
 }
-
-#corpo{
-    display: inline-block;
-}
-
-#barra-lateral{
-    float: right;
-}
