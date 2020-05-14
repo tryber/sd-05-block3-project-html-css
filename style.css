@@ -1,0 +1,124 @@
+body {
+    background-color:rgb(255, 217, 0);
+    margin: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#cabecalho {
+    background-image: url(https://cdn.karaokenet.com.br/wp-content/uploads/2019/06/sh_sonhar-com-fogo_738210166.jpg);
+    background-size: 100% 100%;
+    top:0px;   
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1; 
+}
+#title {
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    margin: auto;
+}
+#menu {
+    color: rgb(255, 255, 255);
+    margin: auto;   
+}
+#menu ul li{
+    display: inline;
+    padding:3%;
+} 
+nav ul a:link{
+    text-decoration:none;
+}
+nav ul a:visited{
+    color: rgb(255, 255, 255);  
+}
+nav ul a:hover{
+	text-decoration: none; 
+    background-color: rgba(255, 115, 1, 0.719);
+    color: rgb(255, 255, 255); 
+}
+nav ul a:active{
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+}
+#tubular{
+    width: 15%;
+    margin-top: 25%;
+    margin-right: 0px;
+    margin-left: 84%;
+    border: 2% 2% 2% 2%;
+    padding:15% 0% 25% 0%;    
+    background-color: rgba(255, 147, 5, 0.87);
+    position: absolute;
+    align-items: center;
+    Border: 1px solid #000000;
+    z-index: 0;
+}
+#tubular tr{
+    background-color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    color: black;
+}
+.posi{
+    display: inline-block;
+}
+#nomeTabela{
+    text-align: center;
+    font-weight: bolder;
+}
+#tabela{
+    padding: 40% 18px;
+    align-items: center;
+}
+td a:link{
+    text-decoration:none;    
+}
+td a:visited{
+    color: rgb(18, 2, 75);  
+}
+img{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    width: 300px;
+    background-size: 100% 100%;
+    clear: none;
+    align: left;
+    float: left;
+    clear: both;
+}
+#paragrafo1{
+    padding-top: 180px;
+}
+.art {
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 17%;
+}
+#servicos {
+    margin-left: 10%;
+    font-size: 1.3em;
+}
+.lado-esquerdo{
+    width: 44%;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+.lado-direito{
+    width: 44%;
+    margin-top: 1%;
+    margin-right: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+#rodape {
+    background-color: rgb(245, 100, 32);
+    margin-top: 80px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-top: 2px solid #000000;
+}
