@@ -6,4 +6,5 @@ body {
 
 #cabecalho {
     position: fixed;
+    width: 100%;
 }
