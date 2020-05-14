@@ -1,8 +1,8 @@
 body {
   font-size: 20px;
   font-family: arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #0a0909;
+  background-color: rgb(244,244,244);
+  color: rgb(10,9,9);
   margin: 0%;
 }
 
@@ -12,10 +12,10 @@ body {
   z-index: 2;
   left: 150px;
   top: 560px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(244,244,244);
   padding: 10px;
-  color: #0a0909;
+  color: rgb(10,9,9);
 }
 
 #main-title1 {
@@ -24,10 +24,10 @@ body {
   z-index: 2;
   left: 150px;
   top: 670px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(244,244,244);
   padding: 10px;
-  color: #0a0909;
+  color: rgb(10,9,9);
 }
 
 #cabecalho {
@@ -36,14 +36,14 @@ body {
   z-index: 10;
   padding-top: 20px;
   height: 65px;
-  background-color: #0a0909;
-  color: #ffffff;
+  background-color: rgb(10,9,9);
+  color: rgb(255, 255, 255);
 }
 
 #headpicture {
   position: absolute;
   left: 400px;
-  top: 30px
+  top: 30px;
 }
 
 #studiopicture {
@@ -58,35 +58,40 @@ body {
 
 .nav {
   text-align: center;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   margin-top: -10px;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   font-style: bold;
-  color: #630000;
+  color: rgb(99,0,0);
   margin-left: 150px;
 }
 
 .bloco1 {
   width: 100%;
+  height: 1500px;
+}
+
+.bloco2 {
+  width: 100%;
   height: 950px;
 }
 
 a:link {
-  
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 a:visited {
-  color: #ffffff;
+  color: rgb(99,0,0);
 }
 
 a:hover {
-  color: #630000;
-  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  background-color: rgb(99,0,0);
 }
 
 #abbey-picture {
@@ -102,14 +107,14 @@ a:hover {
   width: 100%;
   z-index: 5;
   height: 65px;
-  background-color: #0a0909;
-  color: #ffffff;
+  background-color: rgb(10,9,9);
+  color: rgb(255, 255, 255);
   display: inline-block;
-  text-align: center;  
+  text-align: center;
 }
 
 .abbey-relative {
-  background-color: #f4f4f4;
+  background-color: rgb(244,244,244);
 }
 
 .box-esquerdo {
@@ -122,40 +127,64 @@ a:hover {
 
 .box-direito {
   width: 620px;
-  height: 1200px;
-  padding: 50px 50px 80px 50px;  
-  margin-right: 190px;
-  margin-top: 200px;
+  height: 1000px;
+  padding: 50px 50px 80px 50px;
+  margin-right: 170px;
+  margin-top: 80px;
   float: right;
   line-height: 1.6em;
-  z-index: 3;  
 }
 
 .caixa {
   z-index: 2;
-  border: 1px solid #630000;
+  border: 1px solid rgb(99,0,0);
   width: 1000px;
   height: 1280px;
   position: relative;
   top: 250px;
-  left: 700px;    
+  left: 700px;
 }
 
 .eqtos {
-  border: 1px solid #630000;
-  background-color: #bbbbbb;  
+  margin-top: 110px;
+  border: 1px solid rgb(99,0,0);
+  background-color: rgb(187,187,187);
   margin-left: 240px;
   padding: 20px;
-  top: 680px;
   float: left;
-  position: absolute;
-  color: #630000;
-  z-index: 3;
+  color: rgb(99,0,0);
 }
 
 .abbey-destaque {
-  background-color: #630000;
-  color: #ffffff;
+  color: rgb(99,0,0);
   text-decoration: none;
   font-weight: bold;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-right: 80px;
+  align-content: center;
+}
+
+.lado-direito {
+  width: 40%;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 80px;
+  padding-left: 80px;
+  align-content: center;
+}
+
+.alinhamento {
+  padding: 20px 50px 80px 50px;  
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+
+.lado-lado {
+  display: inline-block;
 }
