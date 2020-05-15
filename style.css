@@ -1,85 +1,70 @@
-body
-{
-background-color: gray
-}
+body{
+  background-color: gray
+ }
 
-#externa
-{
-    width: 1000px;
-    height: 700px;
-    margin-top: 10%;
-    margin-left: 22.5%;
-}
+#externa{
+  width: 1000px;
+  height: 700px;
+  margin-top: 10%;
+  margin-left: 22.5%;
+ }
 
-.corpo
-{
-    width: 955px;
-    height: 530px;
-    border: 1px solid white;
-}
+.corpo{
+  width: 955px;
+  height: 530px;
+  border: 1px solid white;
+ }
 
-#cabecalho
-{
-    position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 700px;
-    text-align: center;
-    padding-bottom: 60px;
-    color: white;
-    width: 955px;
-    height: 80px;
-    border-bottom: 1px solid white;
-}
+#cabecalho{
+  position: fixed;
+  width: 955px;
+  height: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700px;
+  text-align: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid white;
+ }
 
-#cabecalho #assunto
-{
-    font-size: 16px;
-    color: springgreen;
-    
-}
+#cabecalho #assunto{
+  font-size: 16px;
+  color: springgreen;
+ }
 
-.escolha
-{
-    width: 450px;
-    height: 360px;
-}
+.escolha{
+  width: 450px;
+  height: 360px;
+ }
 
-.bloco-1 .bloco-2
-{
-    width: 450px;
-    height: 360px;
-    
-}
+.lado-esquerdo .lado-direito{
+  width: 450px;
+  height: 360px;
+ }
 
-#brazil
-{
-    position: relative;
-    float: left;
-    margin-left: 12.5px;
-    margin-top: 155px;
-    border: 1px solid white;
-}
+#brazil{
+  position: relative;
+  float: left;
+  margin-left: 12.5px;
+  margin-top: 155px;
+  border: 1px solid white;
+ }
 
-#mundo
-{
-    position: relative;
-    margin-left: 25px;
-    margin-top: 155px;
-    border: 1px solid white;
-    
-}
+#mundo{
+  position: relative;
+  margin-left: 25px;
+  margin-top: 155px;
+  border: 1px solid white;
+ }
 
-#rodape
-{
-    width: 955px;
-    height: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    margin-top: 25px;
-    padding: 0;
-    margin-left: 0;
-    border: 1px solid white;
-    color: white;
-}
-
+#rodape{
+  width: 955px;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  padding: 0;
+  margin-left: 0;
+  border: 1px solid white;
+  color: white;
+ }
