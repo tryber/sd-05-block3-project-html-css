@@ -1,12 +1,13 @@
 * {
   margin: 0;
   font-family: Roboto, Montserrat, sans-serif;
-  background-color: rgb(239 , 246 , 224);
+  background-color: rgb(138 , 146 , 148);
 }
 
 #cabecalho {
   text-align: center;
-  background-color: rgb(246 , 199 , 132);
+  color: white;
+  background-color: rgb(15 , 103 , 87);
   padding: 3px;
   height: 16px;
   width: 100%;
@@ -17,7 +18,7 @@
 }
 
 .head-title {
-  background-color: rgb(246 , 199 , 132);
+  background-color: rgb(15 , 103 , 87);
   font-size: 15px;
 }
 
@@ -27,8 +28,8 @@
   margin-top: 2em;
   margin-bottom: 2em;
   background-color: rgb(168 , 189 , 170);
-  border-bottom: 3px solid rgb(246 , 233 , 187);
-  border-top: 3px solid rgb(246 , 233 , 187);
+  border-bottom: 3px solid rgb(15 , 103 , 87);
+  border-top: 3px solid rgb(15 , 103 , 87);
 }
 
 #img-main-section {
@@ -49,25 +50,25 @@
 .list-nav {
   background-color: rgb(168 , 189 , 170);
   list-style-type: square;
-  color: rgb(246 , 199 , 132);
+  color: rgb(15 , 103 , 87);
   line-height: 30px;
 }
 
 .link-nav {
   background-color: rgb(168 , 189 , 170);
   text-decoration: none;
-  color: rgb(246 , 199 , 132);
+  color: rgb(15 , 103 , 87);
 }
 
 .link {
   text-decoration: none;
-  border-bottom: 2px solid rgb(168 , 189 , 170);
-  color: rgb(168 , 189 , 170);
+  border-bottom: 2px solid rgb(15 , 103 , 87);
+  color: rgb(15 , 103 , 87);
   font-weight: 700;
 }
 
 a:hover {
-  background-color: rgb(246 , 233 , 187);
+  background-color: rgb(168 , 189 , 170);
 }
 
 #main-title {
@@ -112,7 +113,7 @@ a:hover {
 
 #visual-content {
   text-align: center;
-  color: rgb(246 , 199 , 132);
+  color: rgb(15 , 103 , 87);
   font-weight: 700;
   font-size: 20px;
   margin-top: 3%;
@@ -134,7 +135,7 @@ a:hover {
 #aside-alert {
   float: right;
   background-color: rgb(168 , 189 , 170);
-  border: 2px solid rgb(246 , 199 , 132);
+  border: 2px solid rgb(15 , 103 , 87);
   padding: 5px;
   width: 30%;
   margin: 20% 5%;
@@ -166,7 +167,7 @@ a:hover {
 }
 
 #rodape {
-  background-color: rgb(246 , 199 , 132);
+  background-color: rgb(15 , 103 , 87);
   height: 15px;
   bottom: 0;
   right: 0;
