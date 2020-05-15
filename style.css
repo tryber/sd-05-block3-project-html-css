@@ -1,21 +1,21 @@
-body{
-  background-color: gray
- }
+body {
+  background-color: gray;
+  }
 
-#externa{
+#externa {
   width: 1000px;
   height: 700px;
   margin-top: 10%;
   margin-left: 22.5%;
- }
+  }
 
-.corpo{
+.corpo {
   width: 955px;
   height: 530px;
   border: 1px solid white;
- }
+  }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
   width: 955px;
   height: 80px;
@@ -25,39 +25,39 @@ body{
   text-align: center;
   padding-bottom: 60px;
   border-bottom: 1px solid white;
- }
+  }
 
-#cabecalho #assunto{
+#cabecalho #assunto {
   font-size: 16px;
   color: springgreen;
- }
+  }
 
-.escolha{
+.escolha {
   width: 450px;
   height: 360px;
- }
+  }
 
-.lado-esquerdo .lado-direito{
+.lado-esquerdo .lado-direito {
   width: 450px;
   height: 360px;
- }
+  }
 
-#brazil{
+#brazil {
   position: relative;
   float: left;
   margin-left: 12.5px;
   margin-top: 155px;
   border: 1px solid white;
- }
+  }
 
-#mundo{
+#mundo {
   position: relative;
   margin-left: 25px;
   margin-top: 155px;
   border: 1px solid white;
- }
+  }
 
-#rodape{
+#rodape {
   width: 955px;
   height: 50px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -67,4 +67,4 @@ body{
   margin-left: 0;
   border: 1px solid white;
   color: white;
- }
+  }
