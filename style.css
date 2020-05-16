@@ -1,0 +1,105 @@
+body {
+  background-color: gray;
+}
+
+#externa {
+  width: 1000px;
+  height: 700px;
+  margin-top: 5%;
+  margin-left: 22.5%;
+}
+
+.corpo {
+  width: 955px;
+  height: 530px;
+  border: 1px solid white;
+}
+
+#cabecalho {
+  position: fixed;
+  width: 955px;
+  height: 80px;
+  font-family: Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+  border-bottom: 1px solid white;
+}
+
+#cabecalho #assunto {
+  font-size: 16px;
+  color: springgreen;
+}
+
+.escolha {
+  width: 450px;
+  height: 360px;
+  opacity: 0.4;
+}
+
+.escolha:hover {
+  opacity: 1;
+  transition-duration: 0.7s;
+}
+
+.lado-esquerdo .lado-direito {
+  width: 450px;
+  height: 360px;
+}
+
+#brazil {
+  position: relative;
+  float: left;
+  margin-left: 12.5px;
+  margin-top: 155px;
+  border: 1px solid white;
+}
+
+#mundo {
+  position: relative;
+  margin-left: 25px;
+  margin-top: 155px;
+  border: 1px solid white;
+}
+
+#tabela {
+  margin-left: 0;
+  margin-top: 35px;
+}
+
+#tabela tr {
+  width: 800px;
+  border: 1px solid white;
+}
+
+#tabela td {
+  width: 800px;
+  border: 1px solid white;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: springgreen;
+}
+
+.referencia a {
+  text-decoration: none;
+}
+
+.tabelas li {
+  display: inline-block;
+}
+
+#rodape {
+  position: fixed;
+  width: 955px;
+  height: 80px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  padding: 0;
+  margin-left: 0;
+  border: 1px solid white;
+  color: white;
+}
