@@ -160,7 +160,7 @@ a:hover {
   font-weight: 700;
 }
 
-.lado-esquerdo {  
+.lado-esquerdo {
   width: 40%;
   margin-top: 10px;
   margin-left: 50px;
@@ -190,8 +190,7 @@ a:hover {
 
 .microfones td {
   margin-inline-start: 5px;
-  margin-inline-end: 5px;  
-  padding: 5px;  
+  margin-inline-end: 5px;
+  padding: 5px;
   text-align: center;
 }
-
