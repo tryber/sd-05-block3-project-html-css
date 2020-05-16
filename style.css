@@ -1,6 +1,6 @@
 body {
-  background-color:black;
-  font-family: 'PT Sans Narrow', sans-serif;
+  background-color: black;
+  font-family: PT Sans Narrow, sans-serif;
 }
 
 #cabecalho {
@@ -8,8 +8,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  text-align: center;
-  background-image: url(/test-mountains.jpeg);
+  background-image: url("/test-mountains.jpeg");
   padding: 33px;
   margin-top: 66px;
   align-items: center;
@@ -23,13 +22,13 @@ nav .lado-esquerdo , nav .lado-direito {
 
 nav .lado-esquerdo {
   text-align: left;
-  width:63%;
+  width: 63%;
 }
 
 
 .navbar {
   overflow: hidden;
-  background-color:#0A6E38;
+  background-color: #0a6e38;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
@@ -37,17 +36,13 @@ nav .lado-esquerdo {
 }
 
 .navbar a {
-      padding: 14px 16px;
-      text-decoration: none;
-      color:white
-    }
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white
+}
   
 .intro {
   margin-top: 250px;
-}
-
-.about {
-
 }
 
 .intro-pic {
@@ -60,17 +55,17 @@ nav .lado-esquerdo {
 }
 
 
-p, ul, ol, table, a {
+p , ul , ol , table , a {
   color: white;
 }
 
 h2 {
-  color:#EDD382;
+  color: #edd382;
   text-align: center;
 }
 
-h1, h3 {
-  color: #674532;
+h1 , h3 {
+  color: #6e220e;
 }
 
 img .international {
@@ -86,7 +81,7 @@ img {
 }
 
 #media {
-  background-color: #674532;
+  background-color: #6e220e;
   text-align: center;
   padding: 22px;
 
