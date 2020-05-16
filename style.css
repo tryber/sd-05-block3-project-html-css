@@ -1,18 +1,21 @@
 body {
     background-color: rgb(181, 243, 235);
 }
-#cabeçalho{
+
+header #cabecalho {
     position: fixed;
-    text-align: center;
     padding: 15px 30px;
 }
-#rodape{
+
+footer #rodape {
     text-align: left;
     
 }
-.ladoesquerdo{
+
+.ladoesquerdo {
 
 }
+
 .ladodireito{
 
 }
