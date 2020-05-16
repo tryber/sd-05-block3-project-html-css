@@ -6,7 +6,7 @@ header, nav, h1, h2, footer, ul, li, ol, section, article, p, body {
 body {
     background-color: rgb(99, 231, 220);
     margin: 20px;
-
+}
 header {
     height: 50px;
     width: 100%;
