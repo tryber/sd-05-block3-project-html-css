@@ -2,12 +2,12 @@ body {
     background-color: rgb(181, 243, 235);
 }
 
-header #cabecalho {
-    position: fixed;
+header#cabecalho {
+    position: static;
     padding: 15px 30px;
 }
 
-footer #rodape {
+footer#rodape {
     text-align: left;
     
 }
@@ -19,3 +19,4 @@ footer #rodape {
 .ladodireito{
 
 }
+z
