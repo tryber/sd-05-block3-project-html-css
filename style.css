@@ -8,7 +8,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-image: url("/test-mountains.jpeg");
+  background-image: url('/test-mountains.jpeg');
   padding: 33px;
   margin-top: 66px;
   align-items: center;
@@ -38,9 +38,9 @@ nav .lado-esquerdo {
 .navbar a {
   padding: 14px 16px;
   text-decoration: none;
-  color: white
+  color: white;
 }
-  
+ 
 .intro {
   margin-top: 250px;
 }
@@ -49,7 +49,6 @@ nav .lado-esquerdo {
   border-radius: 50%;
   float: left;
   border: 10px;
-  background-color: 916E50;
   margin-left: 50px;
   margin-right: 50px;
 }
