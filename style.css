@@ -19,7 +19,7 @@ body {
   position: fixed;
   width: 955px;
   height: 80px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   font-weight: bold;
   color: white;
@@ -84,7 +84,7 @@ body {
   color: springgreen;
 }
 
-.tabelas li{
+.tabelas li {
   display: inline-block;
 }
 
