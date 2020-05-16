@@ -50,7 +50,7 @@ body {
   text-align: center;
 }
 
-#margem-nav {
+.margem-nav {
   margin-inline-start: 5px;
   margin-inline-end: 5px;
 }
