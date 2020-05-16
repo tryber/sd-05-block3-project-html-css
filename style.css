@@ -21,7 +21,7 @@ body {
   height: 80px;
   font-family: Verdana, sans-serif;
   font-size: 30px;
-  font-weight: 700px;
+  font-weight: 800;
   color: white;
   text-align: center;
   padding-bottom: 60px;
@@ -91,7 +91,7 @@ body {
   position: fixed;
   width: 955px;
   height: 80px;
-  font-family:Arial, sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
   margin-top: 25px;
   padding: 0;
