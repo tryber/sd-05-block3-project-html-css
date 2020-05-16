@@ -7,6 +7,7 @@ body {
     background-color: rgb(99, 231, 220);
     margin: 20px;
 }
+
 header {
     height: 50px;
     width: 100%;
@@ -25,8 +26,18 @@ h1 {
     font-style: italic;
 }
 
+.perfil{
+    padding-top: 200px;
+    margin: 20px;
+}
+
+#projetos {
+    width: 100%;
+    margin: 20px;
+}
+
 #rodape {
-    display: flex;
+    display: relative;
     color: white;
     height: 25px;
     padding: 10px;
@@ -38,23 +49,15 @@ aside {
  display: flex;
 }
 aside #ladoesquerdo {
-    position: absolute;
-    display: block;
+    position: relative;
+    display: inline;
     float: left;
     margin: 20px;
-    left: 15px;
-    top: 10px;
-    bottom: 10px;
-    right: 15px;
 }
 
 aside #ladodireito {
-    position: absolute;
+    position: relative;
     display: inline;
     float: right;
     margin: 20px;
-    left: 15px;
-    top: 10px;
-    bottom: 10px;
-    right: 15px;
 }
