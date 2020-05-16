@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  font-family: PT Sans Narrow, sans-serif;
+}
+
+#cabecalho {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url('/test-mountains.jpeg');
+  padding: 33px;
+  margin-top: 66px;
+  align-items: center;
+
+}
+
+nav .lado-esquerdo , nav .lado-direito {
+  display: inline-block;
+  align-items: stretch;
+}
+
+nav .lado-esquerdo {
+  text-align: left;
+  width: 63%;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(34 , 92 , 8);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  text-align: center;
+}
+
+.navbar a {
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.intro {
+  margin-top: 250px;
+}
+
+.intro-pic {
+  border-radius: 50%;
+  float: left;
+  border: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+p , ul , ol , table {
+  color: white;
+}
+
+h2 {
+  color: rgb(245 , 225 , 115);
+  flex-direction: center;
+}
+
+h3 {
+  color: rgb(92 , 35 , 8);
+}
+
+#content {
+  margin-top: 122px;
+}
+
+img {
+  border-radius: 10%;
+}
+
+#media {
+  background-color: rgb(92 , 35 , 8);
+  text-align: center;
+  padding: 22px;
+
+}
+
+#rodape {
+  text-align: center;
+  font-size: 0.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
