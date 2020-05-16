@@ -21,7 +21,7 @@ body {
   height: 80px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700px;
   color: white;
   text-align: center;
   padding-bottom: 60px;
@@ -65,14 +65,13 @@ body {
 }
 
 #tabela {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 35px;
 }
 
 #tabela tr {
   width: 800px;
-  Border: 1px solid white;
-  
+  border: 1px solid white;
 }
 
 #tabela td {
@@ -92,7 +91,7 @@ body {
   position: fixed;
   width: 955px;
   height: 80px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
   text-align: center;
   margin-top: 25px;
   padding: 0;
