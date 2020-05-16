@@ -1,14 +1,17 @@
 body{
-    background-color:darksalmon;
-    margin:0px;
+    background-color:chocolate;
+    width: 1200px;
+    margin: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
 }
-
 /*Começo da estilização do cabeçalho*/
 #cabecalho{
-   position: fixed;
+
    background-color: snow;
-   width: 1400px;
+   width: 1350px;
    height: 300px;
+   top: 0px;
 }  
 #cabecalho img{
    
@@ -20,7 +23,11 @@ body{
 }
 #cabecalho h1{
     position: relative;
+    width: 900px;
+    margin-top: 0px;
+    padding-top: 40px;
     left: 350px;
+    right: 0px;
     color:brown;
     text-shadow: 1px 0 black, 0 1px black,
     1px 0 black, 0 -1px black;
@@ -28,17 +35,88 @@ body{
 }
 #cabecalho nav{
     position: relative;
-    left: 580px;
+    left: 600px;
     top: 90px;
-    font-size: 20px;
+    font-size: 18px;
+    width: 700px;
 }
 #cabecalho h4{
     position: relative;
-    left: 970px;
+    margin-right: 0px;
+    width: 700px;
+    left: 650px;
+    right: 0px;
+    color: slategray;
 }
 .detalhe{
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
-
+    color:red;
+    font-size: 15px;
 }
+a:link{
+    color: sienna;
+}
+a:visited{
+    color: sienna;
+}
+a:hover{
+    color:tomato;
+}
+a:active{
+    color: yellowgreen;
+}
+/*Fim da estilização do cabeçalho*/
+
+
+/*Inicio do artigo central sobre o café*/
+.sobreCafe{
+position: relative;
+margin-right: 0px;
+top:90px;
+left: 100px;
+}
+.sobreCafe h2{
+    position: relative;
+    width: 800px;
+    left: 90px;
+    color:white;
+}
+.ajusteTesto{
+    position: relative;
+    width: 800px;
+    text-align:center;
+    line-height: 20px;
+    color:whitesmoke;
+}
+.rodapeArtigo{
+    color: darkgray;
+}
+/*Fim da estilização do artigo central*/
+
+/*Começo do estilo do menu*/
+
+.menu{
+    position: relative;
+    width: 400px;
+    left: 900px;
+    top: -300px;
+}
+.menuLista{
+    position: relative;
+    width: 200px;
+    display:block ;
+    left: 150px;
+    top: -290px;
+    color: white;
+    margin-left: -50px;
+    line-height: 25px;
+    text-align: center;
+}
+.menuLista a{
+    color:wheat;
+}
+/*Fim da estilização do menu*/
+
+/**/
