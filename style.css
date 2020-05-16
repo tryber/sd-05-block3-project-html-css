@@ -1,29 +1,44 @@
 body{
-    background-color: antiquewhite;
+    background-color:darksalmon;
+    margin:0px;
 }
-.teste{
-    margin-left: 40px;
-    padding-top: 20px;
-    border: 1px solid coral;
+
+/*Começo da estilização do cabeçalho*/
+#cabecalho{
+   position: fixed;
+   background-color: snow;
+   width: 1400px;
+   height: 300px;
+}  
+#cabecalho img{
+   
+    width: 400px;
+    position: relative;
+    top: 0px;
+    left: 100px;  
+    border-radius: 300px;  
 }
-#rodape{
-    font-size: 20px;
-    color: cornflowerblue;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    text-decoration: underline;  
+#cabecalho h1{
+    position: relative;
+    left: 350px;
+    color:brown;
+    text-shadow: 1px 0 black, 0 1px black,
+    1px 0 black, 0 -1px black;
     
 }
-section{
-    display: inline-block;
+#cabecalho nav{
+    position: relative;
+    left: 580px;
+    top: 90px;
+    font-size: 20px;
 }
-#cabecalho{
-    position: fixed;
-    background-color: rgba(60 , 47 , 47 , .35);
-    width: 100%;
-    height: 15px;
-    padding: 20px 15px;
-    border-top: -5px;
+#cabecalho h4{
+    position: relative;
+    left: 970px;
+}
+.detalhe{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
