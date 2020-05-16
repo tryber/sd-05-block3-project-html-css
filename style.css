@@ -28,7 +28,7 @@ nav .lado-esquerdo {
 
 .navbar {
   overflow: hidden;
-  background-color: #0a6e38;
+  background-color: rgb(34 , 92 , 8);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
@@ -40,7 +40,7 @@ nav .lado-esquerdo {
   text-decoration: none;
   color: white;
 }
- 
+
 .intro {
   margin-top: 250px;
 }
@@ -54,21 +54,17 @@ nav .lado-esquerdo {
 }
 
 
-p , ul , ol , table , a {
+p , ul , ol , table {
   color: white;
 }
 
 h2 {
-  color: #edd382;
-  text-align: center;
-}
-
-h1 , h3 {
-  color: #6e220e;
-}
-
-img .international {
+  color: rgb(245 , 225 , 115);
   flex-direction: center;
+}
+
+h3 {
+  color: rgb(92 , 35 , 8);
 }
 
 #content {
@@ -80,7 +76,7 @@ img {
 }
 
 #media {
-  background-color: #6e220e;
+  background-color: rgb(92 , 35 , 8);
   text-align: center;
   padding: 22px;
 
