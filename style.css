@@ -28,3 +28,16 @@ header {
     
 }
 
+aside {
+ display: flex;
+}
+aside #ladoesquerdo {
+    display: inline;
+    float: left;
+}
+
+aside #ladodireito {
+    display: inline;
+    float: right;
+}
+
