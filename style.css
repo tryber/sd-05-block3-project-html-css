@@ -5,7 +5,7 @@ body {
 #externa {
   width: 1000px;
   height: 700px;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 22.5%;
 }
 
@@ -36,6 +36,12 @@ body {
 .escolha {
   width: 450px;
   height: 360px;
+  opacity: 0.4;
+}
+
+.escolha:hover {
+  opacity: 1;
+  transition-duration: 0.7s;
 }
 
 .lado-esquerdo .lado-direito {
@@ -58,10 +64,34 @@ body {
   border: 1px solid white;
 }
 
+#tabela {
+  margin-left: 0px;
+  margin-top: 35px;
+}
+
+#tabela tr {
+  width: 800px;
+  Border: 1px solid white;
+  
+}
+
+#tabela td {
+  width: 800px;
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: springgreen;
+}
+
+.tabelas li{
+  display: inline-block;
+}
+
 #rodape {
   position: fixed;
   width: 955px;
-  height: 50px;
+  height: 80px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   margin-top: 25px;
