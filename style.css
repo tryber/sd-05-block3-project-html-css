@@ -72,10 +72,11 @@ a:hover {
 }
 
 #main-title {
-  background-color: rgb(168 , 189 , 170);
+  color: rgb(168 , 189 , 170);
+  background-color: rgb(15 , 103 , 87);
   font-size: 30px;
   padding-left: 8px;
-  margin: 10px 15% 20px;
+  margin: 10px 35% 20px;
   text-align: center;
 }
 
@@ -90,12 +91,12 @@ a:hover {
 
 .list-body {
   list-style-type: square;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 25px;
 }
 
 .sub-title {
-  background-color: rgb(168 , 189 , 170);
+  background-color: rgb(15 , 103 , 87);
   font-size: 18px;
   padding: 8px;
   margin: 20px 50% 20px 3%;
@@ -107,7 +108,6 @@ a:hover {
   margin-left: 2%;
   font-size: 13px;
   line-height: 20px;
-  margin-bottom: 5px;
   font-weight: 600;
 }
 
@@ -129,7 +129,7 @@ a:hover {
 #docs {
   float: left;
   margin-left: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 #aside-alert {
@@ -137,8 +137,8 @@ a:hover {
   background-color: rgb(168 , 189 , 170);
   border: 2px solid rgb(15 , 103 , 87);
   padding: 5px;
-  width: 30%;
-  margin: 20% 5%;
+  width: 25%;
+  margin: 20% 5% 10%;
   font-size: 15px;
   text-align: center;
 }
@@ -152,7 +152,9 @@ a:hover {
 }
 
 #final {
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: rgb(15 , 103 , 87);
 }
 
 .table , td {
@@ -166,6 +168,31 @@ a:hover {
   text-align: center;
 }
 
+.img-logo {
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid rgb(15 , 103 , 87);
+}
+
+.lado-esquerdo {
+  float: left;
+  height: 280px;
+  max-width: 50%;
+  text-align: left;
+  padding: 10px;
+  margin-left: 90px;
+}
+
+.lado-direito {
+  float: right;
+  height: 280px;
+  width: 40%;
+  text-align: center;
+  line-height: 25px;
+  padding: 70px 30px 0;
+  margin-right: 90px;
+}
+
 #rodape {
   background-color: rgb(15 , 103 , 87);
   height: 15px;
@@ -175,4 +202,5 @@ a:hover {
   font-size: 15px;
   padding: 5px;
   color: black;
+  clear: both;
 }
