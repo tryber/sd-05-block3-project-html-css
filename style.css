@@ -1,22 +1,30 @@
-body {
-    background-color: rgb(181, 243, 235);
+header, nav, h1, h2, footer, ul, li, ol, section, article, p, body {
+    margin: 0;
+    padding: 0;
 }
 
-header#cabecalho {
-    position: static;
-    padding: 15px 30px;
-}
+header {
+    background-color: purple;
+    height: 50px;
+    width: 100%;
+} 
 
-footer#rodape {
-    text-align: left;
+#cabecalho {
+    background-color: purple;
+    width: 100%;
+    height: 100px;
+    position: fixed;
     
 }
 
-.ladoesquerdo {
-
+#rodape {
+    display: flex;
+    background-color: purple;
+    color: white;
+    height: 25px;
+    padding: 10px;
+    margin: 0;
+    justify-content: space-around;
+    
 }
 
-.ladodireito{
-
-}
-z
