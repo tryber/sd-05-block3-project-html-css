@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   background-color: rgb(59 , 227 , 174);
-  color: rgb(0 , 0 , 0);
+  color: black;
   z-index: 0;
 }
 
@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 
-a:link, a:visited {
+a:link , a:visited {
   color: white;
 }
 
@@ -29,7 +29,7 @@ h1 {
   color: rgb(172 , 88 , 227);
 }
 
-h2, h3 {
+h2 , h3 {
   font-size: 20px;
   color: rgb(172 , 88 , 227);
 }
