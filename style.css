@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(59 , 227 , 174);
-  color: rgb(172 , 88 , 227);
+  background-color: rgb(59, 227, 174);
+  color: rgb(0, 0, 0);
   z-index: 0;
 }
 
@@ -14,26 +14,30 @@ a {
   text-decoration: none;
 }
 
-a:link , a:visited {
+a:link,
+a:visited {
   color: white;
 }
 
 a:hover {
-  background-color: rgb(172 , 88 , 227);
+  background-color: rgb(172, 88, 227);
   text-decoration: underline;
 }
 
 h1 {
   font-size: 25px;
   font-weight: 600;
+  color: rgb(172, 88, 227);
 }
 
-h2 , h3 {
+h2,
+h3 {
   font-size: 20px;
+  color: rgb(172, 88, 227);
 }
 
 #cabecalho {
-  background-color: rgb(172 , 88 , 227);
+  background-color: rgb(172, 88, 227);
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -43,7 +47,7 @@ h2 , h3 {
 #menu {
   position: absolute;
   right: 50px;
-  top: 25px;
+  top: 5px;
 }
 
 #menu li {
@@ -63,44 +67,41 @@ h2 , h3 {
 }
 
 .container {
-  background-color: white;
+  background-color: rgb(120, 227, 174);
   line-height: 28px;
-  margin: 20px auto;
+  text-align: center;
 }
 
-.container ol {
-  margin: 0 30px;
+ul {
+  list-style-type: none;
+  margin-top: 20px;
 }
 
 .lado-esquerdo {
-  margin-left: 200px;
-}
-
-.text-produtos {
-  margin-left: 180px;
+  float: left;
 }
 
 .lado-direito {
-  position: relative;
-  left: 700px;
-  bottom: 190px;
+  float: right;
+  line-height: 28px;
+  margin: 45px 180px;
 }
 
 #contato {
+  min-height: 200px;
+  margin-left: 15%;
   text-align: center;
 }
 
 .tabela {
-  position: relative;
-  left: 33%;
-  padding: 40px;
-  border: solid 2px black;
+  border: solid 2px rgb(172, 88, 227);
 }
 
 #rodape {
   text-align: center;
   padding: 20px;
-  background-color: rgb(172 , 88 , 227);
+  background-color: rgb(172, 88, 227);
+  clear: both;
 }
 
 .text-footer {
