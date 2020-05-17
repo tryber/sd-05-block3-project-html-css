@@ -8,12 +8,24 @@
         Coisas Sobre PCs
     </title>
     <style>
+        .bTopo {
+            background-color:honeydew;
+            color: #000;
+            width: 100%;
+            height: 11%;
+            position: fixed;
+            margin-bottom: 10px;
+            text-align: center;
+        }
         body {
             background-color: rgb(0, 0, 0);;
             color: rgb(34 ,34 ,34)
         }
         #padAside {
             padding-right: 20%;
+        }
+        .mr{
+            margin-right: 15%;
         }
         .ml {
             padding-left: 20%;
@@ -32,13 +44,18 @@
         #rodape {
             clear: both;
         }
+        .tabelapec {
+            background-color: rgb(34 ,34 ,34);
+        } 
+        
+
        </style>
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 class="h">O que são, para que servem e do que são feitos?</h1>
+    <header id="cabecalho" class="bTopo">
+        <h1> PCs: O que são, para que servem e do que são feitos?</h1>
     </header>
-    <nav>
+    <nav >
         <ul>
             <li><a href="#cabecalho">Topo da pagina</a></li>
             <li><a href="#PFPC">Componentes</a></li>
@@ -54,7 +71,7 @@ No entanto, o termo PC tem sido utilizado apenas para computadores pessoais deri
             </p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/IBMPS1.jpg/1200px-IBMPS1.jpg" alt="IBM PS1, um computador lançado em 1990">
     </section>
-    <aside class="floatRight">
+    <aside class="floatRight mr">
         <ul>
             <li><a href="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e"class="links">O que é uma placa mãe</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Processador">O que é um processador?</a></li>
@@ -83,50 +100,50 @@ No entanto, o termo PC tem sido utilizado apenas para computadores pessoais deri
             <li>Ventilação e ou refrigeração líquida.</li>
         </ul>
     </section>
-    <section class="h floatRight">
+    <section class="h floatRight" id="">
         <h2>
             Alguns fabricantes famosos de peças das categorias acima:
         </h2>
         <table class="ml">
             <tr>
-                <th>Fabricante</th>
-                <th>Peça</th>
+                <th class="tabelapec">Peça</th>
+                <th class="tabelapec">Fabricante</th>
             </tr>
             <tr>
-                <th>Placa Mãe</th>
-                <th>Asus, Gigabyte</th>
+                <td >Placa Mãe</td>
+                <td>Asus, Gigabyte</td>
             </tr>
             <tr>
-                <th>Processador</th>
-                <th>Intel, AMD</th>
+                <td class="tabelapec">Processador</td>
+                <td class="tabelapec">Intel, AMD</td>
             </tr>
             <tr>
-                <th>Fonte De Alimentação</th>
-                <th>Seasonic, Cooler Master</th>
+                <td >Fonte De Alimentação</td>
+                <td>Seasonic, Cooler Master</td>
             </tr>
             <tr>
-                <th>Memoria RAM</th>
-                <th>Hyper X, G Skill</th>
+                <td class="tabelapec">Memoria RAM</td>
+                <td class="tabelapec">Hyper X, G Skill</td>
             </tr>
             <tr>
-                <th>HDs</th>
-                <th>Western Digital, Samsung</th>
+                <td>HDs</td>
+                <td>Western Digital, Samsung</td>
             </tr>
             <tr>
-                <th>SSDs</th>
-                <th>Kingston, Adata</th>
+                <td class="tabelapec">SSDs</td>
+                <td class="tabelapec">Kingston, Adata</td>
             </tr>
             <tr>
-                <th>Placas De Vídeo</th>
-                <th>AMD, NVidia</th>
+                <td>Placas De Vídeo</td>
+                <td>AMD, NVidia</td>
             </tr>
             <tr>
-                <th>Gabinetes</th>
-                <th>NZXT, Corsair</th>
+                <td class="tabelapec">Gabinetes</td>
+                <td class="tabelapec">NZXT, Corsair</td>
             </tr>
             <tr>
-                <th>Ventilação e resfriamento</th>
-                <th>Cooler Master, Corsair</th>
+                <td>Ventilação e resfriamento</td>
+                <td>Cooler Master, Corsair</td>
             </tr>
         </table>
     </section>
