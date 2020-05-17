@@ -1,4 +1,3 @@
-<style>
 .bTopo {
     background-color:honeydew;
     color: #000;
@@ -32,6 +31,9 @@ body {
     float: right;
     padding: 20px;
 }
+.floatLeft {
+    float: left;
+}
 #rodape {
     clear: both;
 }
@@ -41,4 +43,13 @@ body {
 .t {
     margin: 10px;
     border: 5px;
+}
+.margemCima {
+    margin-top: 5%;
+}
+#nav{
+    width: 20%;
+}
+#ar {
+    width: 70%;
 }
