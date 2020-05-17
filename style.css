@@ -1,152 +1,152 @@
 body {
-    background-color: rgb(52, 14, 114);
-    font-family: 'Times New Roman', Times, serif;
-    width: 89%
+  background-color: rgb(52 ,14 ,114);
+  font-family: Times New Roman, Times, serif;
+  width: 89%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-size: 220%;
+  font-size: 220%;
 }
 
 h2 {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 h3 {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 h4 {
-    font-size: 220%;
-    margin-left: 90px;
-    margin-bottom: 30px;
-    margin-top: 40px;
+  font-size: 220%;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 h5 {
-    font-size: 150%;
-    width: 80%;
-    margin: auto;
-    font-weight: lighter;
-    text-align: center;
+  font-size: 150%;
+  width: 80%;
+  margin: auto;
+  font-weight: lighter;
+  text-align: center;
 }
 
 #cabecalho {
-    position: fixed;
-    font-size: smaller;
-    top: 0;
-    left: 0;
+  position: fixed;
+  font-size: smaller;
+  top: 0;
+  left: 0;
 }
 
 #navigation {
-    background-image: url("images/pug-background.jpg");
-    background-size: cover;
-    padding: 60px 15px 100px;
+  background-image: url("images/pug-background.jpg");
+  background-size: cover;
+  padding: 60px 15px 100px;
 }
 
 #header-content {
-    max-width: 55%;
+  max-width: 55%;
 }
 
 #header-list {
-    margin-left: 30px;
-    font-weight: bold;
-    line-height: 30px;
-    font-size: 1.2em;
+  margin-left: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 1.2em;
 }
 
 #header-paragraph {
-    font-size: 1.3em;
-    font-weight: initial;
+  font-size: 1.3em;
+  font-weight: initial;
 }
 
 .section-header {
-    margin: auto;
-    margin-top: 80px;
-    padding: 100px 20px;
-    background-color:white;
-    background-size: cover;
-    border: ridge black 1px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 100px 20px;
+  background-color: white;
+  background-size: cover;
+  border: ridge black 1px;
 }
 
 .section-header-text {
-    margin: auto;
-    max-width: 50%;
-    font-size: 1.3em;
-    line-height: 2em;
+  margin: auto;
+  max-width: 50%;
+  font-size: 1.3em;
+  line-height: 2em;
 }
 
 .dog-section {
-    border: solid orange 10px;
-    background-color: white;
-    display: inline-block;
-    margin-bottom: 160px;
+  border: solid orange 10px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 160px;
 }
 
 .dog-section p {
-    font-style: italic;
-    font-size: 1.4em;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10%;
-    line-height: 2em;
-    font-weight: 500;
+  font-style: italic;
+  font-size: 1.4em;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+  line-height: 2em;
+  font-weight: 500;
 }
 
 .dog-image {
-    width: 100%;
-    vertical-align: middle;
+  width: 100%;
+  vertical-align: middle;
 }
 
 .lado-esquerdo {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 
 .lado-direito {
-    width: 50%;
-    float: right;
+  width: 50%;
+  float: right;
 }
 
 .aside {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 11%;
-    height: 100%;
-    background-color:white;
-    border: 1px dashed black;
-    border-top: 4px solid orange;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 11%;
+  height: 100%;
+  background-color: white;
+  border: 1px dashed black;
+  border-top: 4px solid orange;
 }
 
 #aside-text {
-    width: 80%;
-    margin: auto;
-    line-height: 1.5em;
+  width: 80%;
+  margin: auto;
+  line-height: 1.5em;
 }
 
 #references {
-    border: 1px solid black;
-    border-radius: 5%;
-    margin: 10px;
-    margin-bottom: 40px;
-    padding: 30px;
-    width: max-content;
-    background-color: white;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 10px;
+  margin-bottom: 40px;
+  padding: 30px;
+  width: max-content;
+  background-color: white;
 }
 
 #references-title {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #rodape {
-    position: fixed;
-    font-size: smaller;
-    bottom: 0;
-    left: 0;
+  position: fixed;
+  font-size: smaller;
+  bottom: 0;
+  left: 0;
 }
