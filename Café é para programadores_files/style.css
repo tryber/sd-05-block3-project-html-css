@@ -1,5 +1,5 @@
 body{
-    background-color:maroon;
+    background-color:chocolate;
     width: 1200px;
     margin: 0px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
@@ -43,7 +43,7 @@ body{
 #cabecalho h4{
     position: relative;
     margin-right: 0px;
-    width: 600px;
+    width: 700px;
     left: 650px;
     right: 0px;
     color: slategray;
@@ -81,14 +81,14 @@ left: 100px;
     position: relative;
     width: 800px;
     left: 90px;
-    color:floralwhite;
+    color:white;
 }
 .ajusteTesto{
     position: relative;
     width: 800px;
     text-align:center;
     line-height: 20px;
-    color:honeydew;
+    color:whitesmoke;
 }
 .rodapeArtigo{
     color: darkgray;
@@ -125,75 +125,38 @@ left: 100px;
 .organizaArtigos{
     position: relative;
     top: -420px;
-    width: 500px;
-    height: 600px;
+    width: 800px;
+    height: 400px;
     border: 1px solid;
-    border-color:black;
     border-radius: 10px;    
-    left: 50px;
+    left: 300px;
     margin-top: 10px;
-    display: inline-block;
-    margin-left: 50px;
-    background-color:white;
-    padding: 20px;
+    background-color: white;
 }
 
 #stProprioh1{
     position: relative;
-    width: 500px;
+    width: 400px;
     top:-450px;
     left: 500px;;
-    color:cornsilk;
+    color: white;
 }
 .organizaArtigos img{
     position: relative;
-    width: 200px; 
-    height: 200px;
-    border-radius: 300px;
-    top: -50px;
-    left: 150px;
+    width: 380px; 
+    height: 120px;
+    border-radius: 7px;
 
 }
 .organizaArtigos h4{
     position: relative;
-    left: 100px;
-    top:-30px;
+    left: 400px;
+    top:-90px;
     font-size: 30px;
-    color:darkred;   
+    color: whitesmoke;
 }
 .organizaArtigos p{
     position: relative;
-    top: -60px;
+    top: -100px;
     text-align: center;
-    color:black;
-    line-height: 20px;
-}
-/*Fim  dos estilos dos miniartigos*/
-
-/*Aqui começa os estilos da tabela de marcas de café*/
-.tabela{
-    position: relative;
-    width: 1146px;
-    top:-450px;
-    left: 100px;
-    text-align:left;
-    background-color:black;    
-    border-radius: 10px;
-}
-.tabela td{
-    position: relative;
-    color:white;
-    text-align: center;
-    padding-left: 10px;
-  
-}
-.tabela h3{
-    position: relative;
-    width: 500px;
-    left: 400px;
-    color:white;
-    padding-top: 16px;
-}
-.tabela h4{
-    color:chocolate;
 }
