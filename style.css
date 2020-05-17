@@ -72,6 +72,7 @@ h5 {
 .section-header {
   margin: auto;
   margin-top: 80px;
+  margin-bottom: 40px;
   padding: 100px 20px;
   background-color: white;
   background-size: cover;
