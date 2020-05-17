@@ -1,0 +1,12 @@
+body {
+  background-color: red;
+}
+
+header {
+  position: fixed;
+  background-color: royalblue;
+}
+
+img {
+    width: 500px;
+}
