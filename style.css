@@ -46,7 +46,7 @@ h5 {
 #navigation {
     background-image: url("images/pug-background.jpg");
     background-size: cover;
-    padding: 60px 15px 150px;
+    padding: 60px 15px 100px;
 }
 
 #header-content {
@@ -56,6 +56,8 @@ h5 {
 #header-list {
     margin-left: 30px;
     font-weight: bold;
+    line-height: 30px;
+    font-size: 1.2em;
 }
 
 #header-paragraph {
