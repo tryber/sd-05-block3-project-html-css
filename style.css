@@ -5,14 +5,18 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     
 }
-/*Começo da estilização do cabeçalho*/
 #cabecalho{
+    position:fixed;
+    width: 0px;
+}
+/*Começo da estilização do cabeçalho*/
+#cabecalho2{
    background-color: snow;
    width: 1350px;
    height: 300px;
    top: 0px;
 }  
-#cabecalho img{
+#cabecalho2 img{
    
     width: 400px;
     position: relative;
@@ -20,7 +24,7 @@ body{
     left: 100px;  
     border-radius: 300px;  
 }
-#cabecalho h1{
+#cabecalho2 h1{
     position: relative;
     width: 900px;
     margin-top: 0px;
@@ -32,14 +36,14 @@ body{
     1px 0 black, 0 -1px black;
     
 }
-#cabecalho nav{
+#cabecalho2 nav{
     position: relative;
     left: 600px;
     top: 90px;
     font-size: 18px;
     width: 700px;
 }
-#cabecalho h4{
+#cabecalho2 h4{
     position: relative;
     margin-right: 0px;
     width: 600px;
@@ -59,7 +63,7 @@ a:link{
 }
 a:visited{
     color: sienna;
-}
+}s
 a:hover{
     color:tomato;
 }
