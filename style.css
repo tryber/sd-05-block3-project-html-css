@@ -1,0 +1,116 @@
+body {
+  font-size: 14px;
+  font-family: -apple-system, Open Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(234 , 196 , 182);
+  margin: 100px 250px;
+  line-height: 25px;
+}
+
+#cabecalho {
+  position: fixed;
+  background: rgb(237 , 224 , 10);
+  height: 40px;
+  width: 500px;
+  bottom: 100px;
+  left: 0;
+  top: 0;
+  letter-spacing: 2px;
+  text-align: auto;
+  margin-left: 250px;
+}
+
+p , li {
+  font-size: 12.5px;
+  color: rgb(37 , 37 , 37);
+  text-align: justify;
+}
+
+h2 {
+  text-align: justify;
+  font-size: relative;
+}
+
+#rodape {
+  text-align: center;
+  color: purple;
+  margin-bottom: 5px;
+}
+
+#titulo-tabela {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px 12px;
+  clear: both;
+}
+
+#exemplo {
+  text-align: center;
+  margin: 0;
+  display: inline;
+  padding: 10px 12px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 60%;
+  padding: 2em;
+  margin: 0.8em;
+}
+
+.lado-direito {
+  float: right;
+  width: 20%;
+  padding: 2em;
+  margin: 0.8em;
+}
+
+td {
+  padding: 8px;
+}
+
+.tabela {
+  border: rgb(237 , 224 , 10) solid 3px;
+  margin: auto;
+}
+
+.top-tabela {
+  text-align: center;
+  font-weight: 500;
+  line-height: 0.8;
+  word-spacing: 10px;
+}
+
+.item-tabela {
+  text-align: center;
+  float: center;
+  line-height: 0.8;
+  word-spacing: 10px;
+}
+
+.aside {
+  text-align: right;
+  float: right;
+  align-items: center;
+  position: relative;
+  justify-content: right;
+  width: 40%;
+  text-indent: 50px;
+  line-height: 15px;
+}
+
+.img-left {
+  float: left;
+  border: 1px dashed white;
+  padding: 15px;
+  margin-top: 0%;
+  height: 200px;
+}
+
+.img-bottom {
+  float: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 150px;
+  height: 200px;
+  display: block;
+}
