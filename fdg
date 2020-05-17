@@ -1,0 +1,98 @@
+[33mcommit 24b7b038b45e3c08937ed332c55c42682181d505[m[33m ([m[1;36mHEAD -> [m[1;32msamuelpp-project-html-css[m[33m, [m[1;31morigin/samuelpp-project-html-css[m[33m)[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Mon May 11 18:21:49 2020 -0300
+
+    mudei o footer de lugar
+
+[33mcommit e19c20ec841774cfecaa6168dda52e1b28e13e80[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 06:12:22 2020 -0300
+
+    adicionei um aside
+
+[33mcommit bad61b7543faf17eaea71de5a04bc6e114f4bc6a[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 05:50:57 2020 -0300
+
+    adicionei Nav
+
+[33mcommit 41ffd1f41d0c3081fe349bf274fbac2174bb9771[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 05:35:16 2020 -0300
+
+    Agora ta passando no achecker
+
+[33mcommit 7f14490a02cb4f942a14af6cb111acecb7a77933[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 05:19:03 2020 -0300
+
+    comecei a usar o css
+
+[33mcommit f93b3bad222b480efcf4e75995dddba27125d640[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 05:03:27 2020 -0300
+
+    adicionei um link externo no body da pagina
+
+[33mcommit 2f9076d46eef4cb6bdbd63798ab6cae1532ccca2[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 04:52:54 2020 -0300
+
+    Listas adicionadas.
+
+[33mcommit b111dec73645a67433e08a37ce63363b73f97d0c[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 04:34:50 2020 -0300
+
+    adicionando tabelas
+
+[33mcommit 7744db969306eb4021f686ac7c1b950dfe39bd20[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 04:14:50 2020 -0300
+
+    adicionei uma img
+
+[33mcommit f6bcaa252e799a9573aad4c9ba5e325337383e41[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 03:57:53 2020 -0300
+
+    Adicionado rodape
+
+[33mcommit 81267415fb2df884a53d1816a159388c58fe8f29[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 03:27:56 2020 -0300
+
+    Alguns erros consertados + primeira section do article.
+
+[33mcommit e8a75e06ec3f9968341ee0cef9ad693832b50cb2[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 03:19:40 2020 -0300
+
+    Adicionados Header e Title
+
+[33mcommit 372aa127b47e93090d175ed392f416472fdec2a8[m
+Author: Samuel <samuelpp.s@hotmail.com>
+Date:   Tue May 12 03:06:51 2020 -0300
+
+    iniciando o projeto. VAMOS COM TUDO :rocket:
+
+[33mcommit e3f6c52b85b2f262f9a2a1951b77eb4676554a04[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: b6598e6 3e0cb96
+Author: Lucas Cassiano Ferraz Paolillo <lucascfpaolillo@gmail.com>
+Date:   Fri May 8 15:47:37 2020 -0300
+
+    Merge pull request #2 from tryber/teste
+    
+    teste
+
+[33mcommit 3e0cb96039c4fcfb1f279a706dc5dd277ef70164[m[33m ([m[1;31morigin/teste[m[33m)[m
+Author: Lucas Cassiano Ferraz Paolillo <lucascfpaolillo@gmail.com>
+Date:   Fri May 8 15:44:07 2020 -0300
+
+    teste
+
+[33mcommit b6598e62ff13d0252959b4442ce43625e3e4b33c[m
+Author: Lucas Cassiano Ferraz Paolillo <lucascfpaolillo@gmail.com>
+Date:   Fri May 8 11:51:06 2020 -0300
+
+    Initial commit

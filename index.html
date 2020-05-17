@@ -8,12 +8,35 @@
         Coisas Sobre PCs
     </title>
     <style>
-      
-    </style>
+        body {
+            background-color: rgb(0, 0, 0);;
+            color: rgb(34 ,34 ,34)
+        }
+        #padAside {
+            padding-right: 20%;
+        }
+        .ml {
+            padding-left: 20%;
+        }
+        .mb {
+            padding-bottom: 90px;
+        }
+        .h {
+            font-weight: bold;
+            color: rgb(208 ,208 ,208)
+        } 
+        .floatRight {
+            float: right;
+            padding: 20px;
+        }
+        #rodape {
+            clear: both;
+        }
+       </style>
 </head>
 <body>
     <header id="cabecalho">
-        <h1>O que são, para que servem e do que são feitos?</h1>
+        <h1 class="h">O que são, para que servem e do que são feitos?</h1>
     </header>
     <nav>
         <ul>
@@ -25,26 +48,27 @@
     </nav>
     <article>
         <section>
-            Um computador pessoal ou <a href="https://pt.wikipedia.org/wiki/Computador_pessoal" target="_blank">PC</a> (do inglês Personal Computer) é um computador de pequeno porte e baixo custo, que se destina ao uso pessoal ou por um pequeno grupo de indivíduos.
+            <p>Um computador pessoal ou <a href="https://pt.wikipedia.org/wiki/Computador_pessoal" target="_blank">PC</a> (do inglês Personal Computer) é um computador de pequeno porte e baixo custo, que se destina ao uso pessoal ou por um pequeno grupo de indivíduos.
 A expressão "computador pessoal" (ou sua abreviação em inglês PC, de "Personal Computer") é utilizada para denominar computadores de mesa, computadores portáteis, PDAs ou tabletes, executando vários Sistemas Operacionais em várias arquiteturas. Os Sistemas Operacionais predominantes são Microsoft Windows, Mac OS X e os sistemas baseados em Linux, e as principais arquiteturas são as baseadas nos processadores x86, x64 e PowerPC.
 No entanto, o termo PC tem sido utilizado apenas para computadores pessoais derivados do modelo da IBM, o IBM PC, devido à larga campanha publicitária em 1981. A atual convergência entre PCs e palmtops, celulares e dispositivos móveis que possuem funções similares, sistemas operacionais e componentes leva a uma discussão sobre a extensão do termo "computador pessoal" a esses dispositivos.
+            </p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/IBMPS1.jpg/1200px-IBMPS1.jpg" alt="IBM PS1, um computador lançado em 1990">
     </section>
-    <aside>
+    <aside class="floatRight">
         <ul>
-            <li><a href="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e">O que é uma placa mãe?</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e"class="links">O que é uma placa mãe</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Processador">O que é um processador?</a></li>
-            <li><a href="https://pt.wikipedia.org/wiki/Fonte_de_alimenta%C3%A7%C3%A3o">O que é uma fonte de alimentação</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Fonte_de_alimenta%C3%A7%C3%A3o"_blank>O que é uma fonte de alimentação</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio">O que é uma memória ram</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Unidade_de_disco_r%C3%ADgido">O que é um hard drive</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Unidade_de_Estado_S%C3%B3lido">O que é um Solid State Drive</a></li>
-            <li><a href="https://pt.wikipedia.org/wiki/Placa_de_v%C3%ADdeo">placa de vídeo</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Placa_de_v%C3%ADdeo">O que é uma placa de vídeo</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Gabinete_(inform%C3%A1tica)">O que é um gabinete</a></li>
             <li><a href="https://pt.wikipedia.org/wiki/Cooler">Refrigeração</a></li>
         </ul>
     </aside>
-    <section>
-        <h2 id="PFPC">
+    <section class="mb">
+        <h2 class="h" id="PFPC">
             Partes fundamentais de um PC
         </h2>
         <ul>
@@ -59,8 +83,55 @@ No entanto, o termo PC tem sido utilizado apenas para computadores pessoais deri
             <li>Ventilação e ou refrigeração líquida.</li>
         </ul>
     </section>
+    <section class="h floatRight">
+        <h2>
+            Alguns fabricantes famosos de peças das categorias acima:
+        </h2>
+        <table class="ml">
+            <tr>
+                <th>Fabricante</th>
+                <th>Peça</th>
+            </tr>
+            <tr>
+                <th>Placa Mãe</th>
+                <th>Asus, Gigabyte</th>
+            </tr>
+            <tr>
+                <th>Processador</th>
+                <th>Intel, AMD</th>
+            </tr>
+            <tr>
+                <th>Fonte De Alimentação</th>
+                <th>Seasonic, Cooler Master</th>
+            </tr>
+            <tr>
+                <th>Memoria RAM</th>
+                <th>Hyper X, G Skill</th>
+            </tr>
+            <tr>
+                <th>HDs</th>
+                <th>Western Digital, Samsung</th>
+            </tr>
+            <tr>
+                <th>SSDs</th>
+                <th>Kingston, Adata</th>
+            </tr>
+            <tr>
+                <th>Placas De Vídeo</th>
+                <th>AMD, NVidia</th>
+            </tr>
+            <tr>
+                <th>Gabinetes</th>
+                <th>NZXT, Corsair</th>
+            </tr>
+            <tr>
+                <th>Ventilação e resfriamento</th>
+                <th>Cooler Master, Corsair</th>
+            </tr>
+        </table>
+    </section>
     <section>
-        <h2 id="CI">
+        <h2 id="CI" class="h">
             Coisas importantes para um PC funcionar:
         </h2>
         <ol>
@@ -72,11 +143,10 @@ No entanto, o termo PC tem sido utilizado apenas para computadores pessoais deri
             <li>Internet.</li>
         </ol>
     </section>
-    
     </article>
 </body>
 <footer id="rodape">
-    <h3>
+    <h3 class="h">
         Fontes:
     </h3>
     <ul>
