@@ -82,11 +82,10 @@ h5 {
 }
 
 .dog-section {
-   border: solid orange 10px;
-   background-color: white;
-   display: inline-block;
-   
-   margin-bottom: 160px;
+    border: solid orange 10px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 160px;
 }
 
 .dog-section p {
@@ -126,9 +125,9 @@ h5 {
 }
 
 #aside-text {
-   width: 80%;
-   margin: auto;
-   line-height: 1.5em;
+    width: 80%;
+    margin: auto;
+    line-height: 1.5em;
 }
 
 #references {
