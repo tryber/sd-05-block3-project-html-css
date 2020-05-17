@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(52 ,14 ,114);
+  background-color: rgb(52 , 14 , 114);
   font-family: Times New Roman, Times, serif;
   width: 89%;
 }
@@ -32,7 +32,7 @@ h5 {
   font-size: 150%;
   width: 80%;
   margin: auto;
-  font-weight: lighter;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ h5 {
 }
 
 #navigation {
-  background-image: url("images/pug-background.jpg");
+  background-image: url('images/pug-background.jpg');
   background-size: cover;
   padding: 60px 15px 100px;
 }
@@ -55,7 +55,7 @@ h5 {
 
 #header-list {
   margin-left: 30px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 30px;
   font-size: 1.2em;
 }
@@ -63,6 +63,10 @@ h5 {
 #header-paragraph {
   font-size: 1.3em;
   font-weight: initial;
+}
+
+.link-nounderline {
+  text-decoration: none;
 }
 
 .section-header {
