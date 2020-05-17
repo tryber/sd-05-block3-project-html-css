@@ -1,0 +1,64 @@
+body {
+  background-color: aliceblue;
+  font: 100;
+  font-style: normal;
+  font-family: sans-serif, Lucida Sans;
+  font-weight: 100;
+  line-height: 2em;
+}
+
+#cabecalho {
+  position: fixed;
+  background-color: whitesmoke;
+  width: 95%;
+}
+
+.sideBySide {
+  display: inline-block;
+}
+
+.sizePictures {
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px;
+  border: solid;
+  border-color: black;
+}
+
+.marginHeader {
+  border: white;
+  border-style: solid;
+}
+
+.marginTitle1 {
+  text-align: center;
+  border-top: 12em;
+}
+
+.centralizarFigura {
+  text-align: center;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+.floatingPictures {
+  width: 100%;
+}
+
+.lado-direito {
+  float: right;
+  width: 10%;
+  height: 100%;
+}
+
+.ladinho {
+  float: right;
+  width: 15%;
+  clear: both;
+}
