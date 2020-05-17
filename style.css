@@ -5,20 +5,17 @@ body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     
 }
-header#cabecalho{
-    position: fixed;
-    width: 1350px;
-    height: 10px;
-    
-}
+
+
 /*Começo da estilização do cabeçalho*/
-#cabecalho2{
-   background-color: snow;
-   width: 1350px;
-   height: 300px;
-   top: 0px;
-}  
-#cabecalho2 img{
+#cabecalho {
+    position: fixed;
+    background-color: snow;
+    width: 1351px;
+    height: 300px;
+    top: 0px;
+} 
+#cabecalho img{
    
     width: 400px;
     position: relative;
@@ -26,7 +23,7 @@ header#cabecalho{
     left: 100px;  
     border-radius: 300px;  
 }
-#cabecalho2 h1{
+#cabecalho h1{
     position: relative;
     width: 900px;
     margin-top: 0px;
@@ -38,14 +35,14 @@ header#cabecalho{
     1px 0 black, 0 -1px black;
     
 }
-#cabecalho2 nav{
+#cabecalho nav{
     position: relative;
     left: 600px;
     top: 90px;
     font-size: 18px;
     width: 700px;
 }
-#cabecalho2 h4{
+#cabecalho h4{
     position: relative;
     margin-right: 0px;
     width: 600px;
@@ -75,9 +72,9 @@ a:active{
 /*Fim da estilização do cabeçalho*/
 
 
-/*Inicio do artigo central sobre o café*/
+/*Inicio do artigo central sobre o café
 .sobreCafe{
-position: relative;
+position: srelative;
 margin-right: 0px;
 top:90px;
 left: 100px;
@@ -100,7 +97,7 @@ left: 100px;
 }
 /*Fim da estilização do artigo central*/
 
-/*Começo do estilo do menu*/
+/*Começo do estilo do menu
 
 .menu{
     position: relative;
@@ -124,9 +121,9 @@ left: 100px;
 .menuLista a{
     color:wheat;
 }
-/*Fim da estilização do menu*/
+/*Fim da estilização do menu
 
-/*Inicio do estilo dos miniartigos*/
+/*Inicio do estilo dos miniartigos
 
 .organizaArtigos{
     position: relative;
@@ -174,9 +171,9 @@ left: 100px;
     color:black;
     line-height: 20px;
 }
-/*Fim  dos estilos dos miniartigos*/
+/*Fim  dos estilos dos miniartigos
 
-/*Aqui começa os estilos da tabela de marcas de café*/
+/*Aqui começa os estilos da tabela de marcas de café
 .tabela{
     position: relative;
     width: 1146px;
@@ -203,3 +200,4 @@ left: 100px;
 .tabela h4{
     color:chocolate;
 }
+*/
