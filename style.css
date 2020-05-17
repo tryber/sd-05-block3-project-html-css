@@ -97,7 +97,7 @@ left: 100px;
 /*Começo do estilo do menu*/
 
 .menu{
-    s
+    position: relative;
     width: 400px;
     left: 900px;
     top: -300px;
