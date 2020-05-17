@@ -46,8 +46,8 @@ body {
   width: 10%;
   height: 100%;
 }
-.floatingPictures
-{
+
+.floatingPictures {
   width: 100%;
 }
 
@@ -56,8 +56,8 @@ body {
   width: 10%;
   height: 100%;
 }
-.ladinho
-{
+
+.ladinho {
   float: right;
   width: 15%;
   clear: both;
