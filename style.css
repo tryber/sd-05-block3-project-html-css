@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(174, 240, 223);
+    background-color: rgb(52, 14, 114);
     font-family: 'Times New Roman', Times, serif;
     width: 89%
 }
@@ -46,7 +46,7 @@ h5 {
 #navigation {
     background-image: url("images/pug-background.jpg");
     background-size: cover;
-    padding: 60px 15px 40px;
+    padding: 60px 15px 150px;
 }
 
 #header-content {
@@ -61,10 +61,6 @@ h5 {
 #header-paragraph {
     font-size: 1.3em;
     font-weight: initial;
-}
-
-#rodape {
-    position: fixed;
 }
 
 .section-header {
@@ -135,7 +131,9 @@ h5 {
 
 #references {
     border: 1px solid black;
+    border-radius: 5%;
     margin: 10px;
+    margin-bottom: 40px;
     padding: 30px;
     width: max-content;
     background-color: white;
@@ -143,4 +141,11 @@ h5 {
 
 #references-title {
     margin-bottom: 15px;
+}
+
+#rodape {
+    position: fixed;
+    font-size: smaller;
+    bottom: 0;
+    left: 0;
 }
