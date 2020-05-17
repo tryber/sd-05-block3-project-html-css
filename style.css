@@ -6,8 +6,10 @@ body{
     
 }
 #cabecalho{
-    position:fixed;
-    width: 0px;
+    position: fixed;
+    width: 1350px;
+    height: 10px;
+    
 }
 /*Começo da estilização do cabeçalho*/
 #cabecalho2{
