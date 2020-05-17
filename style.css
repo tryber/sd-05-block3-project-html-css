@@ -7,7 +7,6 @@ body{
 }
 /*Começo da estilização do cabeçalho*/
 #cabecalho{
-
    background-color: snow;
    width: 1350px;
    height: 300px;
@@ -102,6 +101,7 @@ left: 100px;
     width: 400px;
     left: 900px;
     top: -300px;
+    display: inline-block;
 }
 .menuLista{
     position: relative;
