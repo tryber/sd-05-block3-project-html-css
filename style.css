@@ -27,11 +27,11 @@ body {
     font-weight: bold;
     color: rgb(208 ,208 ,208)
 } 
-.floatRight {
+.lado-direito {
     float: right;
     padding: 20px;
 }
-.floatLeft {
+.lado-esquerdo {
     float: left;
 }
 #rodape {
@@ -48,7 +48,7 @@ body {
     margin-top: 5%;
 }
 #nav{
-    width: 20%;
+    width: 30%;
 }
 #ar {
     width: 70%;
