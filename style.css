@@ -35,7 +35,6 @@ body {
     line-height: normal;
     font-size: 30px;
     text-align:center;
-    
 }
 
 .fonth5 {
@@ -43,7 +42,6 @@ body {
     text-align: center;
     line-height: normal;
     margin-bottom: 40px;
-
 }
 
 p {
@@ -67,35 +65,34 @@ a {
 #cabecalho .navegation .nome{
     margin-left: 40px;
     font-size: 30px;
-     
 }
 
 #cabecalho .navegation .experi{
     margin-left: 630px;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 #cabecalho .navegation .forma{
     margin-left: 50px;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 #cabecalho .navegation .habili{
     margin-left: 50px;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 .foto-info .foto {
-    position: absolute;           
+    position: absolute;
     margin-top: 150px;
-    margin-left: 298px;     
+    margin-left: 298px;
 }
 
 .foto-info .info {
     margin-top: 150px;
     margin-left: 628px;
     width: 298px;
-    height: 440px;            
+    height: 440px;
     position: absolute;
     background-color:rgb(224, 216, 216)
 }
@@ -121,7 +118,7 @@ a {
     clear: both;
     margin-top: 588px;
     margin-left: 297px;
-    text-align: center;                         
+    text-align: center;
 }
 
 .icones .linkedin{
@@ -134,12 +131,12 @@ a {
     margin-right: 70px;
     margin-top: 13px;
     width: 24px;
-}  
+}
 
 .icones .github{
     margin-top: 13px;
     width: 24px;
-}  
+}
 
 .container{
     clear:both;
@@ -203,7 +200,6 @@ a {
     margin-left: 43%;
     margin-bottom: 50px;
     font-size: 15px;
-
 }
 
 .habilidade-tabela .skill{
@@ -212,12 +208,11 @@ a {
 }
 
 #rodape{
-   margin-top: 20px; 
-   margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #rodape .bhmanu{
     text-align: center;
     font-size: 11px;
-    
 }
