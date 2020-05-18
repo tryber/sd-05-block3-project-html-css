@@ -9,11 +9,14 @@
 }
 #barra {
     background-color: rgb(241, 50, 50);
-    position: fixed;
+    position: fixo;
     top: 0;
     left: 0;
     right: 0;
-    height: 8px;
+    height: 19px;
+    width: 7844px;
+    margin: auto;
+    cursor: zoom-in;
   }
 body {
     background-color: rgb(223, 142, 206);
