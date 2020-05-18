@@ -1,8 +1,8 @@
 body {
-  background-color: rgba(240, 240, 240, 1);
+  background-color: rgba(240 , 240 , 240 , 1);
 }
 
-header#cabecalho {
+#cabecalho {
   position: fixed;
   top: 0;
   width: 100%;
@@ -40,8 +40,8 @@ h2 {
 }
 
 h3 {
-  background-color: rgba(240 , 240 , 240 , 1);
-  color: rgba(122, 122, 122, 1);
+  background-color: white;
+  color: rgba(122 , 122 , 122 , 1);
   font-size: 19px;
   padding: 9px;
   text-align: center;
@@ -56,13 +56,14 @@ h3 {
   font-size: 18px;
   line-height: 36px;
   margin-left: 130px;
-  }
+}
+
 #config-nav {
   font-size: 18px;
   color: rgba(255 , 106 , 40 , 1);
 }
 
-footer#rodape {
+#rodape {
   text-align: center;
   padding: 5px;
   background-color: rgba(232 , 232 , 232 , 1);
