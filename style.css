@@ -20,15 +20,36 @@ header {
     position: fixed;
     margin: 20px;
 }
+nav, ul, li, a {
+    display: inline;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(31, 214, 144);
+}
+
+a:hover {
+    
+    background:  rgb(99, 231, 220);
+}
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 
-.perfil{
+.container {
+    display: inline-block;
+    width: 100%;
     padding-top: 200px;
     margin: 20px;
+}
+
+aside #ladoesquerdo {
+    float: left;
+}
+
+aside #ladodireito {
+    float: right;
 }
 
 #projetos {
@@ -38,26 +59,13 @@ h1 {
 
 #rodape {
     display: relative;
-    color: white;
+    color: rgb(0, 0, 0);
     height: 25px;
     padding: 10px;
     margin: 20px;
     justify-content: space-around;
 }
 
-aside {
- display: flex;
-}
-aside #ladoesquerdo {
-    position: relative;
-    display: inline;
-    float: left;
-    margin: 20px;
-}
 
-aside #ladodireito {
-    position: relative;
-    display: inline;
-    float: right;
-    margin: 20px;
-}
+
+
