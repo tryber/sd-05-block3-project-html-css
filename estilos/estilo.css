@@ -20,7 +20,7 @@
   }
 body {
     background-color: rgb(223, 142, 206);
-    width: 455px;
+    height: 600px;
     margin: 2px 
     padding: 22px
     border: 15px, ridge red;
@@ -74,4 +74,12 @@ a:hover, a:active, a:focus {
 #formas-yoga {
     width: 250px;
 	display: inline-block;
+}
+#lado-esquerdo {
+    margin: 0cm;
+    top: left;
+}
+#lado-direito {
+    margin: 0cm;
+    top: right;
 }
