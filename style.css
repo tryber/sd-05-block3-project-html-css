@@ -1,67 +1,64 @@
-body{
-    background-color:maroon;
-    width: 1200px;
+body{      
     margin: 0px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    
+    padding: 0px;
+    border: 0px;    
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: maroon;
 }
 
 
 /*Começo da estilização do cabeçalho*/
 #cabecalho {
     position: fixed;
-    background-color: snow;
-    width: 1351px;
-    height: 300px;
-    top: 0px;
-} 
-#cabecalho img{
-   
-    width: 400px;
-    position: relative;
-    top: 0px;
-    left: 100px;  
-    border-radius: 300px;  
+    background-color:white;
+    width: 100%;
+    height: 250px;
+    
 }
 #cabecalho h1{
     position: relative;
-    width: 900px;
-    margin-top: 0px;
-    padding-top: 40px;
+    width:100%;
     left: 350px;
-    right: 0px;
-    color:brown;
-    text-shadow: 1px 0 black, 0 1px black,
-    1px 0 black, 0 -1px black;
+    font-size: 30px;
+    color:rgb(129, 30, 16);
+    text-shadow: 2px 0 black, 0 1px white,
+    2px 0 white, 0 -1px white;
     
-}
-#cabecalho nav{
-    position: relative;
-    left: 600px;
-    top: 90px;
-    font-size: 18px;
-    width: 700px;
 }
 #cabecalho h4{
     position: relative;
     margin-right: 0px;
-    width: 600px;
-    left: 650px;
-    right: 0px;
-    color: slategray;
+    width: 100%;
+    left: 623px;
+    color:chocolate;
 }
+#cabecalho img{
+   position: relative;
+   width: 400px;
+   left: 100px;  
+   bottom: 60px;
+   border-radius: 300px;  
+}
+#cabecalho nav{
+    position: relative;
+    left: 680px;
+    top: 90px;
+    font-size: 20px;
+    width: 700px;
+}
+
 .detalhe{
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
-    color:red;
+    color:orangered;
     font-size: 15px;
 }
 a:link{
-    color: sienna;
+    color:sandybrown;
 }
 a:visited{
-    color: sienna;
+    color:peru;
 }s
 a:hover{
     color:tomato;
@@ -199,5 +196,12 @@ left: 100px;
 }
 .tabela h4{
     color:chocolate;
+}
+
+#rodape{
+
+    position:fixed;
+    top: 2000px;
+    color: lawngreen;
 }
 */
