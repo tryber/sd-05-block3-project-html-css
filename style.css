@@ -6,6 +6,8 @@
 
   --champagne: rgb(246 , 226 , 202);
 
+  --tables: rgb(198,217,241);
+
 }
 
 html {
@@ -155,7 +157,7 @@ figcaption {
 
 .tbl_header {
   text-align: center;
-  background-color: #c6d9f1;
+  background-color: var(--tables);
 }
 
 .tables td {
