@@ -1,0 +1,219 @@
+body{      
+    margin:0px;
+    padding:0px;
+    border:0px;    
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: maroon;
+    margin-top:120px;
+}
+
+
+/*Começo da estilização do cabeçalho*/
+#cabecalho {
+    position:fixed;
+    background-color:white;
+    width:100%;
+    height:150px;
+    top:0px;
+    
+}
+#cabecalho h1{
+    position: relative;
+    width:100%;
+    left:424px;
+    bottom:190px;
+    font-size:30px;
+    color:rgb(129, 30, 16);
+    text-shadow:2px 0 black, 0 1px white,
+    2px 0 white, 0 -1px white;
+    
+}
+
+#cabecalho h2 {
+    position:relative;
+    margin-right: 0px;
+    width:100%;
+    left:701px;
+    bottom:205px;
+    font-size:18x;
+    color:chocolate;
+}
+#cabecalho img{
+   position:relative;
+   width:300px;
+   left:150px;  
+   border-radius:300px;  
+}
+#cabecalho nav{
+    position:relative;
+    left:842px;
+    top:110px;
+    font-size:15px;
+    width:700px;
+}
+
+.detalhe{
+    position:relative;
+    padding-left:10px;
+    padding-right:10px;
+    color:orangered;
+    font-size:15px;
+}
+a:link{
+    color:brown;
+}
+a:visited{
+    color:brown;
+}
+a:hover{
+    color:tomato;
+}
+a:active{
+    color: yellowgreen;
+}
+/*Fim da estilização do cabeçalho*/
+
+
+/*Inicio do artigo central sobre o café*/
+.sobreCafe {
+    position: relative;
+    z-index: -1;
+    width: 55%;
+    margin-right: 0;
+    top: 90px;
+    left: 58px;
+}
+.sobreCafe h3{
+    position:relative;
+    width:800px;
+    left:120px;
+    color:floralwhite;
+}
+.ajusteTesto{
+    position: relative;
+    width:800px;
+    text-align:center;
+    line-height: 20px;
+    color:honeydew;
+}
+
+/*Fim da estilização do artigo central*/
+
+/*Começo do estilo do menu*/
+
+.menu{
+    position: fixed;
+    width: 400px;
+    left: 950px;
+    top: 200px;
+    display: inline-block;
+}
+.menuLista{
+    position: relative;
+    width: 200px;
+    display:block ;
+    left: 150px;
+    bottom: 290px;
+    color: white;
+    margin-left: -50px;
+    margin-bottom: 0px;
+    line-height: 25px;
+    text-align: center;
+}
+.menuLista a{
+    color:wheat;
+    cursor: pointer;
+}
+/*Fim da estilização do menu*/
+
+/*Inicio do estilo dos miniartigos*/
+#stProprioh1{
+    position: relative;
+    z-index: -1;
+    width: 500px;
+    top:90px;
+    left: 280px;;
+    color:cornsilk;
+}
+
+.organizaArtigos{
+    position: relative;
+    z-index: -1;
+    top: 80px;
+    width: 800px;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 10px;    
+    left: 20px;
+    margin-top: 80px;
+    display: block;
+    margin-left: 50px;
+    background-color:white;
+    padding: 20px;
+}
+.organizaArtigos h4{
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    font-size: 30px;
+    color:darkred;   
+}
+.organizaArtigos img{
+    position: relative;
+    width: 200px; 
+    height: 200px;
+    border-radius: 300px;
+    bottom: 50px;
+    left: 325px;
+
+}
+.organizaArtigos p{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    color:black;
+    line-height: 20px;
+}
+/*Fim  dos estilos dos miniartigos*/
+/-------------------------------------------------------------------
+/*Aqui começa os estilos da tabela de marcas de café*/
+
+.tabela{
+    position: relative;
+    width: 300px;
+   
+    
+}
+.tabela td{
+    position: relative;
+    z-index: -1;
+    left: 50px;
+    color:white;
+    text-align: center;
+    padding-left: 10px;
+    border-bottom: 1px solid;  
+}
+#ligaTabela{
+    position: relative;
+    z-index: -1;
+    width: 500px;
+    margin-top: 100px;
+    left: 60px;
+    color:white;
+    padding-top: 16px;
+}
+.tabela h4{
+    color:chocolate;
+}
+
+.lado-esquerdo{
+    display:inline-block;
+}
+.lado-direito{
+    display:inline-block;
+}
+#rodape{
+    position: absolute;;
+    bottom: auto;
+    color: white;
+}
