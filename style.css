@@ -28,8 +28,8 @@ body{
     2px 0 white, 0 -1px white;
     
 }
-/*
-#cabecalho h4 {
+
+#cabecalho h2 {
     position:relative;
     margin-right: 0px;
     width:100%;
@@ -37,7 +37,7 @@ body{
     bottom:205px;
     font-size:18x;
     color:chocolate;
-}*/
+}
 #cabecalho img{
    position:relative;
    width:300px;
