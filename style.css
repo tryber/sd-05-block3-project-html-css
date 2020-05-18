@@ -12,38 +12,41 @@ body{
     position: fixed;
     background-color:white;
     width: 100%;
-    height: 250px;
+    height: 150px;
+    top:0px;
     
 }
 #cabecalho h1{
     position: relative;
     width:100%;
-    left: 350px;
+    left: 424px;
+    bottom: 235px;
     font-size: 30px;
     color:rgb(129, 30, 16);
     text-shadow: 2px 0 black, 0 1px white,
     2px 0 white, 0 -1px white;
     
 }
-#cabecalho h4{
+#cabecalho h4 {
     position: relative;
     margin-right: 0px;
     width: 100%;
-    left: 623px;
-    color:chocolate;
+    left: 701px;
+    bottom: 158px;
+    font-size: 18x;
+    color: chocolate;
 }
 #cabecalho img{
    position: relative;
-   width: 400px;
-   left: 100px;  
-   bottom: 60px;
+   width: 300px;
+   left: 150px;  
    border-radius: 300px;  
 }
 #cabecalho nav{
     position: relative;
-    left: 680px;
-    top: 90px;
-    font-size: 20px;
+    left: 842px;
+    top: 110px;
+    font-size: 15px;
     width: 700px;
 }
 
@@ -55,11 +58,11 @@ body{
     font-size: 15px;
 }
 a:link{
-    color:sandybrown;
+    color:brown;
 }
 a:visited{
-    color:peru;
-}s
+    color:brown;
+}
 a:hover{
     color:tomato;
 }
