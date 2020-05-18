@@ -1,4 +1,4 @@
-header, nav, h1, h2, footer, ul, li, ol, section, article, p, body {
+header, h1, h2, footer, section, article, p, body {
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,7 @@ header {
     margin: 20px;
 }
 
-nav, ul, li, a {
+nav, a {
     display: inline;
     text-decoration: none;
     color: rgb(0, 0, 0);
