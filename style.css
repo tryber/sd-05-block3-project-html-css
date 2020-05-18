@@ -1,61 +1,62 @@
 body{      
-    margin: 0px;
-    padding: 0px;
-    border: 0px;    
+    margin:0px;
+    padding:0px;
+    border:0px;    
     font-family:Arial, Helvetica, sans-serif;
     background-color: maroon;
+    margin-top:120px;
 }
 
 
 /*Começo da estilização do cabeçalho*/
 #cabecalho {
-    position: fixed;
+    position:fixed;
     background-color:white;
-    width: 100%;
-    height: 150px;
+    width:100%;
+    height:150px;
     top:0px;
     
 }
 #cabecalho h1{
     position: relative;
     width:100%;
-    left: 424px;
-    bottom: 235px;
-    font-size: 30px;
+    left:424px;
+    bottom:235px;
+    font-size:30px;
     color:rgb(129, 30, 16);
-    text-shadow: 2px 0 black, 0 1px white,
+    text-shadow:2px 0 black, 0 1px white,
     2px 0 white, 0 -1px white;
     
 }
 #cabecalho h4 {
-    position: relative;
+    position:relative;
     margin-right: 0px;
-    width: 100%;
-    left: 701px;
-    bottom: 158px;
-    font-size: 18x;
-    color: chocolate;
+    width:100%;
+    left:701px;
+    bottom:158px;
+    font-size:18x;
+    color:chocolate;
 }
 #cabecalho img{
-   position: relative;
-   width: 300px;
-   left: 150px;  
-   border-radius: 300px;  
+   position:relative;
+   width:300px;
+   left:150px;  
+   border-radius:300px;  
 }
 #cabecalho nav{
-    position: relative;
-    left: 842px;
-    top: 110px;
-    font-size: 15px;
-    width: 700px;
+    position:relative;
+    left:842px;
+    top:110px;
+    font-size:15px;
+    width:700px;
 }
 
 .detalhe{
-    position: relative;
-    padding-left: 10px;
-    padding-right: 10px;
+    position:relative;
+    padding-left:10px;
+    padding-right:10px;
     color:orangered;
-    font-size: 15px;
+    font-size:15px;
 }
 a:link{
     color:brown;
@@ -72,38 +73,38 @@ a:active{
 /*Fim da estilização do cabeçalho*/
 
 
-/*Inicio do artigo central sobre o café
-.sobreCafe{
-position: srelative;
-margin-right: 0px;
-top:90px;
-left: 100px;
+/*Inicio do artigo central sobre o café*/
+.sobreCafe {
+    position: relative;
+    z-index: -1;
+    width: 55%;
+    margin-right: 0;
+    top: 90px;
+    left: 58px;
 }
 .sobreCafe h2{
-    position: relative;
-    width: 800px;
-    left: 90px;
+    position:relative;
+    width:800px;
+    left:50px;
     color:floralwhite;
 }
 .ajusteTesto{
     position: relative;
-    width: 800px;
+    width:800px;
     text-align:center;
     line-height: 20px;
     color:honeydew;
 }
-.rodapeArtigo{
-    color: darkgray;
-}
+
 /*Fim da estilização do artigo central*/
 
-/*Começo do estilo do menu
+/*Começo do estilo do menu*/
 
 .menu{
-    position: relative;
+    position: fixed;
     width: 400px;
-    left: 900px;
-    top: -300px;
+    left: 950px;
+    top: 200px;
     display: inline-block;
 }
 .menuLista{
@@ -111,7 +112,7 @@ left: 100px;
     width: 200px;
     display:block ;
     left: 150px;
-    top: -290px;
+    bottom: 290px;
     color: white;
     margin-left: -50px;
     margin-bottom: 0px;
@@ -120,49 +121,50 @@ left: 100px;
 }
 .menuLista a{
     color:wheat;
+    cursor: pointer;
 }
-/*Fim da estilização do menu
+/*Fim da estilização do menu*/
 
-/*Inicio do estilo dos miniartigos
+/*Inicio do estilo dos miniartigos*/
+#stProprioh1{
+    position: relative;
+    z-index: -1;
+    width: 500px;
+    top:90px;
+    left: 280px;;
+    color:cornsilk;
+}
 
 .organizaArtigos{
     position: relative;
-    top: -420px;
-    width: 500px;
-    height: 600px;
-    border: 1px solid;
-    border-color:black;
+    z-index: -1;
+    top: 80px;
+    width: 800px;
+    height: 550px;
+    border: 1px solid black;
     border-radius: 10px;    
-    left: 50px;
-    margin-top: 10px;
-    display: inline-block;
+    left: 20px;
+    margin-top: 80px;
+    display: block;
     margin-left: 50px;
     background-color:white;
     padding: 20px;
 }
-
-#stProprioh1{
+.organizaArtigos h4{
     position: relative;
-    width: 500px;
-    top:-450px;
-    left: 500px;;
-    color:cornsilk;
+    left: 250px;
+    bottom: 30px;
+    font-size: 30px;
+    color:darkred;   
 }
 .organizaArtigos img{
     position: relative;
     width: 200px; 
     height: 200px;
     border-radius: 300px;
-    top: -50px;
-    left: 150px;
+    bottom: 50px;
+    left: 325px;
 
-}
-.organizaArtigos h4{
-    position: relative;
-    left: 100px;
-    top:-30px;
-    font-size: 30px;
-    color:darkred;   
 }
 .organizaArtigos p{
     position: relative;
@@ -171,29 +173,31 @@ left: 100px;
     color:black;
     line-height: 20px;
 }
-/*Fim  dos estilos dos miniartigos
+/*Fim  dos estilos dos miniartigos*/
+/-------------------------------------------------------------------
+/*Aqui começa os estilos da tabela de marcas de café*/
 
-/*Aqui começa os estilos da tabela de marcas de café
 .tabela{
     position: relative;
-    width: 1146px;
-    top:-450px;
-    left: 100px;
-    text-align:left;
-    background-color:black;    
-    border-radius: 10px;
+    width: 300px;
+   
+    
 }
 .tabela td{
     position: relative;
+    z-index: -1;
+    left: 50px;
     color:white;
     text-align: center;
     padding-left: 10px;
-  
+    border-bottom: 1px solid;  
 }
-.tabela h3{
+#ligaTabela{
     position: relative;
+    z-index: -1;
     width: 500px;
-    left: 400px;
+    margin-top: 100px;
+    left: 60px;
     color:white;
     padding-top: 16px;
 }
@@ -207,4 +211,3 @@ left: 100px;
     top: 2000px;
     color: lawngreen;
 }
-*/
