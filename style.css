@@ -1,14 +1,20 @@
 #container {
     width: 455px;
-    margin: auto
+    margin: 2px 
     padding: 22px
-    boarder: 15px, ridge red;
+    border: 15px, ridge red;
+    background-color: rgb(25, 35, 45)
     }
 header {
     font: bold, 1,5em, sans-serif;
 }
 h .palavra-yoga {
     font-weight: bold;
+#introducao {
+    margin: auto;
+    padding: 1px;
+    border: 1px
+}
 }
 #barra {
     background-color: rgb(241, 50, 50);
@@ -50,7 +56,7 @@ border: 15px, ridge red;
 article {
     font-weight: bold
 }
-table.tr.td {
+#tab-tipos-yoga {
     text-align: center;
 }
 a:hover, a:active, a:focus {
