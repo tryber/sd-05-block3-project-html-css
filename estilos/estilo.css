@@ -2,38 +2,29 @@
 body {
     background-color: rgb(142, 178, 223);
 }
-
 h1 {    
     color: rgb(22, 11, 168);
     font: bold, 15px, cursive;
 }
-
 h2 {
     color: black
     font: normal, 1,4em, sans-serif
 }
-
 p {
     color: rgb(0, 47, 255);
     font-family: arial, sans-serif;
 }
 
-#frase-jung {
+#jung {
     background-color: rgb(152, 151, 160);
     font-family: fantasy;
     line-height: 1,5em;
     width: 21%;
     text-align: center;
 }
-
-#jung {
-    background-color: rgb(rgb(221, 194, 194), rgb(112, 189, 112), rgb(100, 100, 197));
-}
-
 article {
     font-weight: bold
 }
-
 table.tr.td {
     text-align: center;
 }
