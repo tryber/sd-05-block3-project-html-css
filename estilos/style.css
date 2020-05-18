@@ -10,11 +10,11 @@
 }
 h .palavra-yoga {
     font-weight: bold;
-}
 #introducao {
     margin: auto;
     padding: 1px;
     border: 1px
+}
 }
 #barra {
     background-color: rgb(241, 50, 50);
@@ -52,7 +52,9 @@ border: 15px, ridge red;
     width: 21%;
     text-align: center;
     position: relative;
-    margin-right: 55px;
+}
+article {
+    font-weight: bold
 }
 #tab-tipos-yoga {
     text-align: center;
