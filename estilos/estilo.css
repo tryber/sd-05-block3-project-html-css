@@ -1,14 +1,14 @@
-
-header {
-    font: bold, 1,5em, sans-serif;
-}
-
 #container {
     width: 455px;
     margin: auto
     padding: 22px
     }
-
+header {
+    font: bold, 1,5em, sans-serif;
+}
+h .palavra-yoga {
+    font-weight: bold;
+}
 #barra {
     background-color: rgb(241, 50, 50);
     position: fixed;
@@ -17,11 +17,10 @@ header {
     right: 0;
     height: 8px;
   }
-
 body {
     background-color: rgb(142, 178, 223);
 }
-h1 {    
+h1 {
     color: rgb(22, 11, 168);
     font: bold, 15px, cursive;
 }
@@ -33,17 +32,19 @@ p {
     color: rgb(0, 47, 255);
     font-family: arial, sans-serif;
 }
-
+ul li strong {
+    line-height: 1,5em;
+}
 #surya-namaskar {
 border: 15px, ridge red;
 }
-
 #jung {
     background-color: rgb(152, 151, 160);
     font-family: fantasy;
     line-height: 1,5em;
     width: 21%;
     text-align: center;
+    position: relative;
 }
 article {
     font-weight: bold
@@ -51,9 +52,6 @@ article {
 table.tr.td {
     text-align: center;
 }
-
-aside:
-
-margin:
-
-padding:
+a:hover, a:active, a:focus {
+    background-color: rosybrown;
+}
