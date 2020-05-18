@@ -1,0 +1,72 @@
+body {
+  background-color: rgba(240 , 240 , 240 , 1);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+  background-color: rgba(255 , 106 , 40 , 1);
+  text-align: center;
+  margin: 1px;
+}
+
+#config-img {
+  width: 650px;
+  position: relative;
+  top: 100px;
+  z-index: 0;
+  margin-left: 130px;
+}
+
+.tabela {
+  border: 1px solid rgba(122 , 122 , 122 , 1);
+  text-align: center;
+  float: left;
+  margin-left: 130px;
+}
+
+h2 {
+  color: rgba(255 , 106 , 40 , 1);
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  background-color: white;
+  color: rgba(122 , 122 , 122 , 1);
+  font-size: 19px;
+  padding: 9px;
+  text-align: center;
+  font-weight: 700;
+  width: 70%;
+  margin-left: 20px;
+}
+
+#style-article {
+  background-color: white;
+  width: 80%;
+  font-size: 18px;
+  line-height: 36px;
+  margin-left: 130px;
+}
+
+#config-nav {
+  font-size: 18px;
+  color: rgba(255 , 106 , 40 , 1);
+}
+
+#rodape {
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(232 , 232 , 232 , 1);
+  color: rgba(122 , 122 , 122 , 1);
+  position: relative;
+}
