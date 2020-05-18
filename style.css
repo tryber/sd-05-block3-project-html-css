@@ -4,7 +4,7 @@ header, nav, h1, h2, footer, ul, li, ol, section, article, p, body {
 }
 
 body {
-    background-color: rgb(99, 231, 220);
+    background-color: rgb(117, 236, 226);
     margin: 20px;
 }
 
@@ -20,6 +20,7 @@ header {
     position: fixed;
     margin: 20px;
 }
+
 nav, ul, li, a {
     display: inline;
     text-decoration: none;
@@ -28,8 +29,7 @@ nav, ul, li, a {
 }
 
 a:hover {
-    
-    background:  rgb(99, 231, 220);
+    background:rgb(99, 231, 220);
 }
 
 h1 {
@@ -46,10 +46,12 @@ h1 {
 
 aside #ladoesquerdo {
     float: left;
+    margin: 20px;
 }
 
 aside #ladodireito {
     float: right;
+    margin: 20px;
 }
 
 #projetos {
@@ -63,7 +65,6 @@ aside #ladodireito {
     height: 25px;
     padding: 10px;
     margin: 20px;
-    justify-content: space-around;
 }
 
 
