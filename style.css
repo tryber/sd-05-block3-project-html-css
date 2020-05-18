@@ -1,0 +1,187 @@
+:root {
+
+  --bg-color: rgb(219 , 233 , 234);
+
+  --champagne-pink: rgb(247 , 214 , 205);
+
+  --champagne: rgb(246 , 226 , 202);
+
+  --tables: rgb(198 , 217 , 241);
+
+}
+
+html {
+  font-family: Spectral, serif;
+  font-size: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: black;
+}
+
+#cabecalho {
+  position: fixed;
+  background-color: var(--bg-color);
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  height: 25%;
+}
+
+#title {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 3em;
+  text-align: left;
+  margin-left: 1em;
+  width: 50%;
+}
+
+a {
+  color: black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+a:hover {
+  background-color: var(--champagne-pink);
+  color: var(--black);
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+}
+
+.description_container {
+  font-size: 0.6em;
+  display: block;
+  overflow: auto;
+  padding-top: 3%;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+}
+
+main {
+  display: block;
+  text-align: justify;
+  position: relative;
+  background-color: white;
+  margin: auto auto 1em;
+  width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 1.3em;
+}
+
+#text_info {
+  padding-top: 15%;
+}
+
+#table {
+  padding-top: 10%;
+}
+
+.image_container {
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.video_container {
+  text-align: center;
+  padding-top: 10%;
+}
+
+#video_container h2 {
+  text-align: left;
+  padding: 2%;
+}
+
+.image , .video {
+  border: 5px solid var(--champagne-pink);
+}
+
+figcaption {
+  font-size: 0.8em;
+}
+
+.tables {
+  border-collapse: collapse;
+  margin-top: 12px;
+  background-color: white;
+  width: 100%;
+}
+
+.tbl_header {
+  text-align: center;
+  background-color: var(--tables);
+}
+
+.tables td {
+  border: 1px solid black;
+  padding: 0 6px;
+}
+
+#diamond_dust_img {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#references {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+
+#reference_list {
+  list-style: none;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rodape {
+  text-align: center;
+}
