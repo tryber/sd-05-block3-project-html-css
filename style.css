@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(224, 203, 174);
+    margin: 2em;
+    font-size: 18px;
+    font-family: 'Ledger';
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Sacramento';
+    text-decoration: bold;
+    text-align: center;
+}
+h2 {
+    font-size: 35px;
+    text-decoration: bold;
+    text-align: left;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.img {
+    width: 500px;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecalho {
+    position: fixed top;
+    text-align: center;
+}
+
+#footer {
+    position: fixed bottom;
+}
+
+#indice {
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.lado-esquerdo {
+    float: left;
+    width: 60%;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.lado-direito {
+    float: right;
+    width: 20%;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin-top: 10em;
+    border: 0.3em dotted black;
+}
+
+.legenda {
+    font-style: italic;
+    text-align: center;
+    font-size: 14px;
+}
