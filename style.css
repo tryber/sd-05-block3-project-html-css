@@ -2,24 +2,31 @@ body {
     background-color: rgb(224, 203, 174);
     margin: 2em;
     font-size: 18px;
+    font-family: 'Ledger';
 }
 
 h1 {
-    font-size: 40px;
-    text-decoration: underline;
+    font-size: 80px;
+    font-family: 'Sacramento';
+    text-decoration: bold;
+    text-align: center;
 }
 h2 {
-    font-size: 26px;
+    font-size: 35px;
     text-decoration: bold;
     text-align: left;
 }
 
-.image {
-    width: 300px;
+h3 {
+    text-decoration: underline;
 }
 
-.content {
-    padding: 2em;
+.img {
+    width: 500px;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cabecalho {
@@ -28,26 +35,27 @@ h2 {
 }
 
 #footer {
-    position: fixed;
+    position: fixed bottom;
 }
 
 #indice {
-    margin-left: 3em;
-    margin-top: 2em;
-    padding: 2em;
-    border: 0.5em dotted black;
+    margin-left: 1em;
+    margin-top: 1em;
+    padding: 1em;
 }
 
 .lado-esquerdo {
     float: left;
     width: 60%;
     padding: 2em;
-    margin: 1em;
+    margin-top: 1em;
 }
 
 .lado-direito {
     float: right;
     width: 20%;
-    padding: 2em;
-    margin: 1em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    margin-top: 10em;
+    border: 0.3em dotted black;
 }
