@@ -23,7 +23,7 @@ h2 {
 }
 
 #cabecalho {
-    position: fixed;
+    position: fixed top;
     text-align: center;
 }
 
