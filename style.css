@@ -206,7 +206,10 @@ a:active{
     color:chocolate;
 }
 
-.receita{
+.lado-esquerdo{
+    display:inline-block;
+}
+.lado-direito{
     display:inline-block;
 }
 #rodape{
