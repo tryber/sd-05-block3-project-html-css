@@ -2,6 +2,7 @@
     width: 455px;
     margin: auto
     padding: 22px
+    boarder: 15px, ridge red;
     }
 header {
     font: bold, 1,5em, sans-serif;
@@ -54,4 +55,4 @@ table.tr.td {
 }
 a:hover, a:active, a:focus {
     background-color: rosybrown;
-}
+}foote
