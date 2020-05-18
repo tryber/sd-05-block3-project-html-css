@@ -87,12 +87,12 @@ a {
 
 .foto-info .foto {
     position: absolute;           
-    margin-top: 112px;
+    margin-top: 150px;
     margin-left: 298px;     
 }
 
 .foto-info .info {
-    margin-top: 112px;
+    margin-top: 150px;
     margin-left: 628px;
     width: 298px;
     height: 440px;            
@@ -117,9 +117,9 @@ a {
     position: absolute;
     background-color: #182153;
     width: 629px;
-    height: 50px;
+    height: 60px;
     clear: both;
-    margin-top: 550px;
+    margin-top: 588px;
     margin-left: 297px;
     text-align: center;                         
 }
