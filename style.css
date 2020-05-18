@@ -167,7 +167,7 @@ a {
     margin-bottom: 40px;
 }
 
-.dataexp{
+.lado-esquerdo{
     width: 48%;
     text-align: right;
     display: inline-block;
@@ -175,12 +175,12 @@ a {
     margin-left: 10px;
 }
 
-.textoexp .empresa{
+.lado-direito .empresa{
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-.textoexp{
+.lado-direito{
     width: 45%;
     text-align:justify;
     display: inline-block;
