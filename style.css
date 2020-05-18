@@ -205,6 +205,9 @@ a:active{
     color:chocolate;
 }
 
+.receita{
+    display: inline-block;
+}
 #rodape{
     position: absolute;;
     bottom: auto;
