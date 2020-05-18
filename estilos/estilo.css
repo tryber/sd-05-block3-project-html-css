@@ -31,17 +31,21 @@ h1 {
     font-weight: bold;
     font-size: 0%;
     text-align: auto;
+    margin: 0cm;
 }
 h2 {
     color: black
     font: normal, 1,4em, sans-serif
+    margin: 0cm;
 }
 p {
     color: rgb(0, 47, 255);
     font-family: arial, sans-serif;
+    margin: 0cm;
 }
 ul li strong {
     line-height: 1,5em;
+    margin: 0cm;
 }
 #surya-namaskar {
 border: 15px, ridge red;
@@ -58,9 +62,11 @@ border: 15px, ridge red;
 #tab-tipos-yoga {
     text-align: center;
     align-items: baseline;
+    margin: 0cm;
 }
 #rodape {
     position: absolute;
+    margin: 0cm;
 }
 a:hover, a:active, a:focus {
     background-color: rosybrown;
