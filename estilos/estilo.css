@@ -6,8 +6,10 @@ header {
 #container {
     width: 455px;
     margin: auto
+    padding: 22px
     }
-.barra {
+
+#barra {
     background-color: rgb(241, 50, 50);
     position: fixed;
     top: 0;
@@ -30,6 +32,10 @@ h2 {
 p {
     color: rgb(0, 47, 255);
     font-family: arial, sans-serif;
+}
+
+#surya-namaskar {
+border: 15px, ridge red;
 }
 
 #jung {
