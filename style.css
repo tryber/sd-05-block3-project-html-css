@@ -2,53 +2,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Titillium+Web&display=swap');
 
 body {
-    background-color: #090D15;
-    color: white;
-    font-family: 'Titilium-Web', sans-serif;
-    border: 2px solid white;
-    box-shadow: 2px 2px 2px grey;
+	background-color: #090D15;
+	color: white;
+	font-family: 'Titilium-Web', sans-serif;
+	border: 2px solid white;
+	box-shadow: 2px 2px 2px grey;
 }
 
-    body h1 {
-        font-family: 'Amaranth', sans-serif;
-    }
+	body h1 {
+			font-family: 'Amaranth', sans-serif;
+	}
 
 p {
-    text-align: justify;
-    text-indent: 20px;
-    padding: 20px;
+	text-align: justify;
+	text-indent: 20px;
+	padding: 20px;
 }
 
 .lado-esquerdo {
-    width: 80%;
+	width: 80%;
 }
 
 .lado-direito {
-    width: 20%;
+	width: 20%;
 }
 
 header#cabecalho {
-    position: fixed;
+	position: fixed;
 }
 
-    header#cabecalho .logo-subtitulo {
-        font-size: 8pt;
-        }
+	header#cabecalho .logo-qq {
+		margin: auto;
+	}
+
+	header#cabecalho .logo-subtitulo {
+			font-size: 8pt;
+			}
 
 /* Menu formatting */
 
 nav#menu {
-    text-align: right;
+	text-align: right;
 }
 
 nav#menu .item-cabecalho {
-    display: inline;
-    padding: 10px;
+	display: inline;
+	padding: 10px;
 }
 
 /* Footer formatting */
 
 footer#rodape {
-    text-align: center;
-    font-size: 8px;
+	text-align: center;
+	font-size: 8px;
 }
