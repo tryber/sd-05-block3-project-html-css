@@ -44,6 +44,17 @@ a {
   color: black;
 }
 
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
 a:hover {
   background-color: var(--champagne-pink);
   color: var(--black);
@@ -52,6 +63,14 @@ a:hover {
 
 h2 {
   font-size: 1em;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 nav ul {
@@ -64,27 +83,23 @@ nav ul {
   text-align: center;
 }
 
-nav li {
-  float: left;
-}
-
-nav li a {
+.description_container {
+  font-size: 0.6em;
   display: block;
-  padding: 14px 16px;
-  text-align: center;
-  font-size: 1.3em;
+  overflow: auto;
+  padding-top: 3%;
 }
 
 .lado-direito {
-  width: 50%;
   float: right;
-  height: 30%;
+  width: 50%;
+  padding-left: 2%;
+
 }
 
 .lado-esquerdo {
-  width: 50%;
   float: left;
-  height: 30%;
+  width: 50%;
 }
 
 main {
@@ -92,10 +107,7 @@ main {
   text-align: justify;
   position: relative;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1em;
-  margin-top: auto;
+  margin: auto auto 1em;
   width: 100%;
   padding-right: 5%;
   padding-left: 5%;
@@ -108,15 +120,15 @@ main {
 
 #table {
   padding-top: 10%;
-} 
+}
 
-#image_container {
+.image_container {
   text-align: center;
   padding-bottom: 2%;
   padding-top: 2%;
 }
 
-#video_container {
+.video_container {
   text-align: center;
   padding-top: 10%;
 }
@@ -126,7 +138,7 @@ main {
   padding: 2%;
 }
 
-#image , #video {
+.image , .video {
   border: 5px solid var(--champagne-pink);
 }
 
@@ -135,21 +147,25 @@ figcaption {
 }
 
 .tables {
-  width: 800px;
   border-collapse: collapse;
   margin-top: 12px;
-  background-color: #FFFFFF;
+  background-color: white;
   width: 100%;
 }
 
 .tbl_header {
   text-align: center;
-  background-color: #C6D9F1;
+  background-color: #c6d9f1;
 }
 
 .tables td {
-    border: 1px solid #000000;
-    padding: 0px 6px;
+  border: 1px solid black;
+  padding: 0 6px;
+}
+
+#diamond_dust_img {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #references {
