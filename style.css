@@ -1,12 +1,6 @@
-#container {
-    width: 455px;
-    margin: 2px 
-    padding: 22px
-    border: 15px, ridge red;
-    background-color: rgb(25, 35, 45)
-    }
 #cabecalho {
     position: fixed;
+    text-align: center;
 }
 h .palavra-yoga {
     font-weight: bold;
@@ -25,7 +19,11 @@ h .palavra-yoga {
     height: 8px;
   }
 body {
-    background-color: rgb(142, 178, 223);
+    background-color: rgb(223, 142, 206);
+    width: 455px;
+    margin: 2px 
+    padding: 22px
+    border: 15px, ridge red;
 }
 h1 {
     color: rgb(22, 11, 168);
