@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #182153;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: lightgrey;
+
+}
+
+.imagem img {
+    background-image: url("/Imagens/predios3.jpg") no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 77%;
+    margin-top:90px;
+}
+
+.fonteh6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.datah6 {
+    font-size: 14px;
+    line-height: 1.8em;
+    text-align: right;
+}
+
+.fonth4 {
+    line-height: normal;
+    font-size: 30px;
+    text-align:center;
+}
+
+.fonth5 {
+    font-size: 20px;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: #182153;
+}
+
+a {
+    text-decoration: none;
+}
+
+#cabecalho {
+    position: fixed;
+    border: 100px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    vertical-align: middle;
+}
+
+#cabecalho .navegation .nome{
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+#cabecalho .navegation .experi{
+    margin-left: 630px;
+    font-size: 18px;
+}
+
+#cabecalho .navegation .forma{
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+#cabecalho .navegation .habili{
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.foto-info .foto {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 298px;
+}
+
+.foto-info .info {
+    margin-top: 150px;
+    margin-left: 628px;
+    width: 298px;
+    height: 440px;
+    position: absolute;
+    background-color:rgb(224, 216, 216)
+}
+
+.foto-info .info .dados{
+    padding: 40px;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.bloco{
+    width: 100%;
+    float: right ;
+    clear:both;
+    padding: 350px;
+}
+
+.icones{
+    position: absolute;
+    background-color: #182153;
+    width: 629px;
+    height: 60px;
+    clear: both;
+    margin-top: 588px;
+    margin-left: 297px;
+    text-align: center;
+}
+
+.icones .linkedin{
+    margin-right: 70px;
+    margin-top: 13px;
+    width: 24px;
+}
+
+.icones .facebook{
+    margin-right: 70px;
+    margin-top: 13px;
+    width: 24px;
+}
+
+.icones .github{
+    margin-top: 13px;
+    width: 24px;
+}
+
+.container{
+    clear:both;
+}
+
+.resumo p{
+    text-align:center;
+    width: 700px;
+    margin: auto;
+    line-height: 1.6em;
+    letter-spacing:normal;
+    font-size:14px;
+    margin-bottom: 30px;
+}
+
+.resumo h4{
+    margin-bottom: 30px;
+}
+
+.resumo{
+    margin-bottom: 100px;
+}
+
+.exp1{
+    margin-bottom: 40px;
+}
+
+.lado-esquerdo{
+    width: 48%;
+    text-align: right;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.lado-direito .empresa{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.lado-direito{
+    width: 45%;
+    text-align:justify;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.formacaoli .formah6{
+    text-align: center;
+    font-size: 15px;
+}
+
+.formacaoli .formap{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.habilidade-tabela{
+    margin-left: 43%;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.habilidade-tabela .skill{
+    margin: 50%;
+    padding-left: 80px;
+}
+
+#rodape{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#rodape .bhmanu{
+    text-align: center;
+    font-size: 11px;
+}
