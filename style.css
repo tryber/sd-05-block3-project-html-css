@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-  color: rgba(255 , 255 , 255 , 1);
+  color: white;
   font-size: 45px;
   background-color: rgba(255 , 106 , 40 , 1);
   text-align: center;
-  margin: 0px;
+  margin: 1px;
 }
 
 #config-img {
