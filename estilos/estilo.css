@@ -71,3 +71,7 @@ border: 15px, ridge red;
 a:hover, a:active, a:focus {
     background-color: rosybrown;
 }
+#formas-yoga {
+    width: 150px;
+	display: inline-block;
+}
