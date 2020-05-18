@@ -206,8 +206,7 @@ a:active{
 }
 
 #rodape{
-
-    position:fixed;
-    top: 2000px;
-    color: lawngreen;
+    position: absolute;;
+    bottom: auto;
+    color: white;
 }
