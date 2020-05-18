@@ -24,7 +24,10 @@ body {
 }
 h1 {
     color: rgb(22, 11, 168);
-    font: bold, 15px, cursive;
+    font: italic, 15px, cursive;
+    font-weight: bold;
+    font-size: 0%;
+    text-align: auto;
 }
 h2 {
     color: black
@@ -44,13 +47,14 @@ border: 15px, ridge red;
     background-color: rgb(152, 151, 160);
     font-family: fantasy;
     line-height: 1,5em;
-    width: 21%;
+    width: 75%;
     text-align: center;
     position: relative;
     margin-right: 55px;
 }
 #tab-tipos-yoga {
     text-align: center;
+    align-items: baseline;
 }
 #rodape {
     position: absolute;
