@@ -34,70 +34,162 @@ body {
 }
 h1 {
     background-color: rgb(223, 142, 206);
-    height: auto;
     color: rgb(22, 11, 168);
-    border: auto;
-    font: italic, sans-serif, cursive;
+    font: italic, sans-serif, normal;
+    font-size: 14px;
     font-weight: bold;
-    font-size: auto;
-    text-align: justify;
-    margin: 1cm;
-    font-family: sans-serif
+    font-family: sans-serif;
+    width: 135px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 5%;
+    padding: 2%;
+    border: ridge red;
 }
 h2 {
     color: black;
-    margin: auto;
-    background-color: rgb(0, 47, 255);
-    height: auto;
-    text-align: justify;
-    border: center;
+    background-color: rgb(209, 182, 226);
     font: italic, sans-serif, normal;
+    font-size: 15px;
     font-weight: bold;
-    font-size: auto;
-    text-align: justify;
-    font-family: sans-serif
+    font-family: sans-serif;
+    width: 135px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 5%;
+    padding: 2%;
+    border: ridge red;
 }
 p {
     color: rgb(0, 47, 255);
-    font-family: arial, sans-serif;
-    margin: auto;
-    font: italic, sans-serif, cursive;
-    text-align: center;
     font-weight: bold;
+    background-color: rgb(223, 142, 206);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 535px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 2%;
+    padding: 2%;
+    border: ridge red;
 }
 ul li strong {
     line-height: 1,5em;
-    margin: 0cm;
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    background-color: rgb(223, 142, 206);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 535px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 2%;
+    padding: 2%;
+    border: ridge red;
 }
 #surya-namaskar {
-border: 15px, ridge red;
+border: ridge red;
+color: rgb(0, 47, 255);
+font-weight: bold;
+background-color: rgb(223, 142, 206);
+font: italic, sans-serif, normal;
+font-size: 14px;
+font-family: sans-serif;
+width: 735px;
+text-align: center;
+text-indent: 5%;
+height: 15%;
+margin: 2%;
+padding: 2%;
 }
 #jung {
     background-color: rgb(152, 151, 160);
-    font-family: fantasy;
+    font-family: sans-serif;
     line-height: 1,5em;
     width: 75%;
     text-align: center;
     position: relative;
     margin-right: 55px;
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    width: 555px;
+    text-align: center;
+    text-indent: 1%;
+    height: 15%;
+    margin: 2%;
+    padding: 2%;
+    border: ridge rgb(55, 74, 82);
 }
 #tab-tipos-yoga {
     text-align: center;
     align-items: baseline;
-    margin: auto;
     box-decoration-break: auto;
-    border: 1px, solid, rgb(0, 47, 255);
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    background-color: rgb(223, 142, 206);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 535px;
+    text-indent: 2%;
+    height: 15%;
+    margin: 2%;
+    padding: 2%;
+    border: ridge red;
 }
 #rodape {
     position: absolute;
-    margin: 0cm;
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    background-color: rgb(223, 142, 206);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 55px;
+    text-align: center;
+    text-indent: 1%;
+    height: 15%;
+    margin: 1%;
+    padding: 1%;
+    border: ridge red;
 }
 a:hover, a:active, a:focus {
-    background-color: rosybrown;
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    background-color: rgb(223, 142, 206);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 535px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 2%;
+    padding: 2%;
+    border: ridge red;
 }
 #formas-yoga {
     width: 250px;
-	display: inline-block;
+    display: inline-block;
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    background-color: rgb(223, 142, 206);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 15%;
+    margin: 2%;
+    padding: 2%;
+    border: ridge red;
 }
 .lado-esquerdo {
     margin: auto;
