@@ -61,9 +61,8 @@ p {
     font-family: arial, sans-serif;
     margin: auto;
     font: italic, sans-serif, cursive;
-    text-align: justify;
+    text-align: center;
     font-weight: bold;
-    text-align: justify;
 }
 ul li strong {
     line-height: 1,5em;
@@ -84,7 +83,9 @@ border: 15px, ridge red;
 #tab-tipos-yoga {
     text-align: center;
     align-items: baseline;
-    margin: 0cm;
+    margin: auto;
+    box-decoration-break: auto;
+    border: 1px, solid, rgb(0, 47, 255);
 }
 #rodape {
     position: absolute;
@@ -108,7 +109,7 @@ a:hover, a:active, a:focus {
     float: right;
 }
 .figure1 {
-    margin: auto;
-    padding: auto;
-    border: auto;
+    margin: 1012px, 28764;
+    padding: 70px;
+    border: 1px, solid, rgb( 45, 25, 125);
 }
