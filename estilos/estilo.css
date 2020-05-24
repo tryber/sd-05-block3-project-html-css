@@ -20,13 +20,14 @@
   }
 body {
     background-color: rgb(240, 154, 221);
+    text-indent: 5%;
+    text-align: left;
     height: auto;
     margin: auto;
     padding: auto;
     border: auto, ridge red;
     color: rgb( 45, 25, 125);
     font-size: auto;
-    text-align: left;
     font-weight: auto;
     font-family: sans-serif;
     width: auto;
