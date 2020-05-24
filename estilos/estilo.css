@@ -84,6 +84,7 @@ ul li strong {
 }
 #surya-namaskar {
 border: 15px, ridge red;
+width: 350px {1,2};
 }
 #jung {
     background-color: rgb(152, 151, 160);
@@ -103,7 +104,7 @@ border: 15px, ridge red;
 }
 #rodape {
     position: absolute;
-    margin: 0cm;
+    margin: 1cm;
 }
 a:hover, a:active, a:focus {
     background-color: rosybrown;
