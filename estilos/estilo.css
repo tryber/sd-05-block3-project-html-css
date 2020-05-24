@@ -97,13 +97,15 @@ a:hover, a:active, a:focus {
     width: 250px;
 	display: inline-block;
 }
-#lado-esquerdo {
+.lado-esquerdo {
     margin: auto;
-    top: left;
+    top: auto;
+    float: left;
 }
-#lado-direito {
+.lado-direito {
     margin: auto;
-    top: right;
+    top: auto;
+    float: right;
 }
 .figure1 {
     margin: auto;
