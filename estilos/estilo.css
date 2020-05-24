@@ -22,13 +22,13 @@ body {
     background-color: rgb(240, 154, 221);
     text-indent: 5%;
     text-align: left;
-    height: auto;
-    margin: auto;
-    padding: auto;
-    border: auto, ridge red;
+    height: 15%;
+    margin: 5%;
+    padding: 2%;
+    border: ridge red;
     color: rgb( 45, 25, 125);
-    font-size: auto;
-    font-weight: auto;
+    font-size: 14px;
+    font-weight: bold;
     font-family: sans-serif;
     width: auto;
 }
