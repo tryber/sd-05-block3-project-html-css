@@ -79,117 +79,38 @@ p {
 }
 ul li strong {
     line-height: 1,5em;
-    color: rgb(0, 47, 255);
-    font-weight: bold;
-    background-color: rgb(223, 142, 206);
-    font: italic, sans-serif, normal;
-    font-size: 14px;
-    font-family: sans-serif;
-    width: 535px;
-    text-align: center;
-    text-indent: 5%;
-    height: 15%;
-    margin: 2%;
-    padding: 2%;
-    border: ridge red;
+    margin: 0cm;
+    
 }
 #surya-namaskar {
-border: ridge red;
-color: rgb(0, 47, 255);
-font-weight: bold;
-background-color: rgb(223, 142, 206);
-font: italic, sans-serif, normal;
-font-size: 14px;
-font-family: sans-serif;
-width: 735px;
-text-align: center;
-text-indent: 5%;
-height: 15%;
-margin: 2%;
-padding: 2%;
+border: 15px, ridge red;
 }
 #jung {
     background-color: rgb(152, 151, 160);
-    font-family: sans-serif;
+    font-family: fantasy;
     line-height: 1,5em;
     width: 75%;
     text-align: center;
     position: relative;
     margin-right: 55px;
-    color: rgb(0, 47, 255);
-    font-weight: bold;
-    font: italic, sans-serif, normal;
-    font-size: 14px;
-    width: 555px;
-    text-align: center;
-    text-indent: 1%;
-    height: 15%;
-    margin: 2%;
-    padding: 2%;
-    border: ridge rgb(55, 74, 82);
 }
 #tab-tipos-yoga {
     text-align: center;
     align-items: baseline;
+    margin: auto;
     box-decoration-break: auto;
-    color: rgb(0, 47, 255);
-    font-weight: bold;
-    background-color: rgb(223, 142, 206);
-    font: italic, sans-serif, normal;
-    font-size: 14px;
-    font-family: sans-serif;
-    width: 535px;
-    text-indent: 2%;
-    height: 15%;
-    margin: 2%;
-    padding: 2%;
-    border: ridge red;
+    border: 1px, solid, rgb(0, 47, 255);
 }
 #rodape {
     position: absolute;
-    color: rgb(0, 47, 255);
-    font-weight: bold;
-    background-color: rgb(223, 142, 206);
-    font: italic, sans-serif, normal;
-    font-size: 14px;
-    font-family: sans-serif;
-    width: 55px;
-    text-align: center;
-    text-indent: 1%;
-    height: 15%;
-    margin: 1%;
-    padding: 1%;
-    border: ridge red;
+    margin: 0cm;
 }
 a:hover, a:active, a:focus {
-    color: rgb(0, 47, 255);
-    font-weight: bold;
-    background-color: rgb(223, 142, 206);
-    font: italic, sans-serif, normal;
-    font-size: 14px;
-    font-family: sans-serif;
-    width: 535px;
-    text-align: center;
-    text-indent: 5%;
-    height: 15%;
-    margin: 2%;
-    padding: 2%;
-    border: ridge red;
+    background-color: rosybrown;
 }
 #formas-yoga {
     width: 250px;
-    display: inline-block;
-    color: rgb(0, 47, 255);
-    font-weight: bold;
-    background-color: rgb(223, 142, 206);
-    font: italic, sans-serif, normal;
-    font-size: 14px;
-    font-family: sans-serif;
-    text-align: center;
-    height: 15%;
-    margin: 2%;
-    padding: 2%;
-    border: ridge red;
+	display: inline-block;
 }
 .lado-esquerdo {
     margin: auto;
