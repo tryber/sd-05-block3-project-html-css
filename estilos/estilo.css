@@ -1,0 +1,131 @@
+#cabecalho {
+    position: fixed;
+    text-align: center;
+}
+#introducao {
+    margin: auto;
+    padding: 1px;
+    border: 1px
+}
+#barra {
+    background-color: rgb(241, 50, 50);
+    position: fixo;
+    top: auto;
+    left: auto;
+    right: auto;
+    height: auto;
+    width: 7844px;
+    margin: auto;
+    cursor: zoom-in;
+  }
+body {
+    background-color: rgb(240, 154, 221);
+    text-indent: 5%;
+    text-align: left;
+    height: 15%;
+    margin: 5%;
+    padding: 2%;
+    border: ridge red;
+    color: rgb( 45, 25, 125);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: auto;
+    line-height: 125%;
+}
+h1 {
+    background-color: rgb(223, 142, 206);
+    color: rgb(22, 11, 168);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 135px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 5%;
+    padding: 2%;
+    border: ridge red;
+}
+h2 {
+    color: black;
+    background-color: rgb(209, 182, 226);
+    font: italic, sans-serif, normal;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 135px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 5%;
+    padding: 2%;
+    border: ridge red;
+}
+p {
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+    background-color: rgb(223, 142, 206);
+    font: italic, sans-serif, normal;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 535px;
+    text-align: center;
+    text-indent: 5%;
+    height: 15%;
+    margin: 2%;
+    padding: 2%;
+    border: ridge red;
+}
+ul li strong {
+    line-height: 1,5em;
+    margin: 0cm;
+    
+}
+#surya-namaskar {
+border: 15px, ridge red;
+width: 350px {1,2};
+}
+#jung {
+    background-color: rgb(152, 151, 160);
+    font-family: fantasy;
+    line-height: 1,5em;
+    width: 75%;
+    text-align: center;
+    position: relative;
+    margin-right: 55px;
+}
+#tab-tipos-yoga {
+    text-align: center;
+    align-items: baseline;
+    margin: auto;
+    box-decoration-break: auto;
+    border: 1px, solid, rgb(0, 47, 255);
+}
+#rodape {
+    position: absolute;
+    margin: 1cm;
+}
+a:hover, a:active, a:focus {
+    background-color: rosybrown;
+}
+#formas-yoga {
+    width: 250px;
+	display: inline-block;
+}
+.lado-esquerdo {
+    margin: auto;
+    top: auto;
+    float: left;
+}
+.lado-direito {
+    margin: auto;
+    top: auto;
+    float: right;
+}
+.figure1 {
+    margin: 1012px, 28764;
+    padding: 70px;
+    border: 1px, solid, rgb( 45, 25, 125);
+}
