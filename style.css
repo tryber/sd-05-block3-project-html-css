@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+#main-title {
+  border-bottom: 4px solid rgb(254 , 193 , 7);
+  display: inline-block;
+  font-family: Helvetica , sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.2;
+  padding-bottom: 0.25rem;
+  text-transform: uppercase;
+  font-size: calc(1em * 1.25 * 1.25 * 1.25);
+  box-sizing: border-box;
+  vertical-align: inherit;
+}
+
+#subtitle {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.24;
+  font-size: 1.45em;
+  color: rgb(197 , 197 , 197);
+  margin-bottom: 0.6rem;
+}
+
+section.lado-esquerdo {
+  float: left;
+}
+
+img.lado-direito {
+  float: right;
+  width: 40%;
+}
+
+#main-img {
+  width: 40%;
+}
