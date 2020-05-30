@@ -43,6 +43,7 @@ section.lado-esquerdo {
 
 img.lado-direito {
   float: right;
+  width: 40%;
 }
 
 #main-img {
