@@ -1,4 +1,4 @@
-.bTopo {
+#cabecalho {
     position: fixed;
     color: black;
     text-align: center;
@@ -62,7 +62,7 @@ body {
     border: 4px solid gray;
     width: 94%;
     margin-left: 3%;
-    height: 480px;
+    height: 170px;
     border-radius: 4px;
     position: relative;
 }
