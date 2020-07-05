@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(59 , 227 , 174);
+  color: black;
+  z-index: 0;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link , a:visited {
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(172 , 88 , 227);
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(172 , 88 , 227);
+}
+
+h2 , h3 {
+  font-size: 20px;
+  color: rgb(172 , 88 , 227);
+}
+
+#cabecalho {
+  background-color: rgb(172 , 88 , 227);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 70px;
+}
+
+#menu {
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+
+#menu li {
+  display: inline-block;
+  padding-inline-start: 20px;
+}
+
+#imagem {
+  width: 100%;
+  height: 500px;
+}
+
+.text-main {
+  text-align: center;
+  line-height: 28px;
+  margin: 20px;
+}
+
+.container {
+  background-color: rgb(120 , 227 , 174);
+  line-height: 28px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+  line-height: 28px;
+  margin: 45px 180px;
+}
+
+#contato {
+  min-height: 200px;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.tabela {
+  border: solid 2px rgb(172 , 88 , 227);
+}
+
+#rodape {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(172 , 88 , 227);
+  clear: both;
+}
+
+.text-footer {
+  color: white;
+}
